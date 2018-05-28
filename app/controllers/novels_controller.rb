@@ -1,4 +1,4 @@
-class GoalsController < ApplicationController
+class NovelsController < ApplicationController
 
   def new
   end
@@ -14,4 +14,5 @@ class GoalsController < ApplicationController
 
   def destroy
   end
+
 end
