@@ -2,15 +2,18 @@ class NovelsController < ApplicationController
 
   def new
     @novel = Novel.new
-    authorize @novel
+    skip_authorization
+    self.create
   end
 
   def create
-    @novel = Novel.new(novel_params)
+    @novel = Novel.new
     @novel.user_id = current_user.id
+    @novel.title = "The"
+    @novel.content = ""
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
-    authorize @novel
+    skip_authorization
     if @novel.save!
       redirect_to edit_novel_path(@novel)
     else
@@ -19,15 +22,19 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    @novel = Novel.find(params[:id])
-    authorize @novel
+    @novel = Novel.find_by(user_id: current_user)
+    if @novel.nil?
+      self.new
+    end
+    skip_authorization
   end
 
   def update
+
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
-    authorize @novel
-    if @novel.update!
+    skip_authorization
+    if @novel.update(novel_params)
       redirect_to root_path
     else
       render :new
