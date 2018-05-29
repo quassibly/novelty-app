@@ -3,6 +3,12 @@
   padding: 40px 80px;;
 }
 
+.container {
+  display: flex;
+  min-height: 100vh;
+  
+}
+
 @media(max-width: 1200px) {
   .container-main {
     width: 100%;
