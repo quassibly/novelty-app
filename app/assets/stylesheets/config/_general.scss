@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: $primary-font;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input, select {
+  outline: none !important;
+}
+
+.container-pp {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.main-container {
+  min-height: calc(100vh - 170px);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+// overwriting flatpickr month to make it look better
+// .flatpickr-current-month {
+//   font-size: 115% !important;
+// }
+
+//
+// .form-check {
+//   display: inline-flex;
+// }
+//
+// .form-check label {
+//   padding-right: 14px;
+//   padding-left: 6px;
+// }
+//
+// .main-form form {
+//   display: flex;
+//   select, input {
+//     width: 200px;
+//     height: 40px !important;
+//     margin-right: 20px;
+//     border: 1px solid rgba(0,0,0,0.1) !important;
+//     border-radius: 4px !important;
+//   }
+//   input:last-child{
+//     margin-right: 0!important;
+//   }
+//   input[type="submit"] {
+//     width: 160px;
+//   }
+// }
+//
+// input[type="submit"] {
+//   background-color: darkorange !important;
+//   height: 40px;
+//   border: 1px solid rgba(0,0,0,0.1) !important;
+//   padding-left: 14px;
+//   padding-right: 14px;
+//   border-radius: 4px !important;
+//   color: white;
+//   &:hover {
+//     background-color: rgba(255,165,0 ,0.8) !important;
+//     box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.05);
+//     border-color: rgba(255,165,0 ,0.7) !important;
+//   }
+//   &:active {
+//     background-color: rgba(255,165,0 ,0.3) !important;
+//     box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.2);
+//     outline: none !important;
+//   }
+// }
+//
+// .new_pet {
+//   select, input[type="text"] {
+//     background-color: #fff !important;
+//     height: 40px;
+//     border: 1px solid rgba(0,0,0,0.1) !important;
+//     border-radius: 4px !important;
+//     margin-right: 8px !important;
+//     padding: 1px 6px;
+//   }
+// }
