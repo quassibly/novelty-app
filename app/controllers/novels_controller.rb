@@ -20,7 +20,6 @@ class NovelsController < ApplicationController
 
   def edit
     @novel = Novel.find(params[:id])
-
     authorize @novel
   end
 
@@ -44,6 +43,6 @@ class NovelsController < ApplicationController
   private
 
   def novel_params
-    params.require(:novel).permit(:title)
+    params.require(:novel).permit(:title, :content)
   end
 end
