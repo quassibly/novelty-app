@@ -1,0 +1,6 @@
+
+<%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
+    <%= f.text_field(:title) %>
+    <%= f.text_area(:content, :size => "2000x60") %>
+    <%= submit_tag('Save Novel')%>
+<% end %>

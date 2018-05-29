@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+  height: 80vh;
+  background-color: $brand-dark;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-title {
+    color: #fff;
+    position: relative;
+    font-family: $secondary-font;
+    font-weight: 300;
+    font-size: $font-xxl;
+    width: 50%;
+    padding-bottom: 10px;
+    &:after {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      content: "";
+      border-bottom: 1px solid $brand-primary;
+      height: 2px;
+      left: 0;
+    }
+  }
+  i {
+    position: absolute;
+    border: solid $brand-secondary;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 20px;
+    bottom: 30px;
+    left: calc(50% - 15px);
+}
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}

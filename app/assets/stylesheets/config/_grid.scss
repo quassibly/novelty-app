@@ -1,0 +1,23 @@
+.container-main {
+  width: 100%;
+  padding: 40px 80px;;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  
+}
+
+@media(max-width: 1200px) {
+  .container-main {
+    width: 100%;
+    padding: 40px;
+  }
+}
+@media(max-width: 560px) {
+  .container-main {
+    width: 100%;
+    padding: 20px;
+  }
+}
