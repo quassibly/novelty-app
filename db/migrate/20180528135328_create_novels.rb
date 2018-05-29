@@ -6,6 +6,7 @@ class CreateNovels < ActiveRecord::Migration[5.2]
       t.date :goal_days_off
       t.string :title
       t.string :genre
+      t.text :content
       t.integer :novel_wordcount
       t.references :user, foreign_key: true
 

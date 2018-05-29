@@ -1,0 +1,13 @@
+<h1>Create a new goal</h1>
+<%= form_tag('', method: "patch") do %>
+  <%= label_tag(:title, "Title") %>
+  <%= text_field_tag(:title) %>
+  <%= label_tag(:goal_wordcount, "Wordcount Goal") %>
+  <%= number_field_tag(:goal_wordcount) %>
+  <%= label_tag(:goal_start_date, "Start Date") %>
+  <%= date_field_tag(:goal_start_date) %>
+  <%= label_tag(:goal_deadline, "End Date") %>
+  <%= date_field_tag(:goal_deadline) %>
+  <%= submit_tag "Create Goal" %>
+<% end %>
+
