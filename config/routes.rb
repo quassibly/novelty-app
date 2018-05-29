@@ -6,4 +6,7 @@ Rails.application.routes.draw do
     resources :goals, except: [:index, :show]
   end
   resources :users, only: [:show]
+
+  get 'novels/:id/sentences/random', to: 'sentences#random', as: :random
+  patch 'novels/:id/sentences/random', to: 'sentences#update'
 end
