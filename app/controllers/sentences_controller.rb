@@ -11,6 +11,8 @@ class SentencesController < ApplicationController
     redirect_to edit_novel_path(params[:id])
   end
 
+  private
+  
   def sentence_params
     params.require(:novel).permit(:new_sentence)
   end
