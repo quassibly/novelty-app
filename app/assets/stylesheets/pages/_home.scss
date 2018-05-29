@@ -1,1 +1,11 @@
 // Specific CSS for your home-page
+.home-editor {
+  font-family: $secondary-font !important;
+  height: 300px;
+  border: 1px solid silver;
+  width: 100%;
+  resize: none;
+  outline: none;
+  font-size: $font-md;
+  padding: 10px 16px;
+}
