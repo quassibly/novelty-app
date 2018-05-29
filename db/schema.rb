@@ -10,10 +10,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_28_123540) do
+ActiveRecord::Schema.define(version: 2018_05_28_140350) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "chapters", force: :cascade do |t|
+    t.string "chapter_title"
+    t.text "content"
+    t.integer "chapter_wordcount"
+    t.boolean "include"
+    t.bigint "novel_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["novel_id"], name: "index_chapters_on_novel_id"
+  end
+
+  create_table "novels", force: :cascade do |t|
+    t.integer "goal_wordcount"
+    t.date "goal_deadline"
+    t.date "goal_days_off"
+    t.string "title"
+    t.string "genre"
+    t.integer "novel_wordcount"
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_novels_on_user_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -26,10 +50,29 @@ ActiveRecord::Schema.define(version: 2018_05_28_123540) do
     t.datetime "last_sign_in_at"
     t.inet "current_sign_in_ip"
     t.inet "last_sign_in_ip"
+    t.string "first_name"
+    t.string "last_name"
+    t.string "nanowrimo_username"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  create_table "writing_sessions", force: :cascade do |t|
+    t.integer "session_wordcount"
+    t.date "start_time"
+    t.date "end_time"
+    t.bigint "novel_id"
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["novel_id"], name: "index_writing_sessions_on_novel_id"
+    t.index ["user_id"], name: "index_writing_sessions_on_user_id"
+  end
+
+  add_foreign_key "chapters", "novels"
+  add_foreign_key "novels", "users"
+  add_foreign_key "writing_sessions", "novels"
+  add_foreign_key "writing_sessions", "users"
 end
