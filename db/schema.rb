@@ -10,21 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_29_085453) do
+ActiveRecord::Schema.define(version: 2018_05_29_094412) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "chapters", force: :cascade do |t|
-    t.string "chapter_title"
-    t.text "content"
-    t.integer "chapter_wordcount"
-    t.boolean "include"
-    t.bigint "novel_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["novel_id"], name: "index_chapters_on_novel_id"
-  end
 
   create_table "novels", force: :cascade do |t|
     t.integer "goal_wordcount"
@@ -32,12 +21,19 @@ ActiveRecord::Schema.define(version: 2018_05_29_085453) do
     t.date "goal_days_off"
     t.string "title"
     t.string "genre"
+    t.text "content"
     t.integer "novel_wordcount"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.date "goal_start_date"
     t.index ["user_id"], name: "index_novels_on_user_id"
+  end
+
+  create_table "sentences", force: :cascade do |t|
+    t.text "sentence"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -72,7 +68,6 @@ ActiveRecord::Schema.define(version: 2018_05_29_085453) do
     t.index ["user_id"], name: "index_writing_sessions_on_user_id"
   end
 
-  add_foreign_key "chapters", "novels"
   add_foreign_key "novels", "users"
   add_foreign_key "writing_sessions", "novels"
   add_foreign_key "writing_sessions", "users"
