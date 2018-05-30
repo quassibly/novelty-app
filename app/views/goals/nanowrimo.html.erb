@@ -1,18 +1,19 @@
-<h1>Edit your goal for NaNoWriMo</h1>
-<%= form_tag(goals_path, method: "patch") do %>
-  <%= label_tag(:title, "Title") %>
-  <%= text_field_tag(:title, @novel.title ) %>
-  <%= label_tag(:goal_wordcount, "Wordcount Goal") %>
-  <%= number_field_tag(:goal_wordcount, 50_000) %>
-  <%= label_tag(:goal_start_date, "Start Date") %>
-  <%= date_field_tag(:goal_start_date, "2018-11-01") %>
-  <%= label_tag(:goal_deadline, "End Date") %>
-  <%= date_field_tag(:goal_deadline, "2018-11-30") %>
-  <%= label_tag(:nanowrimo_username, "NaNoWrimMo Username") %>
-  <%= text_field_tag(:nanowrimo_username) %>
-  <%= label_tag(:nanowrimo_secret_key, "Your NaNoWrimMo Secret Key") %>
-  <%= text_field_tag(:nanowrimo_secret_key) %>
-  <%= submit_tag "Create Goal" %>
-<% end %>
-
-
+  <div class="form-container">
+    <h1 class="form-heading">Edit your goal for NaNoWriMo</h1>
+    <%= form_tag(goals_path, method: "patch", class:"form") do %>
+      <%= label_tag(:title, "Title", class:"form-label") %>
+      <%= text_field_tag(:title, @novel.title ) %>
+      <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label" )%>
+      <%= number_field_tag(:goal_wordcount, 50_000) %>
+      <%= label_tag(:goal_start_date, "Start Date", class:"form-label") %>
+      <%= date_field_tag(:goal_start_date, "2018-11-01") %>
+      <%= label_tag(:goal_deadline, "End Date", class:"form-label") %>
+      <%= date_field_tag(:goal_deadline, "2018-11-30") %>
+      <%= label_tag(:nanowrimo_username, "NaNoWrimMo Username", class:"form-label") %>
+      <%= text_field_tag(:nanowrimo_username) %>
+      <%= label_tag(:nanowrimo_secret_key, "Your NaNoWrimMo Secret Key", class:"form-label") %>
+      <%= text_field_tag(:nanowrimo_secret_key) %>
+      <%= submit_tag "Create Goal", class:"btn btn-primary" %>
+    <% end %>
+    <a class="form-link" href="#">Back</a>
+  </div>

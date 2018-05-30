@@ -59,8 +59,6 @@ ActiveRecord::Schema.define(version: 2018_05_30_125527) do
 
   create_table "writing_sessions", force: :cascade do |t|
     t.integer "session_wordcount"
-    t.date "start_time"
-    t.date "end_time"
     t.bigint "novel_id"
     t.bigint "user_id"
     t.datetime "created_at", null: false
