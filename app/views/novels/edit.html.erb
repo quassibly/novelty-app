@@ -1,11 +1,13 @@
-<div class="form">
-<%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
-    <div class="novel">
-    <%= f.text_field(:title) %>
-    <%= f.text_area(:content, :size => "150x50") %>
+<div contenteditable="true" class = "home-editor" rows="8" cols="80"><%= @novel.content %> </div>
 
-    </div>
-    <%= submit_tag('Save Novel')%>
-<% end %>
+<div class="btn btn-primary" style="width:10%; text-align:center;">
+  <%= link_to "Save Novel", novel_path(@novel.id), method: :patch%>
 </div>
 
+<script>
+
+  const button = document.querySelector(".btn")
+  button.addEventListener('click', {
+    <% @novel.content %> = document.querySelector("home-editor").innerText
+  })
+</script>

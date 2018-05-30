@@ -22,7 +22,7 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    @novel = Novel.find_by(user_id: current_user)
+    @novel = Novel.find(params[:id])
     if @novel.nil?
       self.new
     end
@@ -34,7 +34,6 @@ class NovelsController < ApplicationController
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
     if @novel.update(novel_params)
-      @novel.update(content: @novel.content + " Last Edit")
       redirect_to edit_novel_path(@novel)
     else
       render :new
@@ -50,6 +49,6 @@ class NovelsController < ApplicationController
   private
 
   def novel_params
-    params.require(:novel).permit(:title, :content)
+    params.permit(:title, :content)
   end
 end
