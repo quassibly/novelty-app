@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   end
   resources :users, only: [:show]
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'
-  patch 'novels/:id/goals/new', to: 'goals#update'
+  patch 'novels/:id/goals/new', to: 'goals#update', as: :goals
   get 'novels/:id/sentences/random', to: 'sentences#random', as: :random
   patch 'novels/:id/sentences/random', to: 'sentences#update'
 end
