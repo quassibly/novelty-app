@@ -22,7 +22,11 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    @novel = Novel.find(params[:id])
+    if params[:id].nil?
+      @novel = Novel.where(user_id: current_user).last
+    else
+      @novel = Novel.find(params[:id])
+    end
     @session = session_create
     if @novel.nil?
       self.new
@@ -31,12 +35,12 @@ class NovelsController < ApplicationController
   end
 
   def update
+    skip_authorization
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
     # update_time(@session)
-    skip_authorization
     if @novel.update(novel_params)
-      redirect_to root_path
+      redirect_to edit_novel_path(@novel)
     else
       render :new
     end
