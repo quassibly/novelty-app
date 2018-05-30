@@ -30,12 +30,12 @@ class NovelsController < ApplicationController
   end
 
   def update
-
+    skip_authorization
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
-    skip_authorization
     if @novel.update(novel_params)
-      redirect_to root_path
+      @novel.update(content: @novel.content + " Last Edit")
+      redirect_to edit_novel_path(@novel)
     else
       render :new
     end
