@@ -1,13 +1,17 @@
-<h1>Edit the goal for your Novel</h1>
-<%= form_tag('', method: "patch") do %>
-  <%= label_tag(:title, "Title") %>
-  <%= text_field_tag(:title) %>
-  <%= label_tag(:goal_wordcount, "Wordcount Goal") %>
-  <%= number_field_tag(:goal_wordcount) %>
-  <%= label_tag(:goal_start_date, "Start Date") %>
-  <%= date_field_tag(:goal_start_date) %>
-  <%= label_tag(:goal_deadline, "End Date") %>
-  <%= date_field_tag(:goal_deadline) %>
-  <%= submit_tag "Create Goal" %>
-<% end %>
-
+<div class="container">
+  <div class="form-container">
+    <h1 class="form-heading">Edit the goal for your Novel</h1>
+    <%= form_tag('', method: "patch", class:"form") do %>
+      <%= label_tag(:title, "Title", class:"form-label") %>
+      <%= text_field_tag(:title) %>
+      <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label") %>
+      <%= number_field_tag(:goal_wordcount) %>
+      <%= label_tag(:goal_start_date, "Start Date", class:"form-label") %>
+      <%= date_field_tag(:goal_start_date) %>
+      <%= label_tag(:goal_deadline, "End Date", class:"form-label") %>
+      <%= date_field_tag(:goal_deadline) %>
+      <%= submit_tag "Create Goal", class:"btn btn-primary" %>
+    <% end %>
+    <a class="form-link" href="#">Back</a>
+  </div>
+</div>
