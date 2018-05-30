@@ -8,7 +8,11 @@
   <%= date_field_tag(:goal_start_date, "2018-11-01") %>
   <%= label_tag(:goal_deadline, "End Date") %>
   <%= date_field_tag(:goal_deadline, "2018-11-30") %>
-  nanowrimo username
-  nanowrimo secret key
+  <%= label_tag(:nanowrimo_username, "NaNoWrimMo Username") %>
+  <%= text_field_tag(:nanowrimo_username) %>
+  <%= label_tag(:nanowrimo_secret_key, "Your NaNoWrimMo Secret Key") %>
+  <%= text_field_tag(:nanowrimo_secret_key) %>
   <%= submit_tag "Create Goal" %>
 <% end %>
+
+
