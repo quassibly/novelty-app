@@ -22,7 +22,8 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    @novel = Novel.find_by(user_id: current_user)
+    @novel = Novel.find(params[:id])
+    @session = session_create
     if @novel.nil?
       self.new
     end
@@ -30,9 +31,9 @@ class NovelsController < ApplicationController
   end
 
   def update
-
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
+    # update_time(@session)
     skip_authorization
     if @novel.update(novel_params)
       redirect_to root_path
@@ -48,6 +49,14 @@ class NovelsController < ApplicationController
   end
 
   private
+
+  def session_create
+    WritingSession.create(created_at: Time.now, user: current_user, novel: @novel)
+  end
+
+  def update_time(instance)
+    instance.updated_at = Time.now
+  end
 
   def novel_params
     params.require(:novel).permit(:title, :content)
