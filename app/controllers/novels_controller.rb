@@ -22,7 +22,11 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    @novel = Novel.find(params[:id])
+    if params[:id].nil?
+      @novel = Novel.where(user_id: current_user).last
+    else
+      @novel = Novel.find(params[:id])
+    end
     if @novel.nil?
       self.new
     end
@@ -49,6 +53,6 @@ class NovelsController < ApplicationController
   private
 
   def novel_params
-    params.permit(:title, :content)
+    params.require(:novel).permit(:title, :content)
   end
 end

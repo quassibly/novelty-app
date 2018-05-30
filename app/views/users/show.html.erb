@@ -2,6 +2,19 @@
   <%= render 'shared/sidebar' %>
 
   <div class="">
-
+    <% @novels.each do |novel| %>
+      <div class="novel-card">
+        <%= novel.title %>
+        <%= novel.novel_wordcount %>
+        <%= novel.goal_deadline %>
+        <%= novel.goal_days_off %>
+        <%= novel.goal_wordcount %>
+        <% novel.writing_sessions.each do |session| %>
+          <%= session.start_time %>
+          <%= session.end_time %>
+          <%= session.word_count %>
+          <% end %>
+      </div>
+    <% end %>
   </div>
 </div>
