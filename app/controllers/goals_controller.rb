@@ -1,5 +1,5 @@
 class GoalsController < ApplicationController
-
+before_action :skip_pundit?
   def new
   end
 
@@ -10,15 +10,19 @@ class GoalsController < ApplicationController
   end
 
   def update
+    skip_authorization
     @novel = Novel.find(params[:id])
     @novel.update(goals_params)
-    raise
+    flash[:notice] = "Your goal was updated"
+    redirect_to edit_novel_path(@novel)
   end
 
   def destroy
   end
 
   def nanowrimo
+    # skip_authorization
+    @novel = Novel.find(params[:id])
 
   end
 
