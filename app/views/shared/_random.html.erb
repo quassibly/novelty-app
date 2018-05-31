@@ -1,41 +1,41 @@
 <dialog id="random">
   <div class="dialog">
     <%= form_tag(random_path(@novel.id), method: "patch") do %>
-      <p><%= label_tag(:new_sentence, "Complete the sentence:") %></p>
-      <p><%= text_area_tag(:new_sentence, @sentence, size: "24x6") %></p>
-      <p><%= submit_tag("Add this sentence to my novel", class: "btn") %></p>
+      <%= label_tag(:new_sentence, "Complete the sentence:") %>
+      <%= text_area_tag(:new_sentence, @sentence, size: "24x6") %>
+      <div class="modal-actions">
+        <button id="cancel" type="reset" class="btn btn-secondary">Cancel</button>
+        <%= submit_tag("Add to my novel", class: "btn btn-primary") %>
+      </div>
     <% end %>
-    <!-- <div class="btn" id="new-random">New</div> -->
   </div>
 </dialog>
 
 
 <menu>
-  <button id="unblockMe" class="btn">Unblock Me</button>
+  <button id="unblockMe" class="btn btn-secondary">Unblock Me</button>
 </menu>
 
-<script>
-    (function() {
-      var unblockButton = document.getElementById('unblockMe');
-      var dialog = document.getElementById('random');
-      dialog.returnValue = 'favAnimal';
+  <script>
+    const unblockButton = document.getElementById('unblockMe');
+    const dialog = document.getElementById('random');
+    const cancelButton = document.getElementById('cancel');
 
-      // function openCheck(dialog) {
-        // if(dialog.open) {
-          // console.log('Dialog open');
-        // } else {
-          // console.log('Dialog closed');
-        // }
-      // }
-
-      // Update button opens a modal dialog
-      unblockButton.addEventListener('click', function() {
-        dialog.showModal();
-        openCheck(dialog);
-      });
-
-    })();
+    unblockButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    cancelButton.addEventListener('click', function() {
+      dialog.close();
+    });
   </script>
+
+
+
+
+
+
+
+
 
   <!-- <script> -->
     <!-- function modifyText() { -->
