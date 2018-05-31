@@ -40,13 +40,15 @@
       </div>
     </div>
 
-    <div class="dashboard-goals-container" id="goals">
+    <!-- <div class="dashboard-goals-container" id="goals"> -->
 
-    </div>
+        <div id="chart_div" style="width: 100%; height: 500px;"></div>
+
+    <!-- </div> -->
   </div>
 </div>
 
-
+<!--
 <script type="text/javascript">
 
 //[20, 60] === [setGoal, doneGoal]
@@ -71,4 +73,29 @@
 
 drawGoals(myArr)
 
-</script>
+</script> -->
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   <script type="text/javascript">
+     google.charts.load('current', {'packages':['corechart']});
+     google.charts.setOnLoadCallback(drawChart);
+
+     function drawChart() {
+       var data = google.visualization.arrayToDataTable([
+         ['Day', 'Estimate', 'Actual'],
+         ['1',  1000,      400],
+         ['2',  1170,      1200],
+         ['3',  660,       1120],
+         ['4',  1030,      540]
+       ]);
+
+       var options = {
+         vAxis: {minValue: 0}
+       };
+
+       var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+       chart.draw(data, options);
+     }
+   </script>
+ </head>
