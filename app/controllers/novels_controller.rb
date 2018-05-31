@@ -21,6 +21,7 @@ class NovelsController < ApplicationController
 
   def edit
     random
+
     if params[:id].nil?
       @novel = Novel.where(user_id: current_user).last
     else
@@ -30,6 +31,7 @@ class NovelsController < ApplicationController
     if @novel.nil?
       self.new
     end
+    @novel.novel_wordcount = @novel.content.split(" ").length
     skip_authorization
   end
 
