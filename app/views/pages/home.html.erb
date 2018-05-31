@@ -2,16 +2,20 @@
 <div class="banner">
   <h2 class="banner-title">Once upon a time, Novelty helped me finish my book... <span>I</span> </h2>
   <i class="arrow down"></i>
+  <div class="links" style="margin-top:50px;">
+    <%= link_to "New Project", new_goal_path, class: "btn btn-primary" %>
+  </div>
 </div>
+
 <div class="container-main">
-  <div class="home-editor-container">
-    <textarea class="home-editor" name="name" rows="8" cols="80">Start writing right here, right now...
-    </textarea>
-  </div>
-  <div class="" style="height:300px;">
-    Heres more about Novelty
-  </div>
-  <div class="" style="height:300px;">
-    Heres some cta and whatnot
-  </div>
+  <div class="form-container">
+    <%= simple_form_for Novel.new do |f| %>
+      <%= f.text_field(:title, class: "novel-title", placeholder: "Enter Your Title Here") %>
+      <%= f.text_area(:content, :size => "100x50", class: "novel", placeholder: "Start writing right here, right now...") %>
+
+      <div>
+      <%= submit_tag('Save Novel', class: "btn")%>
+    </div>
+  <% end %>
+</div>
 </div>
