@@ -7,10 +7,8 @@ class NovelsController < ApplicationController
   end
 
   def create
-    @novel = Novel.new
+    @novel = Novel.new(novel_params)
     @novel.user_id = current_user.id
-    @novel.title = "Enter Your Title here"
-    @novel.content = "This is the start of your journey. Start writing now..."
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
     skip_authorization
@@ -22,6 +20,7 @@ class NovelsController < ApplicationController
   end
 
   def edit
+    random
     if params[:id].nil?
       @novel = Novel.where(user_id: current_user).last
     else
@@ -51,6 +50,7 @@ class NovelsController < ApplicationController
     @novel = Novel.find(params[:id])
     authorize @novel
     @novel.destroy
+    redirect_to user_path(current_user)
   end
 
   private
@@ -65,5 +65,10 @@ class NovelsController < ApplicationController
 
   def novel_params
     params.require(:novel).permit(:title, :content)
+  end
+
+  def random
+    skip_authorization
+    @sentence = Sentence.all.sample.sentence
   end
 end

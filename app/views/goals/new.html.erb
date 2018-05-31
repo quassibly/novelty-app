@@ -1,7 +1,7 @@
 <div class="container">
   <div class="form-container">
     <h1 class="form-heading">Edit the goal for your Novel</h1>
-    <%= form_tag('', method: "patch", class:"form") do %>
+    <%= form_tag(@novel, class:"form") do %>
       <%= label_tag(:title, "Title", class:"form-label") %>
       <%= text_field_tag(:title, @novel.title ) %>
       <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label") %>
