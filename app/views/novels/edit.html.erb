@@ -2,13 +2,13 @@
   <%= render 'shared/sidebar' %>
   <div class="form-container">
     <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
-      <%= f.text_field(:title, class: "novel-title") %>
-      <%= f.text_area(:content, :size => "100x50", class: "novel") %>
-      <%= submit_tag('Save Novel', class: "btn")%>
+    <%= f.text_field(:title, class: "novel-title") %>
+    <%= f.text_area(:content, :size => "100x50", class: "novel") %>
+    <%= submit_tag('Save Novel', class: "btn")%>
     <% end %>
 
-  <!-- random sentence generator modal -->
-  <%= render 'shared/random' %>
+    <!-- random sentence generator modal -->
+    <%= render 'shared/random' %>
   </div>
 </div>
 
@@ -17,7 +17,7 @@
 Implement a counter method/timer method. when this method reaches either 500 characters or 5 minutes then runs a second method that does a fetch(post) method that sends a JSON file to the controller that reads the file then saves this to @novel.content
 -->
 <!-- <script> -->
-<!--   // function keyCount() { -->
+  <!--   // function keyCount() { -->
     <!-- // const text = document.querySelector('novel');
     // let count = 0;
     // text.addEventListener('keyUp', {
@@ -45,4 +45,4 @@ Implement a counter method/timer method. when this method reaches either 500 cha
     .then(response => response.json())
   }; -->
 
-<!-- </script> -->
+  <!-- </script> -->
