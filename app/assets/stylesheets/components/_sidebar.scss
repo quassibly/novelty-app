@@ -10,11 +10,9 @@
   position: absolute;
   left: -180px;
   transition: 0.5s;
-  box-shadow: 15px 0px 30px #e8e8e8;
   background-color: $brand-dark;
   &:hover {
     left: 0;
-    box-shadow: none;
   }
   &-heading {
     display: block;

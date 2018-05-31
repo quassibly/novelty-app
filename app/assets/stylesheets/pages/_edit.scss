@@ -1,21 +1,39 @@
+// .watermark {
+//   font-family: "Roboto Slab", serif !important;
+//   color: #f9f9f9;
+//   font-size: 24px;
+//   font-weight: 300px;
+// }
+
 .novel-title {
   height: 50px;
   width: 80%;
   font-family: $secondary-font !important;
   font-size: $font-xs;
   border-radius: 4px;
-  border: solid 1px $brand-medium-dark;
+  border: none;
+  // box-shadow: 0px 0px 3px 2px #e5e5e5 inset;
   padding: 8px 12px;
+  margin-bottom: 20px;
 }
 
 .novel {
-  height: auto;
+  height: 60vh;
   width: 80%;
   padding: 8px 12px;
   font-size: $font-xs;
   border-radius: 4px;
-  border: solid 1px $brand-medium-dark;
+  border: none;
+  // background-color: rgba(249,249,249,0.5);
+  //  box-shadow: 0px 0px 3px 2px #e5e5e5 inset;
   color: $brand-dark;
   margin-bottom: 10px;
   font-family: $secondary-font !important;
+}
+
+#novel_content {
+  padding-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
