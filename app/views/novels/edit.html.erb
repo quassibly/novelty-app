@@ -1,14 +1,15 @@
-<div class="form">
-<%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
-<div class="novel">
-    <%= f.text_field(:title) %>
-    <%= f.text_area(:content, :size => "150x50") %>
+<div class="container">
+  <%= render 'shared/sidebar' %>
+  <div class="form-container">
+    <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
+      <%= f.text_field(:title, class: "novel-title") %>
+      <%= f.text_area(:content, :size => "100x50", class: "novel") %>
+      <%= submit_tag('Save Novel', class: "btn")%>
+  <% end %>
 
-    </div>
-    <%= submit_tag('Save Novel')%>
-<% end %>
-  
+  </div>
 </div>
+
 
 
 <!--

@@ -1,10 +1,21 @@
-.form {
-  height: 100px;
+.novel-title {
+  height: 50px;
   width: 80%;
-
+  font-family: $secondary-font !important;
+  font-size: $font-xs;
+  border-radius: 4px;
+  border: solid 1px $brand-medium-dark;
+  padding: 8px 12px;
 }
 
 .novel {
   height: auto;
-  width: auto;
+  width: 80%;
+  padding: 8px 12px;
+  font-size: $font-xs;
+  border-radius: 4px;
+  border: solid 1px $brand-medium-dark;
+  color: $brand-dark;
+  margin-bottom: 10px;
+  font-family: $secondary-font !important;
 }
