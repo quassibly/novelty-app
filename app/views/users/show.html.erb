@@ -1,23 +1,6 @@
-<div class="container">
-  <%= render 'shared/sidebar' %>
-
-  <div class="side-container dashboard">
-    <% @novels.each do |novel| %>
-      <div class="novel-card">
-        <%= link_to novel.title, edit_novel_path(novel) %>
-        <%= novel.novel_wordcount %>
-        <%= novel.goal_deadline %>
-        <%= novel.goal_days_off %>
-        <%= novel.goal_wordcount %>
-        <%= link_to "Destroy Novel", novel_path(novel), method: :delete%>
-        <% novel.writing_sessions.each do |session| %>
-          <%= session.created_at %>
-          <%= session.updated_at %>
-          <%= session.session_wordcount %>
-          <% end %>
-      </div>
-    <% end %>
-
+<%= render 'shared/sidebar' %>
+<div class="main-container">
+  <div class="dashboard-container">
     <div class="dashboard-stats-container">
       <div class="dashboard-stats-total-words dashboard-bubble">
         <div class="dashboard-bubble-content">
@@ -42,7 +25,7 @@
 
     <!-- <div class="dashboard-goals-container" id="goals"> -->
 
-        <div id="chart_div" style="width: 100%; height: 500px;"></div>
+    <div id="chart_div" style="width: 100%; height: 500px;"></div>
 
     <!-- </div> -->
   </div>
@@ -78,24 +61,53 @@ drawGoals(myArr)
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    <script type="text/javascript">
-     google.charts.load('current', {'packages':['corechart']});
+     google.charts.load('current', {'packages':['corechart', 'bar']});
      google.charts.setOnLoadCallback(drawChart);
-
      function drawChart() {
        var data = google.visualization.arrayToDataTable([
-         ['Day', 'Estimate', 'Actual'],
-         ['1',  1000,      400],
-         ['2',  1170,      1200],
-         ['3',  660,       1120],
-         ['4',  1030,      540]
+         ['Day', 'Goal', 'Actual'],
+         ['1',  1612,      2345],
+         ['2',  1559,      890],
+         ['3',  1585,       789],
+         ['4',  1546,       2678],
+         ['5',  1553,       1345],
+         ['6',  1579,       890],
+         ['7',  1451,       4789],
+         ['8',  1451,       0],
+         ['9',  1451,       0],
+         ['10',  1451,       0],
+         ['11',  1451,       0],
+         ['12',  1451,       0],
+         ['13',  1451,       0],
+         ['14',  1451,       0],
+         ['15',  1451,       0],
+         ['16',  1451,      0],
+         ['17',  1451,      0],
+         ['18',  1451,      0],
+         ['19',  1451,      0],
+         ['20',  1451,      0],
+         ['21',  1451,      0],
+         ['22',  1451,      0],
+         ['23',  1451,      0],
+         ['24',  1451,      0],
+         ['25',  1451,      0],
+         ['26',  1451,      0],
+         ['27',  1451,      0],
+         ['28',  1451,      0],
+         ['29',  1451,      0],
+         ['30',  1451,      0],
+         ['31',  1451,      0],
        ]);
 
        var options = {
-         vAxis: {minValue: 0}
+        colors: ['#FF5E3A', '$brand-secondary'],
+        vAxis: {minValue: 0},
+        chartArea: {width: '100%', height: '100%'},
+        hAxis: {textPosition: 'in'}, vAxis: {textPosition: 'in'}
        };
 
-       var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
-       chart.draw(data, options);
+       var barChart = new google.charts.Bar(document.getElementById('chart_div'));
+       barChart.draw(data, options);
      }
    </script>
  </head>
