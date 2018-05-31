@@ -47,17 +47,21 @@ Implement a counter method/timer method. when this method reaches either 500 cha
   //   .then(response => response.json())
   // };
     const content = document.querySelector("form-container");
-
-  function wordCount(e) {
-    if(e.keyCode == 32) {
-      preventDefault()
+  function wordCount() {
+    console.log("working")
+    if(keyCode == 32) {
+      // preventDefault()
       const wordcount = document.querySelector(".wordcount").innerText;
       let num = Number(wordcount);
       num = num + 1;
       wordcount = num;
+      console.log("working")
     }
   };
 
-  content.onkeydown = wordCount()
+  function wordCount1() {
+    console.log("working")
+  }
+  content.addEventListener('keyPress', console.log("working"))
 
 </script>
