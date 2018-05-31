@@ -3,7 +3,7 @@
     <h1 class="form-heading">Edit the goal for your Novel</h1>
     <%= form_tag('', method: "patch", class:"form") do %>
       <%= label_tag(:title, "Title", class:"form-label") %>
-      <%= text_field_tag(:title) %>
+      <%= text_field_tag(:title, @novel.title ) %>
       <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label") %>
       <%= number_field_tag(:goal_wordcount) %>
       <%= label_tag(:goal_start_date, "Start Date", class:"form-label") %>
@@ -12,6 +12,6 @@
       <%= date_field_tag(:goal_deadline) %>
       <%= submit_tag "Create Goal", class:"btn btn-primary" %>
     <% end %>
-    <a class="form-link" href="#">Back</a>
+    <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary" %>
   </div>
 </div>

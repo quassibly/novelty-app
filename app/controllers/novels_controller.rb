@@ -9,8 +9,8 @@ class NovelsController < ApplicationController
   def create
     @novel = Novel.new
     @novel.user_id = current_user.id
-    @novel.title = "The"
-    @novel.content = ""
+    @novel.title = "Enter Your Title here"
+    @novel.content = "This is the start of your journey. Start writing now..."
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
     skip_authorization
