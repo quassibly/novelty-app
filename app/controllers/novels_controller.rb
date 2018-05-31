@@ -22,6 +22,7 @@ class NovelsController < ApplicationController
   end
 
   def edit
+    random
     if params[:id].nil?
       @novel = Novel.where(user_id: current_user).last
     else
@@ -64,5 +65,10 @@ class NovelsController < ApplicationController
 
   def novel_params
     params.require(:novel).permit(:title, :content)
+  end
+
+  def random
+    skip_authorization
+    @sentence = Sentence.all.sample.sentence
   end
 end
