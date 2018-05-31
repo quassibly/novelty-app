@@ -5,7 +5,7 @@
       <p><%= text_area_tag(:new_sentence, @sentence, size: "24x6") %></p>
       <p><%= submit_tag("Add this sentence to my novel", class: "btn") %></p>
     <% end %>
-    <div class="btn" id="new-random">New</div>
+    <!-- <div class="btn" id="new-random">New</div> -->
   </div>
 </dialog>
 
@@ -20,13 +20,13 @@
       var dialog = document.getElementById('random');
       dialog.returnValue = 'favAnimal';
 
-      function openCheck(dialog) {
-        if(dialog.open) {
-          console.log('Dialog open');
-        } else {
-          console.log('Dialog closed');
-        }
-      }
+      // function openCheck(dialog) {
+        // if(dialog.open) {
+          // console.log('Dialog open');
+        // } else {
+          // console.log('Dialog closed');
+        // }
+      // }
 
       // Update button opens a modal dialog
       unblockButton.addEventListener('click', function() {
@@ -39,11 +39,11 @@
 
   <!-- <script> -->
     <!-- function modifyText() { -->
-      // console.log("click");
+<!--       // console.log("click");
       // var newSentence = document.querySelector("#new_sentence");
       // ;
     // };
 
     // const newRandom = document.querySelector(".new-random")
-    // newRandom.addEventListener("click", modifyText)
+    // newRandom.addEventListener("click", modifyText) -->
   <!-- </script> -->
