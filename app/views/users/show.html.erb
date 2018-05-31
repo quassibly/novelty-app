@@ -1,7 +1,7 @@
 <div class="container">
   <%= render 'shared/sidebar' %>
 
-  <div class="">
+  <div class="side-container dashboard">
     <% @novels.each do |novel| %>
       <div class="novel-card">
         <%= link_to novel.title, edit_novel_path(novel) %>
@@ -17,5 +17,58 @@
           <% end %>
       </div>
     <% end %>
+
+    <div class="dashboard-stats-container">
+      <div class="dashboard-stats-total-words dashboard-bubble">
+        <div class="dashboard-bubble-content">
+          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">13,723</span>
+          <span>Total words</span>
+        </div>
+      </div>
+      <div class="dashboard-stats-todays-goal dashboard-bubble">
+        <div class="dashboard-bubble-content">
+          <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span>
+          <span>Todays goal</span>
+        </div>
+      </div>
+
+      <div class="dashboard-stats-total-words dashboard-bubble">
+        <div class="dashboard-bubble-content">
+          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="days-left">13</span>
+          <span>Days left</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-goals-container" id="goals">
+
+    </div>
   </div>
 </div>
+
+
+<script type="text/javascript">
+
+//[20, 60] === [setGoal, doneGoal]
+  const myArr = [[20, 60], [20, 80], [80, 50], [100, 20], [70, 40], [20, 60], [20, 80], [80, 50], [100, 20], [70, 40],[20, 60], [20, 80], [80, 50], [100, 20], [70, 40], [0, 10], [50, 0], [80, 50], [100, 20], [70, 40],[20, 60], [20, 80], [80, 50], [100, 20], [70, 40], [20, 60], [20, 80], [80, 50], [100, 60], [10, 40]];
+
+
+  function drawGoals(goalsData) {
+    const goals = document.getElementById("goals");
+    let totalDaysCount = myArr.length;
+
+    for (const goalDay in goalsData) {
+      const setGoal= goalsData[goalDay][0];
+      const doneGoal = goalsData[goalDay][1];
+
+      goals.insertAdjacentHTML("beforeend",
+       `<div class='dashboard-goal-case'
+        style='height:${setGoal}%; width: calc(100% / ${totalDaysCount});'></div>
+        <div class='dashboard-goal-result' style='height:${doneGoal}%; width: calc(100% / ${totalDaysCount}); left: calc((100% / ${totalDaysCount}) * ${goalDay})'>
+        </div>`)
+    }
+  }
+
+drawGoals(myArr)
+
+</script>
