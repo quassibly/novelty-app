@@ -1,9 +1,11 @@
 .sidebar {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 200px;
-  min-height: 100%;
+  min-height: 400px;
+  height: 100vh;
   padding: 40px 30px;
   position: absolute;
   left: -180px;
