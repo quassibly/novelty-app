@@ -3,10 +3,10 @@
     <a href="#" class="sidebar-heading">Novelty</a>
   </div>
   <ul class="sidebar-menu">
-    <li class="sidebar-menu-item"><a href="#">Dashboard</a></li>
-    <li class="sidebar-menu-item"><a href="#">Compose</a></li>
-    <li class="sidebar-menu-item"><a href="#">Edit</a></li>
-    <li class="sidebar-menu-item"><a href="#">Review</a></li>
+    <li class="sidebar-menu-item"><%= link_to "Dashboard", user_path(current_user)%></li>
+    <li class="sidebar-menu-item"><%= link_to "Compose", new_novel_path %></li>
+    <li class="sidebar-menu-item"><%= link_to "Edit", edit_novel_path(current_user)%></li>
+   <!-- <li class="sidebar-menu-item"><a href="#">Review</a></li> not currently in use -->
   </ul>
   <div class="sidebar-footer">
     <a class="btn btn-primary" href="#">Log out</a>
