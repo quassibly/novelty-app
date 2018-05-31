@@ -37,6 +37,7 @@ class NovelsController < ApplicationController
     skip_authorization
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
+    @novel.novel_wordcount = @novel.content.split(" ").length
     # update_time(@session)
     if @novel.update(novel_params)
       redirect_to edit_novel_path(@novel)
