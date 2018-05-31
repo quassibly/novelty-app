@@ -7,7 +7,10 @@
       <%= submit_tag('Save Novel', class: "btn")%>
   <% end %>
 
+  <div class="wordcount"><%= @novel.novel_wordcount %></div>
+
   </div>
+   <div ></div>
 </div>
 
 
@@ -16,32 +19,45 @@
 Implement a counter method/timer method. when this method reaches either 500 characters or 5 minutes then runs a second method that does a fetch(post) method that sends a JSON file to the controller that reads the file then saves this to @novel.content
 -->
 <script>
-  function keyCount() {
-    const text = document.querySelector('novel');
-    let count = 0;
-    text.addEventListener('keyUp', {
-      count += 1;
-      if (count === 100)
-        saveNovel()
-    });
+  // function keyCount() {
+  //   const text = document.querySelector('novel');
+  //   let count = 0;
+  //   text.addEventListener('keyUp', {
+  //     count += 1;
+  //     if (count === 100)
+  //       saveNovel()
+  //   });
+  // };
+
+  // function timer() {
+  //   sleep(300)
+  //   saveNovel()
+  //   timer()
+  // }
+
+  // function saveNovel = (event) => {
+  //   const content = document.querySelector('novel')
+  //   fetch(`novel/#{@novel.id}`, {
+  //     method: "Post",
+  //     headers: {
+  //       "Content-Type": "application/json"
+  //     },
+  //     body.JSON.stringify({event.currentTarget.value})
+  //   })
+  //   .then(response => response.json())
+  // };
+    const content = document.querySelector("form-container");
+
+  function wordCount(e) {
+    if(e.keyCode == 32) {
+      preventDefault()
+      const wordcount = document.querySelector(".wordcount").innerText;
+      let num = Number(wordcount);
+      num = num + 1;
+      wordcount = num;
+    }
   };
 
-  function timer() {
-    sleep(300)
-    saveNovel()
-    timer()
-  }
-
-  function saveNovel = (event) => {
-    const content = document.querySelector('novel')
-    fetch(`novel/#{@novel.id}`, {
-      method: "Post",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body.JSON.stringify({event.currentTarget.value})
-    })
-    .then(response => response.json())
-  };
+  content.onkeydown = wordCount()
 
 </script>
