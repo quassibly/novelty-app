@@ -18,10 +18,29 @@
     margin-top: 20px;
     padding: 20px 40px 40px;
   }
+  &-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   &-label {
     font-size: $font-xs;
     color: $brand-dark;
     padding: 8px 0 6px 0;
+  }
+  &-control {
+    padding: 8px 12px;
+    font-size: $font-xs;
+    border-radius: 4px;
+    border: solid 1px $brand-medium-dark;
+    color: $brand-dark;
+    margin-bottom: 10px;
+    &-label {
+      font-size: $font-xs;
+      color: $brand-dark;
+      padding: 8px 0 6px 0;
+    }
   }
   input:not(.btn) {
     padding: 8px 12px;
