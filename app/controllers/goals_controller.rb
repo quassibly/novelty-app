@@ -1,6 +1,7 @@
 class GoalsController < ApplicationController
 before_action :skip_pundit?
   def new
+    @novel = Novel.find(params[:novel_id])
   end
 
   def create

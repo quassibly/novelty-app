@@ -4,15 +4,16 @@
   <div class="">
     <% @novels.each do |novel| %>
       <div class="novel-card">
-        <%= novel.title %>
+        <%= link_to novel.title, edit_novel_path(novel) %>
         <%= novel.novel_wordcount %>
         <%= novel.goal_deadline %>
         <%= novel.goal_days_off %>
         <%= novel.goal_wordcount %>
+        <%= link_to "Destroy Novel", novel_path(novel), method: :delete%>
         <% novel.writing_sessions.each do |session| %>
-          <%= session.start_time %>
-          <%= session.end_time %>
-          <%= session.word_count %>
+          <%= session.created_at %>
+          <%= session.updated_at %>
+          <%= session.session_wordcount %>
           <% end %>
       </div>
     <% end %>
