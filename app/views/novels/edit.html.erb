@@ -4,20 +4,23 @@
     <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
 
       <%= f.text_field(:title, class: "novel-title") %>
-      <div class="content"><%= f.text_area(:content, :size => "100x50", class: "novel") %></div>
+      <div class="content"><%= f.text_area(:content, class: "novel") %></div>
       <div class="edit-actions">
           <%= submit_tag('Save Novel', class: "btn btn-primary")%>
       </div>
   <% end %>
-
-  <div class="edit-counter">
-      <span class="wordcount"><%= @novel.novel_wordcount %> Words</span>
-      <span class="charcount"><%= @novel.content.length %> Characters</span>
-  </div>
-
+  <div class="edit-helpers">
     <!-- random sentence generator modal -->
     <%= render 'shared/random' %>
+    <div class="edit-counter">
+        <span class="wordcount"><%= @novel.novel_wordcount %> Words</span>
+        <span class="charcount"><%= @novel.content.length %> Characters</span>
+    </div>
   </div>
+  </div>
+
+
+
 </div>
 
 
