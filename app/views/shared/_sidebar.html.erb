@@ -5,11 +5,11 @@
   <ul class="sidebar-menu">
     <li class="sidebar-menu-item"><%= link_to "Dashboard", user_path(current_user)%></li>
     <li class="sidebar-menu-item"><%= link_to "Compose", new_goal_path %></li>
-    <li class="sidebar-menu-item"><%= link_to "Edit", edit_novel_path(current_user)%></li>
+   <li class="sidebar-menu-item"><%= link_to "Edit", edit_novel_path(current_user.novels.last)%></li>
    <!-- <li class="sidebar-menu-item"><a href="#">Review</a></li> not currently in use -->
   </ul>
   <div class="sidebar-footer">
-    <li class="sidebar-menu-item"><%= link_to "Log Out", destroy_user_session_path, method: :delete%>
+    <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-primary"%>
   <!-- <p class="sample">V</p> -->
   </div>
 </div>
