@@ -1,6 +1,6 @@
 <div class="edit-container">
   <%= render 'shared/sidebar' %>
-  <div class="form-container novel-form">
+  <div class="novel-form">
     <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
 
       <%= f.text_field(:title, class: "novel-title") %>
