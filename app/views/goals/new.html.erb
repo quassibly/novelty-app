@@ -1,6 +1,6 @@
 <div class="container">
   <div class="form-container">
-    <h1 class="form-heading">Edit the goal for your Novel</h1>
+    <h1 class="form-heading">Create my new project</h1>
     <%= form_tag(@novel, class:"form") do %>
       <%= label_tag(:title, "Title", class:"form-label") %>
       <%= text_field_tag(:title, @novel.title ) %>
@@ -10,7 +10,7 @@
       <%= date_field_tag(:goal_start_date) %>
       <%= label_tag(:goal_deadline, "End Date", class:"form-label") %>
       <%= date_field_tag(:goal_deadline) %>
-      <%= submit_tag "Create Goal", class:"btn btn-primary" %>
+      <%= submit_tag "Create", class:"btn btn-primary" %>
     <% end %>
     <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary" %>
   </div>

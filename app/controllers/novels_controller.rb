@@ -13,7 +13,7 @@ class NovelsController < ApplicationController
     @novel.updated_at = Time.now
     skip_authorization
     if @novel.save!
-      redirect_to edit_novel_path(@novel)
+      redirect_to user_path(current_user)
     else
       render :new
     end
@@ -22,11 +22,7 @@ class NovelsController < ApplicationController
   def edit
     random
 
-    if params[:id].nil?
       @novel = Novel.where(user_id: current_user).last
-    else
-      @novel = Novel.find(params[:id])
-    end
     @session = session_create
     if @novel.nil?
       self.new
@@ -42,9 +38,9 @@ class NovelsController < ApplicationController
     @novel.novel_wordcount = @novel.content.split(" ").length
     # update_time(@session)
     if @novel.update(novel_params)
-      redirect_to edit_novel_path(@novel)
+      redirect_to user_path(current_user)
     else
-      render :new
+      render :edit
     end
   end
 
