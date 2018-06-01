@@ -4,8 +4,8 @@
   <div class="dashboard-container">
     <div class="dashboard-header">
       <h1><%= @novels.first.title %></h1>
-      <%= link_to edit_novel_path(@novels.first) do %>
-        <div class="btn btn-primary">Keep writing</div>
+      <%= link_to edit_novel_path(@novels.first), class:"btn btn-primary" do %>
+        Keep writing
       <% end %>
     </div>
     <div class="dashboard-stats-container">
@@ -17,8 +17,11 @@
       </div>
       <div class="dashboard-stats-todays-goal dashboard-bubble">
         <div class="dashboard-bubble-content">
-          <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span>
           <span>Todays goal</span>
+          <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span>
+          <!-- <span>Written today</span>
+          <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span> -->
+          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A">325</span></span>
         </div>
       </div>
 
