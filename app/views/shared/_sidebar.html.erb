@@ -9,7 +9,7 @@
    <!-- <li class="sidebar-menu-item"><a href="#">Review</a></li> not currently in use -->
   </ul>
   <div class="sidebar-footer">
-    <a class="btn btn-primary" href="#">Log out</a>
+    <li class="sidebar-menu-item"><%= link_to "Log Out", destroy_user_session_path, method: :delete%>
   <!-- <p class="sample">V</p> -->
   </div>
 </div>

@@ -9,11 +9,14 @@ class NovelsController < ApplicationController
   def create
     @novel = Novel.new(novel_params)
     @novel.user_id = current_user.id
+    if @novel.title.nil?
+      @novel.title = "Please change title"
+    end
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
     skip_authorization
     if @novel.save!
-      redirect_to user_path(current_user)
+      redirect_to edit_novel_path(@novel)
     else
       render :new
     end
@@ -62,7 +65,7 @@ class NovelsController < ApplicationController
   end
 
   def novel_params
-    params.require(:novel).permit(:title, :content)
+    params.permit(:content)
   end
 
   def random
