@@ -62,7 +62,7 @@ class NovelsController < ApplicationController
   end
 
   def novel_params
-    params.require(:novel).permit(:title, :content)
+    params.permit(:title, :content)
   end
 
   def random
