@@ -13,7 +13,7 @@
 
 .nav-heading {
   font-family: $secondary-font;
-  color: $brand-dark;
+  color: $brand-light;
 }
 
 .nav-menu {
@@ -22,6 +22,10 @@
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.nav-left {
+  padding-left: 0;
 }
 
 .nav-menu-item {
