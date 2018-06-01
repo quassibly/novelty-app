@@ -4,9 +4,18 @@
      <%= image_tag "http://icons.iconarchive.com/icons/graphicloads/100-flat/128/phone-icon.png", class:"nav-logo" %>
     <% end %> -->
 
+    <ul class="nav-left">
+     <% if user_signed_in? %>
+        <li class="nav-menu-item">
+            <%= link_to "Dashboard", user_path(current_user), class: "nav-menu-link btn btn-primary" %>
+        </li>
+      <% end %>
+    </ul>
+
     <h1 class="nav-heading" style="">Novelty</h1>
 
   <!-- </div> -->
+
     <ul class="nav-menu">
       <% if !user_signed_in? %>
         <li class="nav-menu-item">
@@ -18,10 +27,9 @@
             <%= link_to "Log in", new_user_session_path, class: "nav-menu-link btn btn-primary" %>
         </li>
       <% end %>
-
-     <% if user_signed_in? %>
+      <% if user_signed_in? %>
         <li class="nav-menu-item">
-            <%= link_to "Dashboard", user_path(current_user), class: "nav-menu-link btn btn-primary" %>
+          <%= link_to "New Project", new_goal_path, class: "nav-menu-link btn btn-primary" %>
         </li>
       <% end %>
     </ul>
