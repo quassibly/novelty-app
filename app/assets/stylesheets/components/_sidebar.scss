@@ -3,6 +3,16 @@
 //   transform: rotate(180deg);
 //   transition: 0.5s;
 // }
+
+.edit-container .sidebar {
+  left: -180px;
+  transition: 0.5s;
+  &:hover {
+    left: 0;
+  }
+}
+
+
 .sidebar {
   position: fixed;
   display: flex;
@@ -12,13 +22,15 @@
   min-height: 400px;
   height: 100vh;
   padding: 40px 30px;
+  left: 0;
   // position: absolute;
-  left: -180px;
-  transition: 0.5s;
+  // left: -180px;
+  // transition: 0.5s;
   background-color: $brand-dark;
-  &:hover {
-    left: 0;
-  }
+  // &:hover {
+  //   left: 0;
+  // }
+
 
   &-heading {
     display: block;
