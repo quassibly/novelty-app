@@ -11,7 +11,7 @@
     <div class="dashboard-stats-container">
       <div class="dashboard-stats-total-words dashboard-bubble">
         <div class="dashboard-bubble-content">
-          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">13,723</span>
+          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount"><%= 13_723 + @novels.first.novel_wordcount.to_i %></span>
           <span>Total words</span>
         </div>
       </div>
@@ -21,7 +21,7 @@
           <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span>
           <!-- <span>Written today</span>
           <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span> -->
-          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A">325</span></span>
+          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @novels.first.novel_wordcount + 2 %></span></span>
         </div>
       </div>
 
@@ -82,7 +82,7 @@
        ]);
 
        var options = {
-        colors: ['#FF5E3A', '#07617D'],
+        colors: [ '#07617D', '#FF5E3A'],
         vAxis: {minValue: 0},
         chartArea: {width: '100%', height: '100%'},
         legend: { position: "none" },
