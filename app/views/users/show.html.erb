@@ -31,34 +31,6 @@
   </div>
 </div>
 
-<!--
-<script type="text/javascript">
-
-//[20, 60] === [setGoal, doneGoal]
-  const myArr = [[20, 60], [20, 80], [80, 50], [100, 20], [70, 40], [20, 60], [20, 80], [80, 50], [100, 20], [70, 40],[20, 60], [20, 80], [80, 50], [100, 20], [70, 40], [0, 10], [50, 0], [80, 50], [100, 20], [70, 40],[20, 60], [20, 80], [80, 50], [100, 20], [70, 40], [20, 60], [20, 80], [80, 50], [100, 60], [10, 40]];
-
-
-  function drawGoals(goalsData) {
-    const goals = document.getElementById("goals");
-    let totalDaysCount = myArr.length;
-
-    for (const goalDay in goalsData) {
-      const setGoal= goalsData[goalDay][0];
-      const doneGoal = goalsData[goalDay][1];
-
-      goals.insertAdjacentHTML("beforeend",
-       `<div class='dashboard-goal-case'
-        style='height:${setGoal}%; width: calc(100% / ${totalDaysCount});'></div>
-        <div class='dashboard-goal-result' style='height:${doneGoal}%; width: calc(100% / ${totalDaysCount}); left: calc((100% / ${totalDaysCount}) * ${goalDay})'>
-        </div>`)
-    }
-  }
-
-drawGoals(myArr)
-
-</script> -->
-
-
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    <script type="text/javascript">
      google.charts.load('current', {'packages':['corechart', 'bar']});
@@ -100,7 +72,7 @@ drawGoals(myArr)
        ]);
 
        var options = {
-        colors: ['#FF5E3A', '$brand-secondary'],
+        colors: ['#FF5E3A', '#07617D'],
         vAxis: {minValue: 0},
         chartArea: {width: '100%', height: '100%'},
         hAxis: {textPosition: 'in'}, vAxis: {textPosition: 'in'}
