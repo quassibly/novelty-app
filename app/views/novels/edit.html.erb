@@ -15,6 +15,7 @@
     <div class="edit-counter">
         <div><span class="wordcount"><%= @novel.novel_wordcount %></span> words</div>
         <span class=".">Word Count Target: 1450</span>
+        <span class = "target"></span>
     </div>
   </div>
   </div>
@@ -63,6 +64,11 @@ Implement a counter method/timer method. when this method reaches either 500 cha
       let num = Number(wordcount);
       num = num + 1;
       document.querySelector(".wordcount").innerText = num
+      // Implement logic to acquire daily goal and compare with words to inform of goal status
+   //   if(num > 300) {
+  //      document.querySelector(".target").innerText = "Goal Reached!"
+  //    }
+
     }
   };
 
