@@ -40,7 +40,7 @@ class NovelsController < ApplicationController
     @novel.updated_at = Time.now
     @novel.novel_wordcount = @novel.content.split(" ").length
     # update_time(@session)
-    if @novel.update(novel_params)
+    if @novel.update(other_novel_params)
       redirect_to user_path(current_user)
     else
       render :edit
@@ -65,9 +65,12 @@ class NovelsController < ApplicationController
   end
 
   def novel_params
-    params.permit(:content)
+    params.permit(:content, :title)
   end
 
+  def other_novel_params
+    params.require(:novel).permit(:content, :title)
+  end
   def random
     skip_authorization
     @sentence = Sentence.all.sample.sentence
