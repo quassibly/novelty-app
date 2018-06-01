@@ -21,7 +21,7 @@
           <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span>
           <!-- <span>Written today</span>
           <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span> -->
-          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @novels.first.novel_wordcount.to_i + 2 %></span></span>
+          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @novels.first.novel_wordcount.to_i %></span></span>
         </div>
       </div>
 
@@ -78,7 +78,6 @@
          ['28',  1451,      0],
          ['29',  1451,      0],
          ['30',  1451,      0],
-         ['31',  1451,      0],
        ]);
 
        var options = {
