@@ -1,7 +1,9 @@
-<div class="container">
+ <div class="container">
   <div class="form-container">
     <h1 class="form-heading">Create my new project</h1>
+
     <%= form_tag(@novel, class:"form") do %>
+      <div style ="opacity:0"><%= text_field_tag(:content, @novel.content)  %></div>
       <%= label_tag(:title, "Title", class:"form-label") %>
       <%= text_field_tag(:title, @novel.title ) %>
       <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label") %>
@@ -12,6 +14,8 @@
       <%= date_field_tag(:goal_deadline) %>
       <%= submit_tag "Create", class:"btn btn-primary" %>
     <% end %>
+    <% unless current_user.nil? %>
     <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary" %>
+    <% end %>
   </div>
 </div>

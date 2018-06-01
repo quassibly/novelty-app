@@ -22,8 +22,7 @@
 
 <div class="container-main">
   <div class="form-container">
-    <%= simple_form_for Novel.new, :url => novels_path, :method => :post do |f| %>
-
+    <%= simple_form_for Novel.new, :url => new_goal_path, method: :get do |f| %>
       <%= f.text_area(:content, :size => "100x30", class: "novel", placeholder: "Start writing right here, right now...") %>
       <div>
      <span> <%= submit_tag('Save Novel', class: "btn btn-primary")%></span>
