@@ -15,7 +15,7 @@
       <%= submit_tag "Create", class:"btn btn-primary" %>
     <% end %>
     <% unless current_user.nil? %>
-    <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary" %>
+    <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary btn-sub-form" %>
     <% end %>
   </div>
 </div>
