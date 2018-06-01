@@ -1,6 +1,12 @@
 <%= render 'shared/sidebar' %>
 <div class="main-container">
   <div class="dashboard-container">
+    <div class="dashboard-header">
+      <h1><%= @novels.first.title %></h1>
+      <%= link_to edit_novel_path do %>
+        <div class="btn btn-primary">Keep writing</div>
+      <% end %>
+    </div>
     <div class="dashboard-stats-container">
       <div class="dashboard-stats-total-words dashboard-bubble">
         <div class="dashboard-bubble-content">
@@ -24,8 +30,8 @@
     </div>
 
     <!-- <div class="dashboard-goals-container" id="goals"> -->
-
-    <div id="chart_div" style="width: 100%; height: 500px;"></div>
+    <h3>June</h3>
+    <div id="chart_div" style="width: 100%; height: 300px;"></div>
 
     <!-- </div> -->
   </div>
@@ -75,7 +81,7 @@
         colors: ['#FF5E3A', '#07617D'],
         vAxis: {minValue: 0},
         chartArea: {width: '100%', height: '100%'},
-        hAxis: {textPosition: 'in'}, vAxis: {textPosition: 'in'}
+        legend: { position: "none" },
        };
 
        var barChart = new google.charts.Bar(document.getElementById('chart_div'));
