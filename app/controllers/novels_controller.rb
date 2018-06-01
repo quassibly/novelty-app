@@ -16,7 +16,7 @@ class NovelsController < ApplicationController
     @novel.updated_at = Time.now
     skip_authorization
     if @novel.save!
-      redirect_to user_path(current_user)
+      redirect_to edit_novel_path(@novel)
     else
       render :new
     end
