@@ -17,19 +17,15 @@
   </div>
 </div> -->
 
-
 <div class="container-main">
   <div class="form-container">
-    <%= simple_form_for Novel.new do |f| %>
-
+    <%= simple_form_for Novel.new, :url => new_goal_path, method: :get do |f| %>
       <%= f.text_area(:content, :size => "100x30", class: "novel", placeholder: "Start writing right here, right now...") %>
       <div>
-     <span><%= link_to 'Save Novel', new_goal_path, class: "btn btn-primary"%></span>
+     <span> <%= submit_tag('Save Novel', class: "btn btn-primary")%></span>
    </div>
   <% end %>
 
   </div>
 
 </div>
-
-
