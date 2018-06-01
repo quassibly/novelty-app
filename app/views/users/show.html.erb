@@ -4,7 +4,7 @@
   <div class="dashboard-container">
     <div class="dashboard-header">
       <h1><%= @novels.first.title %></h1>
-      <%= link_to edit_novel_path do %>
+      <%= link_to edit_novel_path(@novels.first) do %>
         <div class="btn btn-primary">Keep writing</div>
       <% end %>
     </div>
