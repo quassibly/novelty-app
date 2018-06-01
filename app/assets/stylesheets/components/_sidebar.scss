@@ -1,3 +1,8 @@
+// .sidebar:hover .sample {
+//   color: red;
+//   transform: rotate(180deg);
+//   transition: 0.5s;
+// }
 .sidebar {
   position: fixed;
   display: flex;
@@ -7,13 +12,14 @@
   min-height: 400px;
   height: 100vh;
   padding: 40px 30px;
-  position: absolute;
+  // position: absolute;
   left: -180px;
   transition: 0.5s;
   background-color: $brand-dark;
   &:hover {
     left: 0;
   }
+
   &-heading {
     display: block;
     width: 100%;
