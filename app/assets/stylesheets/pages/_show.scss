@@ -43,7 +43,7 @@
     color: $brand-secondary;
     padding-bottom: 6px;
     text-align: center;
-    padding: 10px 16px 10px;
+    padding: 8px 16px 12px;
   }
 
   &-container {
@@ -51,6 +51,7 @@
     flex-direction: column;
     width: 80%;
     margin: auto;
+    padding-top: 40px;
   }
 
   &-header {
