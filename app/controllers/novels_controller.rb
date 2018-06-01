@@ -25,7 +25,7 @@ class NovelsController < ApplicationController
   def edit
     random
 
-    @novel = Novel.where(user_id: current_user).last
+    @novel = Novel.find(params[:id])
     @session = session_create
     if @novel.nil?
       self.new
