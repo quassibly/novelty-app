@@ -53,6 +53,11 @@
     margin: auto;
   }
 
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &-goals-container {
     width: 80%;
     margin: 10px auto;
