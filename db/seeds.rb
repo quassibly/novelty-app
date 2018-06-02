@@ -5,6 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+User.destroy_all
+Novel.destroy_all
+WritingSession.destroy_all
+Sentence.destroy_all
+
 
 User.create(email: "kolja.lucht@gmail.com", password: "kolja1234", first_name: "Kolja", last_name: "Lucht")
 User.create(email: "quassibly@gmail.com", password: "password", first_name: "Meredith", last_name: "Avery")
@@ -12,7 +17,7 @@ User.create(email: "daniel.blake1@hotmail.co.uk", password: "password", first_na
 User.create(email: "lota@gmail.com", password: "123123", first_name: "Lota", last_name: "Plezere")
 
 
-Novel.create(user_id: 1, title: "The Fall of a Watermelon", content: "Chapter One: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 1, title: "The Fall of a Watermelon", content: "Chapter One: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
  was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human
  happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally
   encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain,
@@ -40,7 +45,7 @@ Novel.create(user_id: 1, title: "The Fall of a Watermelon", content: "Chapter On
   idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great
   explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself.")
 
-Novel.create(user_id: 2, title: "It's a Shocker", content: "
+Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 2, title: "It's a Shocker", content: "
 IT is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.
    1
   However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.
@@ -667,7 +672,7 @@ WHEN Jane and Elizabeth were alone, the former, who had been cautious in her pra
 
 ")
 
- Novel.create(user_id: 2, title: "A Whole Lot of Cats", content: "Chapter One: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+ Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 2, title: "A Whole Lot of Cats", content: "Chapter One: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
   aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
   sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
@@ -699,7 +704,7 @@ WHEN Jane and Elizabeth were alone, the former, who had been cautious in her pra
   voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
   quas molestias excepturi sint occaecati cupiditate non provident, similique.")
 
-Novel.create(user_id: 3, title: "Mineralogy for Giants", content: "Chapter One: Far far away, behind the word mountains, far from the countries Vokalia
+Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 3, title: "Mineralogy for Giants", content: "Chapter One: Far far away, behind the word mountains, far from the countries Vokalia
   and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river
   named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. Chapter Two: in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no
   control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
@@ -710,7 +715,7 @@ Novel.create(user_id: 3, title: "Mineralogy for Giants", content: "Chapter One: 
   and everything that was left from its origin would be the word 'and' and the Little Blind Text should turn around and return to its own, safe country.")
 
 
-Novel.create(user_id: 4, title: "Sofa so Good", content: "Chapter One: The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced
+Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 4, title: "Sofa so Good", content: "Chapter One: The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced
   by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Chapter Two: Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is
   to vex chumps quickly in fog. Watch 'Jeopardy!', Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz.")
 
