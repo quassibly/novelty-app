@@ -1,4 +1,5 @@
 class NovelsController < ApplicationController
+  before_action :wordcount_by_date, only: :show
   def show
     @novel = Novel.find(params[:id])
     @todays_goal = todays_goal
@@ -40,14 +41,7 @@ class NovelsController < ApplicationController
   },
   {
     name: "Actual",
-    data: [['1',  2345],
-           ['2',  890],
-           ['3',  789],
-           ['4',  2678],
-           ['5',  1345],
-           ['6',  890],
-           ['7',  4789],
-           ['8',  1400]]
+    data: @wordcount_by_date
   },
        ]
   end
@@ -130,7 +124,13 @@ class NovelsController < ApplicationController
   end
 
   def wordcount_by_date
-    @wordcount_by_date = WritingSession.group_by_date(:created_at).sum(:session_wordcount)
+    @wordcount_by_date_hash = WritingSession.group_by_day(:created_at).sum(:session_wordcount)
+    @wordcount_by_date = []
+    @wordcount_by_date_hash.each do |date, count|
+      # array = []
+      # array << [date, count]
+      @wordcount_by_date << [date, count]
+    end
   end
 
   private
