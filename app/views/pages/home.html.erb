@@ -1,42 +1,21 @@
 <%= render 'shared/navbar' %>
 <div class="banner">
-  <h2 class="banner-title">Once upon a time, Novelty helped me finish my book... <span>I</span></h2>
-
+  <div class="typed-container">
+    <div id="typed-strings">
+        <p>Once upon a time ^3000 Novelty helped me finish my book...</p>
+    </div>
+    <span id="typed" class="banner-title"></span>
+  </div>
   <i class="arrow down"></i>
 </div>
-
-<!-- <div class="container-main">
-  <div class="home-editor-container">
-    <textarea class="home-editor" name="name" rows="8" cols="80">Start writing right here, right now...
-    </textarea>
-  </div>
-  <div class="" style="height:300px;">
-    Heres more about Novelty
-  </div>
-  <div class="" style="height:300px;">
-    Heres some cta and whatnot
-  </div>
-</div> -->
-
-
-
-<div id="typed-strings">
-    <p><strong>Once upon a time,</strong> ^3000 Novelty helped me finish my book...</p>
-</div>
-<span id="typed"></span>
-
 
 <div class="container-main">
   <div class="form-container">
     <%= simple_form_for Novel.new, :url => new_goal_path, method: :get do |f| %>
     <%= f.text_area(:content, :size => "100x30", class: "novel", placeholder: "Start writing right here, right now...") %>
-    <div class="new-novel-save-container">
-      <span> <%= submit_tag('Save Novel', class: "btn btn-primary")%></span>
-
+      <div class="new-novel-save-container">
+        <span> <%= submit_tag('Save Novel', class: "btn btn-primary")%></span>
+      </div>
+    <% end %>
   </div>
-  <% end %>
-
 </div>
-
-</div>
-
