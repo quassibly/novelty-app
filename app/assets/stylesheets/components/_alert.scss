@@ -1,15 +1,56 @@
-/* -------------------------------------
- * Your CSS code for flash notices and alerts
-* ------------------------------------- */
-
 .alert {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
   text-align: center;
   color: white;
+  position: absolute;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 0; left: 25%;
+  z-index: 10;
 }
+
 .alert-info {
-  background: green;
+  animation-name: myAnimation;
+  animation-duration: 3000ms;
+  background: $brand-secondary;
 }
+
 .alert-warning {
-  background: red;
+  background: $brand-primary;
+}
+
+@keyframes myAnimation{
+  0%{
+      opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  70%{
+      opacity: 0.8;
+  }
+  100%{
+      display: none;
+      opacity: 0;
+  }
+}
+
+.close-flash {
+  margin-right: 8px;
+  font-size: 13px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 560px) {
+  .alert {
+    width: 94%;
+    left: 3%;
+  }
 }
