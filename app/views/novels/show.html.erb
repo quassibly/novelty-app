@@ -1,0 +1,39 @@
+<div class="side-container">
+  <%= render 'shared/sidebar' %>
+  <div class="dashboard-container">
+    <div class="dashboard-header">
+      <h1><%= @novel.title %></h1>
+      <%= link_to edit_novel_path(@novel), class: "btn btn-primary" do %>
+        Keep writing
+      <% end %>
+    </div>
+    <div class="dashboard-stats-container">
+      <div class="dashboard-stats-total-words dashboard-bubble">
+        <div class="dashboard-bubble-content">
+          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">
+            <%= @novel.novel_wordcount %>
+          </span>
+          <span>Total words</span>
+        </div>
+      </div>
+      <div class="dashboard-stats-todays-goal dashboard-bubble">
+        <div class="dashboard-bubble-content">
+          <span>Today's goal</span>
+          <span class="dashboard-todays-gaol dashboard-bubble-count-lg" id="todays-goal"><%= @todays_goal %></span>
+          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @words_today %></span></span>
+        </div>
+      </div>
+      <div class="dashboard-stats-total-words dashboard-bubble">
+        <div class="dashboard-bubble-content">
+          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="days-left"><%= @days_left %></span><span>days left</span>
+        </div>
+      </div>
+
+    <!-- chart goes here -->
+  </div>
+  <div>
+    <% @data %>
+    <%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
+    <%= column_chart @data, colors: [ '#07617D', '#FF5E3A'], thousands: "," %>
+  </div>
+</div>
