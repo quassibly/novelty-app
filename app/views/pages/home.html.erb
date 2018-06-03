@@ -1,6 +1,7 @@
 <%= render 'shared/navbar' %>
 <div class="banner">
-  <h2 class="banner-title">Once upon a time, Novelty helped me finish my book... <span>I</span> </h2>
+  <h2 class="banner-title">Once upon a time, Novelty helped me finish my book... <span>I</span></h2>
+
   <i class="arrow down"></i>
 </div>
 
@@ -17,15 +18,25 @@
   </div>
 </div> -->
 
+
+
+<div id="typed-strings">
+    <p><strong>Once upon a time,</strong> ^3000 Novelty helped me finish my book...</p>
+</div>
+<span id="typed"></span>
+
+
 <div class="container-main">
   <div class="form-container">
     <%= simple_form_for Novel.new, :url => new_goal_path, method: :get do |f| %>
-      <%= f.text_area(:content, :size => "100x30", class: "novel", placeholder: "Start writing right here, right now...") %>
-      <div class="new-novel-save-container">
-        <span> <%= submit_tag('Save Novel', class: "btn btn-primary")%></span>
-      </div>
-  <% end %>
+    <%= f.text_area(:content, :size => "100x30", class: "novel", placeholder: "Start writing right here, right now...") %>
+    <div class="new-novel-save-container">
+      <span> <%= submit_tag('Save Novel', class: "btn btn-primary")%></span>
 
   </div>
+  <% end %>
 
 </div>
+
+</div>
+
