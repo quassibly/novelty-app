@@ -30,34 +30,39 @@ Implement a counter method/timer method. when this method reaches either 500 cha
 -->
 
 <script>
-  // function keyCount() {
-  //   const text = document.querySelector('novel');
-  //   let count = 0;
-  //   text.addEventListener('keyUp', {
-  //     count += 1;
-  //     if (count === 100)
-  //       saveNovel()
-  //   });
-  // };
+  let count = 0
+  const content = document.querySelector(".content");
+
+
+
+  function keyCount() {
+      count = count + 1
+      if(count % 100 == 0) {
+        saveNovel()
+      }
+  };
 
   // function timer() {
-  //   sleep(300)
+  //   sleep(5)
   //   saveNovel()
   //   timer()
   // }
 
-  // function saveNovel = (event) => {
-  //   const content = document.querySelector('novel')
-  //   fetch(`novel/#{@novel.id}`, {
-  //     method: "Post",
-  //     headers: {
-  //       "Content-Type": "application/json"
-  //     },
-  //     body.JSON.stringify({event.currentTarget.value})
-  //   })
-  //   .then(response => response.json())
-  // };
-  const content = document.querySelector(".content");
+  function saveNovel() {
+
+    const content1 = document.getElementById("novel_content").value
+    console.log(content1)
+    <% @novel.content %> = content1
+    // fetch(`novel/${@novel.id}`, {
+    //   method: "PATCH",
+    //   headers: {
+    //     "Content-Type": "application/json"
+    //   },
+    //   body.JSON.stringify({content1})
+    // })
+  };
+
+
   function wordCount(e) {
     if(e.keyCode == 32) {
       let wordcount = document.querySelector(".wordcount").innerText;
@@ -72,41 +77,12 @@ Implement a counter method/timer method. when this method reaches either 500 cha
     }
   };
 
-  function charCount() {
-    let charcount = document.querySelector(".charcount").innerText;
-    let num = Number(charcount)
-    num = num + 1;
-    document.querySelector(".charcount").innerText = num
-  };
-
-  content.addEventListener('keyup', wordCount)
-  content.addEventListener('keyup', charCount)
-
-  // function keyCount() { -->
-     // const text = document.querySelector('novel');
-    // let count = 0;
-    // text.addEventListener('keyUp', {
-      // count += 1;
-      // if (count === 100)
-      //  saveNovel()
-    // });
-  // };
-
   function timer() {
     sleep(300)
     saveNovel()
     timer()
   }
 
-  // function saveNovel = (event) => {
-  //   const content = document.querySelector('novel')
-  //   fetch(`novel/#{@novel.id}`, {
-  //     method: "Post",
-  //     headers: {
-  //       "Content-Type": "application/json"
-  //     },
-  //     body.JSON.stringify({event.currentTarget.value})
-  //   })
-  //   .then(response => response.json())
-  // };
+  content.addEventListener('keyup', keyCount)
+  content.addEventListener('keyup', wordCount)
  </script>
