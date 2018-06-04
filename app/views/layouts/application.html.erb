@@ -3,8 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Slab:300,400&amp;subset=latin-ext" rel="stylesheet">
     <title>Novelty</title>
+    <meta name="title" content="Novelty">
+    <meta name="author" content="Novelty app">
+    <meta name="description" content="Keeps you writing">
+    <!-- web crawlers -->
+    <meta name="googlebot" content="index,follow">
+		<!-- social sharing -->
+		<meta property="og:site_name" content="Novelty">
+		<meta property="og:title" content="Novelty App">
+		<meta property="og:description" content="Keeps you writing">
+		<!-- <meta property="og:image" content=""> -->
+    <!-- min 600x315, better 1200x630 or more (1.91:1 ratio), less than 1mb -->
+		<meta property="og:type" content="website"><!--needed for Facebook sharing -->
+		<meta property="og:url" content="www.novelty.app">
+		<!-- <meta name="twitter:image" content=""> -->
+    <!-- ratio of 2:1, min 300x157, max 4k px, < 5MB. JPG, PNG, WEBP, GIF. GIF only shows the first frame. SVG not supported. -->
+		<meta name="twitter:image:alt" content="Novelty app keeps you writing">
+		<!-- <meta name="twitter:card" content="summary_large_image"> -->
+		<!-- favicons - basic set - use a generator for better results, drop the favicon files into the root of your site -->
+		<%= favicon_link_tag 'favicon.png' %>
+		<!-- <link rel="apple-touch-icon-precomposed" href=""> -->
+
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
@@ -12,11 +34,13 @@
   </head>
   <body>
     <%= render 'shared/flashes' %>
-
     <%= yield %>
-
-    <!-- <%= render 'shared/footer' %> -->
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+    <% if notice || alert %>
+      <%= javascript_pack_tag 'flashes' %>
+    <% end %>
+    
   </body>
 </html>

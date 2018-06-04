@@ -7,9 +7,10 @@
         <%= f.input :email, required: true, autofocus: true %>
         <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
         <%= f.input :password_confirmation, required: true %>
-        <%= f.button :submit, "Sign up", class: "btn-primary" %>
+        <%= f.button :submit, "Sign up", class: "btn btn-primary" %>
       <% end %>
     </div>
+    <%= link_to "Back to main", root_path, class:"link" %>
     <%= render "devise/shared/links" %>
   </div>
 </div>
