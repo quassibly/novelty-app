@@ -69,7 +69,7 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    random
+    @sentences = Sentence.all
 
     @novel = Novel.find(params[:id])
     @session = session_create
