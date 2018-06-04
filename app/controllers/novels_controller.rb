@@ -53,6 +53,8 @@ class NovelsController < ApplicationController
     end
     @novel.novel_wordcount = @novel.content.split(" ").length
     skip_authorization
+
+    @counter = WordsCounted.count(@novel.content)
   end
 
   def update
@@ -65,7 +67,7 @@ class NovelsController < ApplicationController
       @novel.update(novel_wordcount: novel_wordcount)  # replace this with session wordcount
       session = WritingSession.where(user: current_user).last
       session.update(updated_at: Time.now, session_wordcount: novel_wordcount - yesterday_total )
-      redirect_to novel_path(@novel)
+      redirect_to user_path(current_user )
     else
       render :edit
     end
