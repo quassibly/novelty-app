@@ -1,3 +1,4 @@
+<%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
 <div class="side-container">
   <%= render 'shared/sidebar' %>
   <div class="dashboard-container">
@@ -8,12 +9,13 @@
       <% end %>
     </div>
     <div class="dashboard-stats-container">
+      <div>
+        <% @written = @novel.novel_wordcount %>
+        <% @remaining = @novel.goal_wordcount - @written %>
+        <% data = ({"Written" => @written, "Remaining" => @remaining}) %>
+        <%= pie_chart data, donut: true, legend: false %>
+      </div>
       <div class="dashboard-stats-total-words dashboard-bubble">
-        <div>
-          <% data = ({"Football" => 10, "Basketball" => 5}) %>
-          <%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
-          <%= pie_chart data, donut: true %>
-        </div>
         <div class="dashboard-bubble-content">
           <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">
             <%= @novel.novel_wordcount %>
@@ -38,7 +40,6 @@
   </div>
   <div>
     <% @data %>
-    <%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
     <%= column_chart @data, colors: [ '#07617D', '#FF5E3A'], thousands: "," %>
   </div>
 </div>
