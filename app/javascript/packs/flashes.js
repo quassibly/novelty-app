@@ -11,4 +11,4 @@ function removeFlashes() {
   }
 }
 
-export { removeFlashes }
+removeFlashes();
