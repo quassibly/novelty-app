@@ -3,7 +3,7 @@
     <h1 class="form-heading">Create my new project</h1>
 
     <%= form_tag(@novel, class:"form") do %>
-      <div style ="opacity:0"><%= text_field_tag(:content, @novel.content)  %></div>
+      <%= hidden_field_tag 'content', @novel.content %>
       <%= label_tag(:title, "Title", class:"form-label") %>
       <%= text_field_tag(:title, @novel.title ) %>
       <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label") %>

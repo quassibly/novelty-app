@@ -1,1 +1,11 @@
-<%= @novel.content %>
+<div class="edit-container">
+  <%= render 'shared/sidebar' %>
+  <div class="title">
+    <%= @novel.title %>
+  </div>
+  <div class = "novel" contenteditable="true">
+    <%= @novel.content %>
+  </div>
+
+
+<%= render 'shared/review' %>

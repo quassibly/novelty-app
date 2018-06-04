@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     resources :autosave, only: :update
   end
   resources :novels, except: [:index, :show]
-  resources :reviews, only: [:show, :new, :update, :destroy]
+  resources :reviews, only: [:show, :create, :update, :destroy]
   resources :goals, except: [:index, :show, :create, :update]
   resources :users, only: [:show]
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'

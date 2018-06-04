@@ -1,0 +1,77 @@
+<dialog id="comment">
+  <div class="dialog">
+
+      <div contenteditable="true" class="comment_title" size="10x6"></div>
+      <textarea class="comment_text" size="24x6"></textarea>
+      <div class="modal-actions">
+        <button id="cancel" type="reset" class="btn btn-secondary">Cancel</button>
+        <button id="submit" class="btn btn-primary">Add comment</button>
+      </div>
+  </div>
+</dialog>
+
+
+<!-- <menu> -->
+  <button id="add-comment" class="btn btn-secondary" onclick="wrapSelectedText();" value="Highlight"">Add Comment</button>
+<!-- </menu> -->
+
+  <script>
+
+    let num = 0
+
+
+
+    function wrapSelectedText() {
+
+    var selection= window.getSelection().getRangeAt(0);
+    var selectedText = selection.extractContents();
+    var span = document.createElement("span");
+    num = num + 1
+    span.id = num
+    span.style.backgroundColor = "yellow";
+    span.appendChild(selectedText);
+    selection.insertNode(span);
+}
+
+function saveComment() {
+  console.log("working")
+  let selected_text = document.getElementById(`${num}`).innerText
+  let comment_title = document.querySelector('.comment_title').innerText
+  let comment_text = document.querySelector('.comment_text').value
+
+  fetch(`/reviews`, {
+    method: "POST",
+    headers: {
+      'credentials': 'same-origin',
+      "Content-Type": "application/json"
+    },
+
+    body: JSON.stringify({
+      selected_text: selected_text,
+      comment_title: comment_title,
+      comment_text: comment_text
+    })
+  })
+};
+
+    const commentButton = document.getElementById('add-comment');
+    const dialog = document.getElementById('comment');
+    const cancelButton = document.getElementById('cancel')
+    const submit = document.getElementById('submit');
+
+    commentButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    cancelButton.addEventListener('click', function() {
+      dialog.close();
+    });
+
+    submit.addEventListener('click', saveComment)
+    submit.addEventListener('click', function() {
+      dialog.close();
+    })
+
+
+
+
+  </script>

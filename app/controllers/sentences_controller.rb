@@ -12,7 +12,7 @@ class SentencesController < ApplicationController
   end
 
   private
-  
+
   def sentence_params
     params.require(:novel).permit(:new_sentence)
   end
