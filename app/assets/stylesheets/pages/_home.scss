@@ -14,3 +14,28 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.typed-container {
+    width: 50%;
+}
+
+.typed-cursor {
+   opacity: 1;
+   animation: blink 1.2s infinite;
+   color: #fff;
+   font-family: "Roboto Slab", serif;
+   font-weight: 300;
+   font-size: 44px;
+   padding-bottom: 10px;
+  }
+  @keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
