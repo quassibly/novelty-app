@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   namespace :novels do
     resources :autosave, only: :update
   end
-  resources :novels, except: [:index, :show]
+  resources :novels, except: [:index]
   resources :goals, except: [:index, :show, :create, :update]
   resources :users, only: [:show]
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'
