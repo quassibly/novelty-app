@@ -45,7 +45,7 @@ class NovelsController < ApplicationController
   end
 
   def edit
-    random
+    @sentences = Sentence.all
     @novel = Novel.find(params[:id])
     @session = WritingSession.create(created_at: Time.now, user: current_user, novel: @novel)
     if @novel.nil?
