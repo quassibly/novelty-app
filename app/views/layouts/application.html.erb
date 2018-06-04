@@ -24,7 +24,7 @@
 		<meta name="twitter:image:alt" content="Novelty app keeps you writing">
 		<!-- <meta name="twitter:card" content="summary_large_image"> -->
 		<!-- favicons - basic set - use a generator for better results, drop the favicon files into the root of your site -->
-		<%= favicon_link_tag 'favicon1.png' %>
+		<%= favicon_link_tag 'favicon.png' %>
 		<!-- <link rel="apple-touch-icon-precomposed" href=""> -->
 
     <%= csrf_meta_tags %>
@@ -37,5 +37,10 @@
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+    <% if notice || alert %>
+      <%= javascript_pack_tag 'flashes' %>
+    <% end %>
+    
   </body>
 </html>
