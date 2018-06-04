@@ -1,5 +1,7 @@
 <dialog id="random">
   <div class="dialog">
+  <% @sentences %>
+  <% @sentence = @sentences.sample.sentence %>
     <%= form_tag(random_path(@novel.id), method: "patch") do %>
       <%= label_tag(:new_sentence, "Complete the sentence:") %>
       <%= text_area_tag(:new_sentence, @sentence, size: "24x6") %>
@@ -26,6 +28,7 @@
     });
     cancelButton.addEventListener('click', function() {
       dialog.close();
+      document.location.reload(true).modal('show')
     });
   </script>
 
