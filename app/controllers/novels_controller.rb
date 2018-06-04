@@ -35,7 +35,8 @@ class NovelsController < ApplicationController
   end
 
   def update
-    skip_authorization
+    # skip_authorization
+    # authorization
     @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
     # update_time(@session)
