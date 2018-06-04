@@ -15,7 +15,7 @@
         <% data = ({"Written" => @written, "Remaining" => @remaining}) %>
         <%= pie_chart data, donut: true, legend: false %>
       </div>
-      <div class="dashboard-stats-total-words dashboard-bubble" background-image="">
+      <div class="dashboard-stats-total-words dashboard-bubble">
         <div class="dashboard-bubble-content">
           <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">
             <%= @novel.novel_wordcount %>
