@@ -1,0 +1,36 @@
+<dialog id="save">
+  <div class="dialog1">
+    <%= form_tag(novel_path(@novel.id), method: "patch") do %>
+      <p>Do you want to save?</p>
+
+      <div class="modal-actions">
+        <button id="cancel1" type="reset" class="btn btn-secondary">Cancel</button>
+        <%= submit_tag("Save my Novel", class: "btn btn-primary") %>
+        <% raise %>
+      </div>
+    <% end %>
+  </div>
+</dialog>
+
+ <button id="save-button" class="btn btn-primary">Save Me</button>
+<!-- </menu> -->
+
+  <script>
+    const saveButton = document.getElementById('save-button');
+    const save = document.querySelector('.save')
+    const dialog1 = document.getElementById('save');
+    const cancelButton1 = document.getElementById('cancel1');
+
+    saveButton.addEventListener('click', function() {
+      dialog1.showModal();
+    });
+    cancelButton1.addEventListener('click', function() {
+      dialog1.close();
+    });
+
+    save.addEventListener('click', function() {
+      const form = document.querySelector('.novel_form');
+    //  ${form}.submit();
+    })
+  </script>
+
