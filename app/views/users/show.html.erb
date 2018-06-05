@@ -1,94 +1,75 @@
 <div class="side-container">
 <%= render 'shared/sidebar' %>
 <!-- <div class="main-container"> -->
-  <div class="dashboard-container">
-    <div class="dashboard-header">
-      <h1><%= @novels.first.title %></h1>
-      <%= link_to edit_novel_path(@novels.first), class:"btn btn-primary" do %>
+  <div class="main-dashboard-container">
+    <!-- <div class="main-dashboard-header"> -->
+      <h1 class="main-dashboard-header">Dashboard</h1>
+      <!-- <%= link_to edit_novel_path(@novels.first), class:"btn btn-primary" do %>
         Keep writing
-      <% end %>
-    </div>
-    <div class="dashboard-stats-container">
-      <div class="dashboard-stats-total-words dashboard-bubble">
-        <div class="dashboard-bubble-content">
-          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount"><%= 13_723 + @novels.first.novel_wordcount.to_i %></span>
-          <span>Total words</span>
-        </div>
-      </div>
-      <div class="dashboard-stats-todays-goal dashboard-bubble">
-        <div class="dashboard-bubble-content">
-          <span>Todays goal</span>
-          <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span>
-          <!-- <span>Written today</span>
-          <span class="dashboard-todays-goal dashboard-bubble-count-lg" id="todays-goal">1,450 words</span> -->
-          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @novels.first.novel_wordcount.to_i %></span></span>
-        </div>
-      </div>
-
-      <div class="dashboard-stats-total-words dashboard-bubble">
-        <div class="dashboard-bubble-content">
-          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="days-left">23</span>
-          <span>Days left</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="dashboard-goals-container" id="goals"> -->
-    <h3>June</h3>
-    <div id="chart_div" style="width: 100%; height: 300px;"></div>
-
+      <% end %> -->
     <!-- </div> -->
+
+    <!-- <div class="main-dashboard-container"> -->
+      <div class="main-dashboard-novels-container">
+        <h2 class="main-dashboard-novels-head">Your progress</h2>
+        <div class="main-dashboard-novel">
+          <div class="main-dashboard-novel-heading">
+            <p class="main-dashboard-novel-title">Harry Potter: the new Dragon</p><span>30 days left</span>
+          </div>
+          <div class="main-dashboard-novel-content">
+            <div class="main-dashboard-novel-metrics">
+              <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span>
+              <span>Overall progress: <span>300 words</span></span>
+            </div>
+            <div class="main-dashboard-novel-bar">
+              <div class="main-dashboard-novel-progress" style="width: 30%;">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-dashboard-novel">
+          <div class="main-dashboard-novel-heading">
+            <p class="main-dashboard-novel-title">Harry Potter: the new Dragon</p>
+
+            <div class="main-dashboard-novel-days-left">
+              <span>30</span>
+              <div class="days">
+                <span>days</span>
+                <span>left</span>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="main-dashboard-novel-content">
+            <div class="main-dashboard-novel-metrics">
+              <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span>
+              <span>Overall progress: <span>300 words</span></span>
+            </div>
+            <div class="main-dashboard-novel-bar">
+              <div class="main-dashboard-novel-progress" style="width: 70%;">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-dashboard-novel">
+          <div class="main-dashboard-novel-heading">
+            <p class="main-dashboard-novel-title">Harry Potter: the new Dragon</p><span>30 days left</span>
+          </div>
+          <div class="main-dashboard-novel-content">
+            <div class="main-dashboard-novel-metrics">
+              <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span>
+              <span>Overall progress: <span>300 words</span></span>
+            </div>
+            <div class="main-dashboard-novel-bar">
+              <div class="main-dashboard-novel-progress" style="width: 10%;">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-   <script type="text/javascript">
-     google.charts.load('current', {'packages':['corechart', 'bar']});
-     google.charts.setOnLoadCallback(drawChart);
-     function drawChart() {
-       var data = google.visualization.arrayToDataTable([
-         ['Day', 'Goal', 'Actual'],
-         ['1',  1612,      2345],
-         ['2',  1559,      890],
-         ['3',  1585,       789],
-         ['4',  1546,       2678],
-         ['5',  1553,       1345],
-         ['6',  1579,       890],
-         ['7',  1451,       4789],
-         ['8',  1451,       1400],
-         ['9',  1451,       0],
-         ['10',  1451,       0],
-         ['11',  1451,       0],
-         ['12',  1451,       0],
-         ['13',  1451,       0],
-         ['14',  1451,       0],
-         ['15',  1451,       0],
-         ['16',  1451,      0],
-         ['17',  1451,      0],
-         ['18',  1451,      0],
-         ['19',  1451,      0],
-         ['20',  1451,      0],
-         ['21',  1451,      0],
-         ['22',  1451,      0],
-         ['23',  1451,      0],
-         ['24',  1451,      0],
-         ['25',  1451,      0],
-         ['26',  1451,      0],
-         ['27',  1451,      0],
-         ['28',  1451,      0],
-         ['29',  1451,      0],
-         ['30',  1451,      0],
-       ]);
-
-       var options = {
-        colors: [ '#07617D', '#FF5E3A'],
-        vAxis: {minValue: 0},
-        chartArea: {width: '100%', height: '100%'},
-        legend: { position: "none" },
-       };
-
-       var barChart = new google.charts.Bar(document.getElementById('chart_div'));
-       barChart.draw(data, options);
-     }
-   </script>
- </head>
