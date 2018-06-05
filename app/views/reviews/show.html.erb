@@ -11,6 +11,7 @@
     <% @novel.reviews.each do |review| %>
     <p>Comment-Title: <%= review.comment_title %></p>
     <p>Comment: <%= review.comment_text %></p>
+    <a href="#" onclick="showComment()">Show comment</a>
     <% end %>
 
   </div>

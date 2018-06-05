@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2018_06_04_091702) do
     t.string "comment_title"
     t.text "comment_text"
     t.text "selected_text"
+    t.text "suggested_change"
     t.bigint "novel_id"
     t.bigint "user_id"
     t.datetime "created_at", null: false
