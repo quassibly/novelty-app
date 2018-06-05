@@ -5,21 +5,16 @@
 
   <p>Unique Words: <%=  @counter.uniq_token_count %></p>
   <p>Character Count: <%= @counter.char_count %></p>
-  <p>Top 5 Words: <% @counter.token_frequency.each do |key, value| %>
-    <% stop_words = ["a", "all", "am", "an", "and", "any", "are", "aren't", "as", "at", "b", "be", "been", "being", "best", "by", "but", "c", "can", "can't", "d", "did", "do", "does", "doesn't", "don't", "e", "each", "f", "few", "for", "from", "get", "got", "has", "hasn't", "her", "his", "him", "how", "i", "if", "i'd", "in", "is", "isn't", "it", "it's", "me", "much", "many", "my", "not", "of", "off", "on", "one", "only", "or", "out", "so", "the", "to", "too", "you", "who", "no", "that", "this", "we", "us"] %>
+  <p>Top 5 Words:
 
-    <% unless stop_words.include?(key)  %>
-      <% filtered_words = [] %>
-      <% filtered_words << [key, value] %>
-      <% filtered_words.each do |key| %>
-       <table border="1" width="300px">
-          <tr>
-            <td width="150px">'<%= key[0] %>'</td>
-            <td width="150px" align="right"><%= key[1] %></td>
-          <% end %>
-          </tr>
-      </table>
-    <% end %>
+
+  <% @filtered_words.first(5).each do |key| %>
+   <table border="1" width="300px">
+      <tr>
+        <td width="150px">'<%= key[0] %>'</td>
+        <td width="150px" align="right"><%= key[1] %></td>
+      </tr>
+  </table>
   <% end %>
   </p>
       <div class="modal-actions">

@@ -10,7 +10,7 @@ class NovelsController < ApplicationController
     wordcount_by_date
     @data  = [
       {
-    name: "Goal",
+    name: 'Goal',
     data: @daily_goals
   },
   {
@@ -55,6 +55,9 @@ class NovelsController < ApplicationController
     skip_authorization
 
     @counter = WordsCounted.count(@novel.content)
+
+    set_filtered_words
+
   end
 
   def update
@@ -142,6 +145,13 @@ class NovelsController < ApplicationController
 
   def other_novel_params
     params.require(:novel).permit(:content, :title)
+  end
+
+  def set_filtered_words
+    stop_words = %w(a all am an and any are aren't as at b be been being best by but c can can't d did do does doesn't don't e each f few for from get got has hasn't her his him how i if i'd in is isn't it it's me much many my not of off on one only or out so the to too you who no that this we us)
+    @filtered_words = @counter.token_frequency.map do |key, value|
+      next [key, value] unless stop_words.include?(key)
+    end.compact
   end
 
   # session methods
