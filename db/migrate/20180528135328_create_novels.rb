@@ -7,7 +7,7 @@ class CreateNovels < ActiveRecord::Migration[5.2]
       t.string :title
       t.string :genre
       t.text :content
-      t.integer :novel_wordcount
+      t.integer :novel_wordcount, default: 0
       t.references :user, foreign_key: true
 
       t.timestamps

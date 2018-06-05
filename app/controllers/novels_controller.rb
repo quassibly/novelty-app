@@ -3,7 +3,7 @@ class NovelsController < ApplicationController
   def show
     @novel = Novel.find(params[:id])
     @todays_goal = todays_goal
-    @words_today = words_day(Time.now.to_date)
+    @words_today = words_day(today)
     @days_left = days_left
     date_array
     daily_goals
@@ -47,7 +47,7 @@ class NovelsController < ApplicationController
   def edit
     @sentences = Sentence.all
     @novel = Novel.find(params[:id])
-    @session = WritingSession.create(created_at: Time.now, user: current_user, novel: @novel)
+    @session = WritingSession.create(created_at: Time.now, user: current_user, novel: @novel, starting_wordcount: @novel.novel_wordcount)
     if @novel.nil?
       self.new
     end
@@ -69,8 +69,9 @@ class NovelsController < ApplicationController
       novel_wordcount = @novel.content.split(" ").length
       @novel.update(novel_wordcount: novel_wordcount)  # replace this with session wordcount
       session = WritingSession.where(user: current_user).last
-      session.update(updated_at: Time.now, session_wordcount: novel_wordcount - yesterday_total )
-      redirect_to user_path(current_user )
+      @novel.novel_wordcount = 0 if @novel.novel_wordcount.nil?
+      session.update(updated_at: Time.now, session_wordcount: @novel.novel_wordcount - session.starting_wordcount )
+      redirect_to novel_path(@novel)
     else
       render :edit
     end
@@ -86,11 +87,11 @@ class NovelsController < ApplicationController
   # goal methods
 
   def todays_goal
-    yesterday_total / days_left
+    (@novel.goal_wordcount - yesterday_total) / days_left
   end
 
   def yesterday_total
-    @yesterday_total = WritingSession.where("created_at >= ?", @novel.goal_start_date).where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
+    @yesterday_total = WritingSession.where("novel_id = ?", @novel.id).where("created_at >= ?", @novel.goal_start_date).where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
   end
 
   def days_left
@@ -98,7 +99,7 @@ class NovelsController < ApplicationController
   end
 
   def wordcount_by_date
-    @wordcount_by_date_hash = WritingSession.where("created_at >= ?", @novel.goal_start_date).group_by_day(:created_at).sum(:session_wordcount)
+    @wordcount_by_date_hash = WritingSession.where("novel_id = ?", @novel.id).where("created_at >= ?", @novel.goal_start_date).group_by_day(:created_at).sum(:session_wordcount)
     @wordcount_by_date = []
     @wordcount_by_date_hash.each do |date, count|
       @wordcount_by_date << [date, count]
@@ -106,7 +107,7 @@ class NovelsController < ApplicationController
   end
 
   def words_day(date)
-    @wordcount_by_date_hash = WritingSession.where("created_at >= ?", @novel.goal_start_date).group_by_day(:created_at).sum(:session_wordcount)
+    @wordcount_by_date_hash = WritingSession.where("novel_id = ?", @novel.id).where("created_at >= ?", @novel.goal_start_date).group_by_day(:created_at).sum(:session_wordcount)
     if @words_day.nil?
       @words_day = [0]
     end
@@ -131,15 +132,27 @@ class NovelsController < ApplicationController
   def daily_goals
     date_array
     @daily_goals = @date_array.map do |date|
-      date = [date, 1450]
+      if date < today
+        goal = (@novel.goal_wordcount - wordcount_before(date)) / (@novel.goal_deadline - date).to_i
+      else
+        goal = (@novel.goal_wordcount - wordcount_before(today)) / (@novel.goal_deadline - today).to_i
+      end
+        date = [date, goal]
     end
+  end
 
+  def wordcount_before(date)
+    WritingSession.where("novel_id = ?", @novel.id).where("created_at >= ?", @novel.goal_start_date).where("created_at < ?", date).sum(:session_wordcount)
   end
 
   private
 
+  def today
+    Time.now.to_date
+  end
+
   def novel_params
-    params.permit(:content, :title)
+    params.permit(:content, :title, :goal_wordcount, :goal_deadline, :goal_start_date)
   end
 
   def other_novel_params
@@ -166,7 +179,6 @@ class NovelsController < ApplicationController
   def random
     skip_authorization
     @sentence = Sentence.all.sample.sentence
-    raise
   end
 
 
