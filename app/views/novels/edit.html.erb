@@ -8,6 +8,8 @@
           <%= submit_tag('Save Novel', class: "btn btn-primary")%>
       </div>
   <% end %>
+  </div>
+
 
   <div class="edit-helpers">
     <!-- random sentence generator modal -->
@@ -18,22 +20,9 @@
         <span class = "target"></span>
     </div>
   </div>
-  </div>
 
-  <p>Word Count: <%= @counter.token_count %></p>
-  <p>Unique Words: <%=  @counter.uniq_token_count %></p>
-  <p>Character Count: <%= @counter.char_count %></p>
-  <p>Top 5 Words: <% @counter.token_frequency.first(5).each do |key, value| %>
-    <table border="1" width="300px">
-      <tr>
-        <td width="150px"><%= key %></td>
-        <td width="150px"><%= value %></td>
-      </tr>
-  </table>
-  <% end %>
-  </p>
+ <%= render 'shared/statistics' %>
 
-</div>
 
 
 <!--
