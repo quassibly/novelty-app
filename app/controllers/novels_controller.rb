@@ -29,6 +29,7 @@ class NovelsController < ApplicationController
   end
 
   def create
+    raise
     @novel = Novel.new(novel_params)
     @novel.user_id = current_user.id
     if @novel.title.nil?
