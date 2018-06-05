@@ -1,14 +1,12 @@
   <dialog id="statistics">
   <div class="dialog2">
-    <p>Total Word Count: <%= @counter.token_count %></p>
-  <p>Todays Word Count: <%= @counter.token_count %> minus Yesterdays Total Word Count</p>
+    <p>Total Word Count: <%= @novel.novel_wordcount %></p>
+    <p>Todays Word Count: <%= @counter.token_count %> minus Yesterdays Total Word Count</p>
 
-  <p>Unique Words: <%=  @counter.uniq_token_count %></p>
-  <p>Character Count: <%= @counter.char_count %></p>
-  <p>Top 5 Words:
-
-
-  <% @filtered_words.first(5).each do |key| %>
+    <p>Unique Words: <%=  @counter.uniq_token_count %></p>
+    <p>Character Count: <%= @counter.char_count %></p>
+    <p>Top 5 Words:
+   <% @filtered_words.first(5).each do |key| %>
    <table border="1" width="300px">
       <tr>
         <td width="150px">'<%= key[0] %>'</td>
