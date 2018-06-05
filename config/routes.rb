@@ -5,12 +5,15 @@ Rails.application.routes.draw do
   namespace :novels do
     resources :autosave, only: :update
   end
-  resources :novels, except: [:index, :show]
+  resources :novels, except: [:index]
+  resources :reviews, only: [:show, :update, :destroy]
   resources :goals, except: [:index, :show, :create, :update]
   resources :users, only: [:show]
+
+  post 'reviews/:novel_id', to: 'reviews#create', as: 'reviews'
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'
   patch 'novels/:id/goals/new', to: 'goals#update', as: :goals
-  get 'novels/:id/sentences/random', to: 'sentences#random', as: :random
+  get 'novels/random', to: 'novels#random', as: :random
   patch 'novels/:id/sentences/random', to: 'sentences#update'
 end
 

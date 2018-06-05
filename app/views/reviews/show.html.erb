@@ -1,0 +1,19 @@
+<div class="edit-container">
+  <%= render 'shared/sidebar' %>
+  <div class="title">
+    <%= @novel.title %>
+  </div>
+
+  <div contenteditable="true" class = "novel" data-id=<%="#{@novel.id}"%>>
+    <%= @novel.content %>
+  </div>
+  <div class = "review_comments" style="fixed:right">
+    <% @novel.reviews.each do |review| %>
+    <p>Comment-Title: <%= review.comment_title %></p>
+    <p>Comment: <%= review.comment_text %></p>
+    <% end %>
+
+  </div>
+
+
+<%= render 'shared/review' %>

@@ -4,7 +4,6 @@ class Novels::AutosaveController < ApplicationController
     @novel = Novel.find(params[:id])
     @novel.content = params["_json"]
     @novel.save
-
   end
 end
 

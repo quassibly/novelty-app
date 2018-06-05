@@ -1,0 +1,81 @@
+[1mdiff --git a/app/controllers/reviews_controller.rb b/app/controllers/reviews_controller.rb[m
+[1mindex 137547f..41419bd 100644[m
+[1m--- a/app/controllers/reviews_controller.rb[m
+[1m+++ b/app/controllers/reviews_controller.rb[m
+[36m@@ -21,9 +21,14 @@[m [mclass ReviewsController < ApplicationController[m
+     @review.destroy[m
+   end[m
+ [m
+[32m+[m[32m  def comments[m
+[32m+[m[32m    @novel = Novel.find(params[:id])[m
+[32m+[m[32m    @novel.reviews[m
+[32m+[m[32m  end[m
+[32m+[m
+   private[m
+ [m
+   def review_params[m
+[31m-    params.permit(:comment_title, :comment_text, :novel_id, :selected_text)[m
+[32m+[m[32m    params.require(:review).permit(:comment_title, :comment_text, :novel_id, :selected_text)[m
+   end[m
+ end[m
+[1mdiff --git a/app/views/reviews/show.html.erb b/app/views/reviews/show.html.erb[m
+[1mindex c79a56a..8f5bb94 100644[m
+[1m--- a/app/views/reviews/show.html.erb[m
+[1m+++ b/app/views/reviews/show.html.erb[m
+[36m@@ -3,9 +3,17 @@[m
+   <div class="title">[m
+     <%= @novel.title %>[m
+   </div>[m
+[31m-  <div class = "novel" contenteditable="true">[m
+[32m+[m[32m  <div contenteditable="true" class = "novel">[m
+     <%= @novel.content %>[m
+   </div>[m
+[32m+[m[32m  <div class = "review_comments" style="fixed:right">[m
+[32m+[m[32m    <%= @novel.reviews.each do |review| %>[m
+[32m+[m[32m    <%= review.comment_title %>[m
+[32m+[m[32m    <%= review.comment_text %>[m
+[32m+[m[32m    <a href="#" onclick="find_comment()"><%= Go to comment %></a>[m
+[32m+[m[32m    <% end %>[m
+[32m+[m
+[32m+[m[32m  </div>[m
+ [m
+ [m
+ <%= render 'shared/review' %>[m
+[1mdiff --git a/app/views/shared/_review.html.erb b/app/views/shared/_review.html.erb[m
+[1mindex 5c056b7..b4d4eec 100644[m
+[1m--- a/app/views/shared/_review.html.erb[m
+[1m+++ b/app/views/shared/_review.html.erb[m
+[36m@@ -34,7 +34,8 @@[m
+ }[m
+ [m
+ function saveComment() {[m
+[31m-  console.log("working")[m
+[32m+[m[32m  let selected_location = window.getSelection()[m
+[32m+[m[32m  console.log(selected_location)[m
+   let selected_text = document.getElementById(`${num}`).innerText[m
+   let comment_title = document.querySelector('.comment_title').innerText[m
+   let comment_text = document.querySelector('.comment_text').value[m
+[36m@@ -47,9 +48,11 @@[m [mfunction saveComment() {[m
+     },[m
+ [m
+     body: JSON.stringify({[m
+[32m+[m[32m      review: {[m
+       selected_text: selected_text,[m
+       comment_title: comment_title,[m
+       comment_text: comment_text[m
+[32m+[m[32m      }[m
+     })[m
+   })[m
+ };[m
+[1mdiff --git a/config/routes.rb b/config/routes.rb[m
+[1mindex b8317ec..a5152fc 100644[m
+[1m--- a/config/routes.rb[m
+[1m+++ b/config/routes.rb[m
+[36m@@ -9,6 +9,7 @@[m [mRails.application.routes.draw do[m
+   resources :reviews, only: [:show, :create, :update, :destroy][m
+   resources :goals, except: [:index, :show, :create, :update][m
+   resources :users, only: [:show][m
+[32m+[m
+   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'[m
+   patch 'novels/:id/goals/new', to: 'goals#update', as: :goals[m
+   get 'novels/:id/sentences/random', to: 'sentences#random', as: :random[m
