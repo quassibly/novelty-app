@@ -741,35 +741,35 @@ Sentence.create(sentence: "The book is in front of")
 Sentence.create(sentence: "We have a lot of")
 Sentence.create(sentence: "She was too short to")
 
-date = Time.new.to_date
+date = Time.now.to_date
 10.times do
   wordcount = rand(1000..1500)
   WritingSession.create(novel_id: 1, user_id: 1, created_at: date, updated_at: date, session_wordcount: wordcount)
   date -= 1
 end
 
-date = Time.new.to_date
+date = Time.now.to_date
 10.times do
   wordcount = rand(1000..1500)
   WritingSession.create(novel_id: 2, user_id: 2, created_at: date, updated_at: date, session_wordcount: wordcount)
   date -= 1
 end
 
-date = Time.new.to_date
+date = Time.now.to_date
 10.times do
   wordcount = rand(1000..1500)
   WritingSession.create(novel_id: 3, user_id: 2, created_at: date, updated_at: date, session_wordcount: wordcount)
   date -= 1
 end
 
-date = Time.new.to_date
+date = Time.now.to_date
 10.times do
   wordcount = rand(1000..1500)
   WritingSession.create(novel_id: 4, user_id: 3, created_at: date, updated_at: date, session_wordcount: wordcount)
   date -= 1
 end
 
-date = Time.new.to_date
+date = Time.now.to_date
 10.times do
   wordcount = rand(1000..1500)
   WritingSession.create(novel_id: 5, user_id: 4, created_at: date, updated_at: date, session_wordcount: wordcount)
