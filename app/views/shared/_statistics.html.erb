@@ -2,7 +2,7 @@
   <div class="dialog2">
 
     <p>Total Word Count: <%= @novel.novel_wordcount %></p>
-  <p>Todays Word Count: <%= @counter.token_count - @yesterday_total_all %></p>
+  <p>Todays Word Count: <%= @novel.novel_wordcount - @yesterday_total_all %></p>
 
 
     <p>Unique Words: <%=  @counter.uniq_token_count %></p>
