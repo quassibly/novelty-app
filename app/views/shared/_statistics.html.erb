@@ -1,7 +1,9 @@
   <dialog id="statistics">
   <div class="dialog2">
+
     <p>Total Word Count: <%= @novel.novel_wordcount %></p>
-    <p>Todays Word Count: <%= @counter.token_count %> minus Yesterdays Total Word Count</p>
+  <p>Todays Word Count: <%= @counter.token_count - @yesterday_total_all %></p>
+
 
     <p>Unique Words: <%=  @counter.uniq_token_count %></p>
     <p>Character Count: <%= @counter.char_count %></p>

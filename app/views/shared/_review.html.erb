@@ -1,8 +1,9 @@
 <dialog id="comment">
   <div class="dialog">
 
-      <div contenteditable="true" class="comment_title" size="10x6"></div>
-      <textarea class="comment_text" size="24x6"></textarea>
+      <textarea class="comment_title" size="5x6" placeholder="Comment Title"></textarea>
+      <textarea class="comment_text" size="24x6" placeholder="What is your comment?"></textarea>
+      <textarea class="suggested_change" size="24x6" placeholder="What would you suggest instead?"></textarea>
       <div class="modal-actions">
         <button id="cancel" type="reset" class="btn btn-secondary">Cancel</button>
         <button id="submit" class="btn btn-primary">Add comment</button>
@@ -28,6 +29,7 @@
     var span = document.createElement("span");
     num = num + 1
     span.id = num
+    span.class = "Highlight"
     span.style.backgroundColor = "yellow";
     span.appendChild(selectedText);
     selection.insertNode(span);
@@ -35,10 +37,10 @@
 
 function saveComment() {
   let selected_location = window.getSelection()
-  console.log(selected_location)
   let selected_text = document.getElementById(`${num}`).innerText
   let comment_title = document.querySelector('.comment_title').innerText
   let comment_text = document.querySelector('.comment_text').value
+  let suggested_change = document.querySelector('.suggested_change').value
   let novel = document.querySelector('.novel')
   const novel_id = novel.dataset.id
 
@@ -53,11 +55,23 @@ function saveComment() {
       comment_title: comment_title,
       comment_text: comment_text,
       selected_text: selected_text,
+      suggested_change: suggested_change,
       novel_id: novel_id
       }
     })
   })
+    const highlight_span = document.getElementById(`${num}`)
+    console.log(highlight_span.innerHTML)
+    highlight_span.innerHTML('beforebegin', '<span class="suggested_change" style="display:none">${suggested_change}</span>')
+
 };
+
+
+
+
+
+
+
 
     const commentButton = document.getElementById('add-comment');
     const dialog = document.getElementById('comment');
