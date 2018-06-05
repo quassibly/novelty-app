@@ -47,7 +47,10 @@ class NovelsController < ApplicationController
   def edit
     @sentences = Sentence.all
     @novel = Novel.find(params[:id])
+
+    @yesterday_total_all = yesterday_total_all
     @session = WritingSession.create(created_at: Time.now, user: current_user, novel: @novel, starting_wordcount: @novel.novel_wordcount)
+
     if @novel.nil?
       self.new
     end
@@ -92,6 +95,10 @@ class NovelsController < ApplicationController
 
   def yesterday_total
     @yesterday_total = WritingSession.where("novel_id = ?", @novel.id).where("created_at >= ?", @novel.goal_start_date).where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
+  end
+
+  def yesterday_total_all
+    @yesterday_total_all = WritingSession.where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
   end
 
   def days_left
