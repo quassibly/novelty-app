@@ -1,7 +1,7 @@
 <dialog id="comment">
   <div class="dialog">
 
-      <textarea class="comment_title" size="5x6" placeholder="Comment Title"></textarea>
+      <textarea class="comment-title" size="5x6" placeholder="Comment Title"></textarea>
       <textarea class="comment_text" size="24x6" placeholder="What is your comment?"></textarea>
       <textarea class="suggested_change" size="24x6" placeholder="What would you suggest instead?"></textarea>
       <div class="modal-actions">
@@ -62,7 +62,7 @@ function saveComment() {
   })
     const highlight_span = document.getElementById(`${num}`)
     console.log(highlight_span.innerHTML)
-    highlight_span.innerHTML('beforebegin', '<span class="suggested_change" style="display:none">${suggested_change}</span>')
+    highlight_span.insertAdjacentHTML('beforebegin', '<span class="suggested_change" style="display:none">${suggested_change}</span>')
 
 };
 

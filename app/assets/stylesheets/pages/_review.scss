@@ -1,0 +1,45 @@
+.review {
+  &-novel {
+    width: 100%;
+    padding: 8px 12px 100px;
+    font-size: $font-xs;
+    border-radius: 4px;
+    border: 0.5px solid #e5e5e5;
+    outline: none;
+    color: $brand-dark;
+    margin-bottom: 10px;
+    font-family: $secondary-font !important;
+  }
+  &-container-main {
+    margin-right: 225px;
+  }
+  &-container-right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 225px;
+    min-height: 400px;
+    height: 100vh;
+    padding: 40px 30px;
+    right: 0;
+    top: 0;
+  }
+  &-comment {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.2);
+    margin: 10px 0;
+    &-title {
+      padding: 0 16px 0 0;
+      white-space: wrap;
+      text-overflow: ellipsis;
+      width: 80%;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $brand-secondary;
+    }
+  }
+}

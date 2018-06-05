@@ -1,20 +1,26 @@
 <div class="edit-container">
   <%= render 'shared/sidebar' %>
-  <div class="title">
-    <%= @novel.title %>
+  <div class="review-container">
+    <div class="review-container-main">
+      <div class="title">
+        <h1><%= @novel.title %></h1>
+      </div>
+      <div contenteditable="true" class = "review-novel" data-id=<%="#{@novel.id}"%>>
+        <%= @novel.content %>
+      </div>
+    </div>
+
+    <div class="review-container-right">
+      <%= render 'shared/review' %>
+      <% @novel.reviews.each do |review| %>
+      <div class="review-comment">
+        <span class="review-comment-title"><%= review.comment_title %></span>
+        <p><%= review.comment_text %></p>
+        <a href="#" onclick="showComment()">Show comment</a>
+      </div>
+      <% end %>
+    </div>
   </div>
 
-  <div contenteditable="true" class = "novel" data-id=<%="#{@novel.id}"%>>
-    <%= @novel.content %>
-  </div>
-  <div class = "review_comments" style="fixed:right">
-    <% @novel.reviews.each do |review| %>
-    <p>Comment-Title: <%= review.comment_title %></p>
-    <p>Comment: <%= review.comment_text %></p>
-    <a href="#" onclick="showComment()">Show comment</a>
-    <% end %>
-
-  </div>
 
 
-<%= render 'shared/review' %>
