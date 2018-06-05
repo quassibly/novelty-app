@@ -71,6 +71,9 @@
   &-header {
     display: flex;
     justify-content: space-between;
+    & h1 {
+      color: #333
+    }
   }
 
   &-goals-container {

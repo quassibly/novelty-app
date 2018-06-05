@@ -5,9 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.destroy_all
-Novel.destroy_all
 WritingSession.destroy_all
+Novel.destroy_all
+User.destroy_all
 Sentence.destroy_all
 
 
@@ -741,15 +741,37 @@ Sentence.create(sentence: "The book is in front of")
 Sentence.create(sentence: "We have a lot of")
 Sentence.create(sentence: "She was too short to")
 
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-19 13:34:23 +0200", updated_at: "2018-05-19 15:34:23 +0200", session_wordcount: 2345)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-20 13:34:23 +0200", updated_at: "2018-05-20 15:34:23 +0200", session_wordcount: 1234)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-21 13:34:23 +0200", updated_at: "2018-05-21 15:34:23 +0200", session_wordcount: 789)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-22 13:34:23 +0200", updated_at: "2018-05-22 15:34:23 +0200", session_wordcount: 6789)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-23 13:34:23 +0200", updated_at: "2018-05-23 15:34:23 +0200", session_wordcount: 678)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-24 13:34:23 +0200", updated_at: "2018-05-24 15:34:23 +0200", session_wordcount: 89)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-25 13:34:23 +0200", updated_at: "2018-05-25 15:34:23 +0200", session_wordcount: 234)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-26 13:34:23 +0200", updated_at: "2018-05-26 15:34:23 +0200", session_wordcount: 1234)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-27 13:34:23 +0200", updated_at: "2018-05-27 15:34:23 +0200", session_wordcount: 4567)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-28 13:34:23 +0200", updated_at: "2018-05-28 15:34:23 +0200", session_wordcount: 6789)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-29 13:34:23 +0200", updated_at: "2018-05-29 15:34:23 +0200", session_wordcount: 7890)
-WritingSession.create(novel_id: 1, user_id: 2, created_at: "2018-05-30 13:34:23 +0200", updated_at: "2018-05-30 15:34:23 +0200", session_wordcount: 6789)
+date = Time.new.to_date
+10.times do
+  wordcount = rand(1000..1500)
+  WritingSession.create(novel_id: 1, user_id: 1, created_at: date, updated_at: date, session_wordcount: wordcount)
+  date -= 1
+end
+
+date = Time.new.to_date
+10.times do
+  wordcount = rand(1000..1500)
+  WritingSession.create(novel_id: 2, user_id: 2, created_at: date, updated_at: date, session_wordcount: wordcount)
+  date -= 1
+end
+
+date = Time.new.to_date
+10.times do
+  wordcount = rand(1000..1500)
+  WritingSession.create(novel_id: 3, user_id: 2, created_at: date, updated_at: date, session_wordcount: wordcount)
+  date -= 1
+end
+
+date = Time.new.to_date
+10.times do
+  wordcount = rand(1000..1500)
+  WritingSession.create(novel_id: 4, user_id: 3, created_at: date, updated_at: date, session_wordcount: wordcount)
+  date -= 1
+end
+
+date = Time.new.to_date
+10.times do
+  wordcount = rand(1000..1500)
+  WritingSession.create(novel_id: 5, user_id: 4, created_at: date, updated_at: date, session_wordcount: wordcount)
+  date -= 1
+end
