@@ -1,16 +1,14 @@
 .main-dashboard {
   &-container {
-    height: 300px;
-    padding: 40px 0 60px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    // height: 300px;
+    padding: 20px 0 60px;
+    display: flex;
+  }
+  &-cont-head {
+    padding-bottom: 10px;
   }
   &-header {
-    // text-align: center;
-    // padding: 10px;
-    margin: 20px 0 40px 0;
-
+    padding: 40px 0 20px;
   }
   &-novels-container {
     width: 50%;
@@ -21,32 +19,34 @@
   &-novels-head {
     padding-bottom: 20px;
   }
-  &-todays-goal {
+  &-goal-today {
+    display: flex;
+    flex-direction: column;
+    font-size: $font-xxs;
+    font-weight: 300;
+  }
+  &-todays-goal-count {
     font-weight: bold;
+    font-size: $font-sm;
   }
   &-novel {
-    padding: 8px;
+    padding: 10px 14px;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.2);
-    margin: 10px 0;
+    margin: 14px 0;
     &-heading {
-      // background: linear-gradient($brand-primary 50%, lighten($brand-primary, 20));
       display: flex;
+      align-items: center;
       justify-content: space-between;
       padding: 10px 4px;
       border-bottom: 1px solid $brand-medium-dark;
-
-      // border-top-right-radius: 20px;
-      // border-top-left-radius: 20px;
-      // text-transform: uppercase;
       color: $brand-secondary;
-      // box-shadow: 0 0
-      & p, span {
-        // font-weight: 300 !important;
-        // font-family: $secondary-font !important;
-      }
+      // & p, span {
+      //   // font-weight: 300 !important;
+      //   // font-family: $secondary-font !important;
+      // }
     }
     &-title {
       padding: 0 16px 0 0;
@@ -57,12 +57,6 @@
       text-transform: uppercase;
       font-weight: bold;
     }
-
-
-
-
-
-
     &-content {
       padding: 10px 0;
       display: flex;
@@ -70,103 +64,98 @@
       color: $brand-dark;
     }
     &-bar {
-      height: 5px;
+      height: 14px;
       background-color: $brand-dark;
-      border-radius: 5px;
+      border-radius: 10px;
     }
     &-progress {
-      height: 5px;
+      height: 14px;
       background-color: $brand-primary;
-      border-radius: 5px;
+      border-radius: 10px;
+    }
+    &-footer {
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
     }
     &-metrics {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       color: $brand-dark;
-      padding: 18px 0 16px;
+      padding: 18px 0 12px;
       font-weight: 300;
       font-size: $font-xxs;
     }
+    &-actions {
+      display: flex;
+      justify-content: flex-end;
+    }
+    &-actions .btn {
+      min-width: 130px;
+      margin: 0 6px;
+      text-align: center;
+    }
+    &-days-left {
+      display: flex;
+      align-items: center;
+      & .days {
+        display: flex;
+        flex-direction: column;
+        // font-size: $font-xxs;
+        font-weight: 300;
+      }
+      & .days-number {
+        font-size: 34px;
+        padding-right: 4px;
+      }
+    }
   }
-}
-
-
-
-  // &-bubble {
-  //   border-radius: 50%;
-  //   background-color: lighten($brand-medium-dark, 20%);
-  //   margin: 10px;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   overflow: hidden;
-  // }
-  // &-bubble-content {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   flex-direction: column;
-  // }
+  &-stats-container {
+    width: 50%;
+    padding-left: 34px;
+  }
+  &-bubble {
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+  }
+  &-bubble-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:absolute;
+    height: 176px;
+    width: 176px;
+    background-color: white;
+    border-radius: 50%;
+  }
   // &-stats-total-words {
   //   height: 200px;
   //   width: 200px;
   // }
-  // &-stats-todays-goal {
-  //   height: 240px;
-  //   width: 240px;
-  // }
-  // &-bubble-count-sm {
-  //   font-family: $secondary-font;
-  //   font-size: $font-lg;
-  //   color: $brand-secondary;
-  //   text-align: center;
-  //   padding: 0 16px 10px;
-  // }
-  //
-  // &-bubble-count-lg {
-  //   font-family: $secondary-font;
-  //   font-size: $font-xl;
-  //   color: $brand-secondary;
-  //   padding-bottom: 6px;
-  //   text-align: center;
-  //   padding: 8px 16px 12px;
-  // }
-  //
-  // &-container {
-  //   display: flex;
-  //   flex-direction: column;
-  //   width: 80%;
-  //   margin: auto;
-  //   padding-top: 40px;
-  // }
-  //
+  &-stats-todays-goal {
+    height: 240px;
+    width: 240px;
+  }
+  &-bubble-count-sm {
+    font-family: $secondary-font;
+    font-size: $font-lg;
+    color: $brand-secondary;
+    text-align: center;
+    padding: 0 16px 10px;
+  }
 
-  //
-  // &-goals-container {
-  //   width: 80%;
-  //   margin: 10px auto;
-  //   height: 200px;
-  //   padding-top: 100px;
-  //   overflow: hidden;
-  //   display: flex;
-  //   justify-content: flex-start;
-  //   align-items: flex-end;
-  //   position: relative;
-  // }
-  //
-  // &-goal-case {
-  //   background-color: $brand-medium-dark;
-  //   width: calc(100% / 30);
-  //   opacity: 0.5;
-  //   // height: 100%;
-  // }
-  // &-goal-result {
-  //   position: absolute;
-  //   width: calc(100% / 30);
-  //   // height: 120%;
-  //   bottom: 0;
-  //   // left: 0;
-  //   background-color: $brand-primary;
-  //   opacity: 0.5;
-  // }
-// }
+  &-bubble-count-lg {
+    font-family: $secondary-font;
+    font-size: $font-xl;
+    color: $brand-secondary;
+    padding-bottom: 6px;
+    text-align: center;
+    padding: 8px 16px 12px;
+  }
+}
