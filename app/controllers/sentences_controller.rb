@@ -2,6 +2,7 @@ class SentencesController < ApplicationController
   def random
     skip_authorization
     @sentence = Sentence.all.sample.sentence
+    raise
   end
 
   def update

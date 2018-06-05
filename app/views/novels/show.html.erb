@@ -1,3 +1,4 @@
+<%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
 <div class="side-container">
   <%= render 'shared/sidebar' %>
   <div class="dashboard-container">
@@ -9,6 +10,19 @@
     </div>
     <div class="dashboard-stats-container">
       <div class="dashboard-stats-total-words dashboard-bubble">
+        <div>
+          <% @written = @novel.novel_wordcount %>
+          <% @remaining = @novel.goal_wordcount - @written %>
+          <% data = ({"Written" => @written, "Remaining" => @remaining}) %>
+          <%= pie_chart data, donut: true,
+                              legend: false,
+                              width: "300px",
+                              height: "300px",
+                              colors: [ '#FF5E3A', 'transparent'],
+                              thousands: ",",
+                              animation: true,
+                              library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
+        </div>
         <div class="dashboard-bubble-content">
           <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">
             <%= @novel.novel_wordcount %>
@@ -17,13 +31,52 @@
         </div>
       </div>
       <div class="dashboard-stats-todays-goal dashboard-bubble">
-        <div class="dashboard-bubble-content">
+        <div>
+          <% written = @words_today %>
+          <% if @todays_goal > @words_today %>
+            <% remaining = @todays_goal - written %>
+            <% data = ({"Written" => written, "Remaining" => remaining}) %>
+          <%= pie_chart data, donut: true,
+                              legend: false,
+                              width: "400px",
+                              height: "400px",
+                              colors: [ '#07617D', 'transparent'],
+                              thousands: ",",
+                              animation: true,
+                              library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
+          <% else %>
+            <% beyond_goal = written - @todays_goal %>
+            <% data = ({"Written" => written, "Beyond gaol" => beyond_goal}) %>
+          <%= pie_chart data, donut: true,
+                              legend: false,
+                              width: "400px",
+                              height: "400px",
+                              colors: [ '#07617D', '#FF5E3A'],
+                              thousands: ",",
+                              library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
+          <% end %>
+
+        </div>
+        <div class="dashboard-bubble-content-lg">
           <span>Today's goal</span>
           <span class="dashboard-todays-gaol dashboard-bubble-count-lg" id="todays-goal"><%= @todays_goal %></span>
           <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @words_today %></span></span>
         </div>
       </div>
       <div class="dashboard-stats-total-words dashboard-bubble">
+        <div>
+          <% days_elapsed = @novel.goal_deadline - @novel.goal_start_date %>
+          <% days_remaining = @days_left %>
+          <% data = ({"Passed" => days_elapsed, "Remaining" => days_remaining}) %>
+          <%= pie_chart data, donut: true,
+                              legend: false,
+                              width: "300px",
+                              height: "300px",
+                              colors: ['transparent', '#07617D'],
+                              thousands: ",",
+                              animation: true,
+                              library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
+        </div>
         <div class="dashboard-bubble-content">
           <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="days-left"><%= @days_left %></span><span>days left</span>
         </div>
@@ -33,7 +86,6 @@
   </div>
   <div>
     <% @data %>
-    <%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
     <%= column_chart @data, colors: [ '#07617D', '#FF5E3A'], thousands: "," %>
   </div>
 </div>
