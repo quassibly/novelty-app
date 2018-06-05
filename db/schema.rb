@@ -31,8 +31,9 @@ ActiveRecord::Schema.define(version: 2018_06_04_091702) do
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.string "title"
-    t.text "comment"
+    t.string "comment_title"
+    t.text "comment_text"
+    t.text "selected_text"
     t.bigint "novel_id"
     t.bigint "user_id"
     t.datetime "created_at", null: false

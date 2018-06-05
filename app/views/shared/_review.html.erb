@@ -34,22 +34,27 @@
 }
 
 function saveComment() {
-  console.log("working")
+  let selected_location = window.getSelection()
+  console.log(selected_location)
   let selected_text = document.getElementById(`${num}`).innerText
   let comment_title = document.querySelector('.comment_title').innerText
   let comment_text = document.querySelector('.comment_text').value
+  let novel = document.querySelector('.novel')
+  const novel_id = novel.dataset.id
 
-  fetch(`/reviews`, {
+  fetch(`/reviews/${novel_id}`, {
     method: "POST",
     headers: {
-      'credentials': 'same-origin',
       "Content-Type": "application/json"
     },
-
+    credentials: 'same-origin',
     body: JSON.stringify({
-      selected_text: selected_text,
+      "review": {
       comment_title: comment_title,
-      comment_text: comment_text
+      comment_text: comment_text,
+      selected_text: selected_text,
+      novel_id: novel_id
+      }
     })
   })
 };

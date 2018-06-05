@@ -10,7 +10,10 @@ class ReviewsController < ApplicationController
     p params
     skip_authorization
     @review = Review.new(review_params)
-    @review.user_id = current_user
+    @review.user = current_user
+    p current_user
+    p @review.valid?
+    p @review.errors.messages
     @review.save
     p "created"
   end
@@ -21,9 +24,14 @@ class ReviewsController < ApplicationController
     @review.destroy
   end
 
+  def comments
+    @novel = Novel.find(params[:id])
+    @novel.reviews
+  end
+
   private
 
   def review_params
-    params.permit(:comment_title, :comment_text, :novel_id, :selected_text)
+    params.require(:review).permit(:comment_title, :comment_text, :selected_text, :novel_id)
   end
 end
