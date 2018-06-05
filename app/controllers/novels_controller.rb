@@ -85,11 +85,11 @@ class NovelsController < ApplicationController
   end
 
   def yesterday_total
-    @novel.novel_wordcount - words_day(Time.now.to_date)
+    @yesterday_total = WritingSession.where("created_at >= ?", @novel.goal_start_date).where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
   end
 
   def days_left
-    (@novel.goal_deadline - Time.now.to_date).to_i + 1
+    @days_left = (@novel.goal_deadline - Time.now.to_date).to_i + 1
   end
 
   def wordcount_by_date
@@ -101,12 +101,11 @@ class NovelsController < ApplicationController
   end
 
   def words_day(date)
-    @words_today = 0
-    today_sessions = WritingSession.where("created_at = ?", date)
-    today_sessions.each do |session|
-      @words_today += session.session_wordcount if session.session_wordcount != nil
+    @wordcount_by_date_hash = WritingSession.where("created_at >= ?", @novel.goal_start_date).group_by_day(:created_at).sum(:session_wordcount)
+    if @words_day.nil?
+      @words_day = [0]
     end
-    @words_today
+    @words_day = @wordcount_by_date_hash.values_at(date)[0]
   end
 
   def date_array
@@ -155,6 +154,7 @@ class NovelsController < ApplicationController
   def random
     skip_authorization
     @sentence = Sentence.all.sample.sentence
+    raise
   end
 
 

@@ -10,6 +10,7 @@
         <%= submit_tag("Add to my novel", class: "btn btn-primary") %>
       </div>
     <% end %>
+<!--     <button id="new-sentence" onclick="newSentence()" class="btn btn-secondary">New Sentence</button> -->
   </div>
 </dialog>
 
@@ -22,10 +23,19 @@
     const unblockButton = document.getElementById('unblockMe');
     const dialog = document.getElementById('random');
     const cancelButton = document.getElementById('cancel');
+    const text_area = document.getElementById('new_sentence')
 
     unblockButton.addEventListener('click', function() {
       dialog.showModal();
     });
+    function newSentence() {
+      fetch(`/novels/random`)
+      console.log(response)
+      .then(response => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+    };
     cancelButton.addEventListener('click', function() {
       dialog.close();
       document.location.reload(true).modal('show')

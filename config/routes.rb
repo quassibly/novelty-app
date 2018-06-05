@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resources :users, only: [:show]
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'
   patch 'novels/:id/goals/new', to: 'goals#update', as: :goals
-  get 'novels/:id/sentences/random', to: 'sentences#random', as: :random
+  get 'novels/random', to: 'novels#random', as: :random
   patch 'novels/:id/sentences/random', to: 'sentences#update'
 end
 
