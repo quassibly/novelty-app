@@ -89,3 +89,21 @@
   color: $brand-medium-dark;
   padding-top: 20px;
 }
+
+.textarea {
+    height: 100px;
+    width: 500px;
+  }
+
+  .bar {
+    height: 5px;
+    background-color: grey;
+    border-radius: 5px;
+    width: 500px;
+  }
+
+  #progress {
+    height: 5px;
+    background-color: red;
+    border-radius: 5px;
+  }
