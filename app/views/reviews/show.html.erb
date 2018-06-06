@@ -14,7 +14,7 @@
       <%= render 'shared/review' %>
       <% @novel.reviews.each do |review| %>
       <div class="review-comment">
-        <span class="review-comment-title"><%= review.comment_title %></span>
+        <span class="review-comment_title"><%= review.comment_title %></span>
         <p><%= review.comment_text %></p>
         <a href="#" onclick="showComment()">Show comment</a>
       </div>
