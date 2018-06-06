@@ -36,6 +36,9 @@ class NovelsController < ApplicationController
     end
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
+    if current_user.favorite.nil?
+      @novel.user.favorite = @novel.id
+    end
     skip_authorization
     if @novel.save!
       redirect_to edit_novel_path(@novel)
