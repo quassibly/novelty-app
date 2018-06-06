@@ -1,22 +1,19 @@
   <dialog id="statistics">
   <div class="dialog2">
-
     <p>Total Word Count: <%= @novel.novel_wordcount %></p>
-  <p>Todays Word Count: <%= @novel.novel_wordcount - @yesterday_total_all %></p>
-
-
+    <p>Todays Word Count: <%= @novel.novel_wordcount - @yesterday_total_all %></p>
     <p>Unique Words: <%=  @counter.uniq_token_count %></p>
     <p>Character Count: <%= @counter.char_count %></p>
     <p>Top 5 Words:
-   <% @filtered_words.first(5).each do |key| %>
-   <table border="1" width="300px">
-      <tr>
-        <td width="150px">'<%= key[0] %>'</td>
-        <td width="150px" align="right"><%= key[1] %></td>
-      </tr>
-  </table>
-  <% end %>
-  </p>
+     <% @filtered_words.first(5).each do |key| %>
+      <table border="1" width="300px">
+        <tr>
+          <td width="150px">'<%= key[0] %>'</td>
+          <td width="150px" align="right"><%= key[1] %></td>
+        </tr>
+      </table>
+      <% end %>
+    </p>
       <div class="modal-actions">
         <button id="cancel2" type="reset" class="btn btn-secondary">Cancel</button>
       </div>
@@ -25,7 +22,7 @@
 
 
 <!-- <menu> -->
-  <button id="stats" class="btn btn-secondary">Stats</button>
+  <button id="stats" class="btn btn-secondary">Word Stats</button>
 <!-- </menu> -->
 
   <script>
