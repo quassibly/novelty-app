@@ -25,8 +25,9 @@ class ReviewsController < ApplicationController
   end
 
   def comments
-    @novel = Novel.find(params[:id])
-    @novel.reviews
+    @novel = Novel.find(params[:novel_id])
+
+    render json: @novel.reviews
   end
 
   private

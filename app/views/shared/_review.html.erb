@@ -43,6 +43,12 @@ function saveComment() {
   let novel = document.querySelector('.review-novel')
   const novel_id = novel.dataset.id
 
+  const highlight_span = document.querySelector(`.highlight`)
+  highlight_span.className = "comment-text"
+  highlight_span.style.backgroundColor = "white"
+  highlight_span.insertAdjacentHTML('beforebegin', `<span class="suggested_change" id=r${num} style="display:none">${suggested_change}</span>`)
+
+
   fetch(`/reviews/${novel_id}`, {
     method: "POST",
     headers: {
@@ -59,19 +65,13 @@ function saveComment() {
       }
     })
   })
-    const highlight_span = document.querySelector(`.highlight`)
-    highlight_span.className = "comment-text"
-    highlight_span.style.backgroundColor = "white"
-    highlight_span.insertAdjacentHTML('beforebegin', '<span class="suggested_change" style="display:none">${suggested_change}</span>')
-    saveNovel()
-
+  saveNovel()
 };
 
 
   function saveNovel() {
-    console.log("working1")
   const content_area = document.querySelector(".review-novel")
-  const content_text = content_area.value
+  const content_text = content_area.innerHTML
   const novel_id = content_area.dataset.id
   fetch(`/novels/autosave/${novel_id}`, {
     method: "PATCH",
@@ -84,7 +84,17 @@ function saveComment() {
 };
 
 
+  function getReviews() {
+  const content_area = document.querySelector(".review-novel")
+  const novel_id = content_area.dataset.id
+    fetch(`/reviews/comments/${novel_id}`)
+    .then(response => response.json())
+    .then((data) => {
+     console.log(data)
 
+    })
+
+  }
 
 
 

@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :users, only: [:show]
 
   post 'reviews/:novel_id', to: 'reviews#create', as: 'reviews'
+  get 'reviews/comments/:novel_id', to: 'reviews#comments', as: 'comments'
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'
   patch 'novels/:id/goals/new', to: 'goals#update', as: :goals
   get 'novels/random', to: 'novels#random', as: :random

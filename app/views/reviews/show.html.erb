@@ -6,9 +6,12 @@
         <h1><%= @novel.title %></h1>
       </div>
       <div contenteditable="true" class = "review-novel" data-id=<%="#{@novel.id}"%>>
-        <%= @novel.content %>
+        <%= @novel.content.html_safe %>
       </div>
     </div>
+
+
+
 
     <div class="review-container-right">
       <%= render 'shared/review' %>
@@ -16,10 +19,14 @@
       <div class="review-comment">
         <span class="review-comment_title"><%= review.comment_title %></span>
         <p><%= review.comment_text %></p>
+        <p><%= review.status %></p>
         <a href="#" onclick="showComment()">Show comment</a>
       </div>
       <% end %>
     </div>
+
+
+  <button onclick="getReviews()"
   </div>
 
 
