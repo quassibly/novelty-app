@@ -1,7 +1,7 @@
 <dialog id="comment">
   <div class="dialog">
 
-      <textarea class="comment-title" size="5x6" placeholder="Comment Title"></textarea>
+      <textarea class="comment_title" size="5x6" placeholder="Comment Title"></textarea>
       <textarea class="comment_text" size="24x6" placeholder="What is your comment?"></textarea>
       <textarea class="suggested_change" size="24x6" placeholder="What would you suggest instead?"></textarea>
       <div class="modal-actions">
@@ -23,13 +23,12 @@
 
 
     function wrapSelectedText() {
-
     var selection= window.getSelection().getRangeAt(0);
     var selectedText = selection.extractContents();
     var span = document.createElement("span");
     num = num + 1
     span.id = num
-    span.class = "Highlight"
+    span.className = "highlight";
     span.style.backgroundColor = "yellow";
     span.appendChild(selectedText);
     selection.insertNode(span);
@@ -38,10 +37,10 @@
 function saveComment() {
   let selected_location = window.getSelection()
   let selected_text = document.getElementById(`${num}`).innerText
-  let comment_title = document.querySelector('.comment_title').innerText
+  let comment_title = document.querySelector('.comment_title').value
   let comment_text = document.querySelector('.comment_text').value
   let suggested_change = document.querySelector('.suggested_change').value
-  let novel = document.querySelector('.novel')
+  let novel = document.querySelector('.review-novel')
   const novel_id = novel.dataset.id
 
   fetch(`/reviews/${novel_id}`, {
@@ -60,13 +59,29 @@ function saveComment() {
       }
     })
   })
-    const highlight_span = document.getElementById(`${num}`)
-    console.log(highlight_span.innerHTML)
+    const highlight_span = document.querySelector(`.highlight`)
+    highlight_span.className = "comment-text"
+    highlight_span.style.backgroundColor = "white"
     highlight_span.insertAdjacentHTML('beforebegin', '<span class="suggested_change" style="display:none">${suggested_change}</span>')
+    saveNovel()
 
 };
 
 
+  function saveNovel() {
+    console.log("working1")
+  const content_area = document.querySelector(".review-novel")
+  const content_text = content_area.value
+  const novel_id = content_area.dataset.id
+  fetch(`/novels/autosave/${novel_id}`, {
+    method: "PATCH",
+    headers: {
+      'credentials': 'same-origin',
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(content_text)
+  })
+};
 
 
 
@@ -84,6 +99,7 @@ function saveComment() {
     cancelButton.addEventListener('click', function() {
       dialog.close();
     });
+
 
     submit.addEventListener('click', saveComment)
     submit.addEventListener('click', function() {
