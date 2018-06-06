@@ -140,9 +140,9 @@ class NovelsController < ApplicationController
     date_array
     @daily_goals = @date_array.map do |date|
       if date < today
-        goal = (@novel.goal_wordcount - wordcount_before(date)) / (@novel.goal_deadline - date).to_i
+        goal = (@novel.goal_wordcount - wordcount_before(date)) / ((@novel.goal_deadline - date).to_i + 1)
       else
-        goal = (@novel.goal_wordcount - wordcount_before(today)) / (@novel.goal_deadline - today).to_i
+        goal = (@novel.goal_wordcount - wordcount_before(today)) / ((@novel.goal_deadline - today).to_i + 1)
       end
         date = [date, goal]
     end

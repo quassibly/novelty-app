@@ -1,21 +1,18 @@
  <div class="container">
   <div class="form-container">
     <h1 class="form-heading">Create my new project</h1>
-
-    <%= form_tag(@novel, class:"form") do %>
-      <%= hidden_field_tag 'content', @novel.content %>
-      <%= label_tag(:title, "Title", class:"form-label") %>
-      <%= text_field_tag(:title, @novel.title ) %>
-      <%= label_tag(:goal_wordcount, "Wordcount Goal", class:"form-label") %>
-      <%= number_field_tag(:goal_wordcount) %>
-      <%= label_tag(:goal_start_date, "Start Date", class:"form-label") %>
-      <%= date_field_tag(:goal_start_date) %>
-      <%= label_tag(:goal_deadline, "End Date", class:"form-label") %>
-      <%= date_field_tag(:goal_deadline) %>
-      <%= submit_tag "Create", class:"btn btn-primary" %>
-    <% end %>
-    <% unless current_user.nil? %>
-    <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary btn-sub-form" %>
-    <% end %>
+    <form class="form" action="/novels" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8sZqw+SaQe9rRtos3EDP1846ymCInPLaOJKD3DjYJCkw/zhbwyaVe/igDu0SyCqHVvJ+tuNnlF+WCfADEFXE1g==" />
+      <input type="hidden" name="content" id="content" />
+      <label class="form-label" for="title">Title</label>
+      <input type="text" name="title" id="title" />
+      <label class="form-label" for="goal_wordcount">Wordcount Goal</label>
+      <input type="number" name="goal_wordcount" id="goal_wordcount" value="50000" />
+      <label class="form-label" for="goal_start_date">Start Date</label>
+      <input type="text" name="booking[booking_date]" id="flatpickr" ref="flatpickr" placeholder="Select a date" />
+      <input type="submit" name="commit" value="Create" class="btn btn-primary" data-disable-with="Create" />
+      <% unless current_user.nil? %>
+    </form>
+      <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary btn-sub-form" %>
+      <% end %>
   </div>
 </div>
