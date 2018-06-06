@@ -9,7 +9,7 @@ function count() {
   const chars = textareaVal.length;
   let progress = (words / wordGoal) * 100;
   const progressBar = document.querySelector("#progress")
-  const counter = document.querySelector("#counter")
+  // const counter = document.querySelector("#counter")
   console.log(words);
   console.log(textareaVal);
   if(!chars)words=0;

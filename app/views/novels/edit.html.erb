@@ -1,35 +1,36 @@
 
 <div class="edit-container">
   <%= render 'shared/sidebar' %>
-  <div class="novel-form">
-    <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
-      <%= f.text_field(:title, class: "novel-title") %>
-      <div class="content"><%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %></div>
-      <div class="edit-actions">
-          <%= submit_tag('Save Novel', class: "btn btn-primary")%>
+  <div class="edit-content-container">
+    <div class="edit-content-container-main">
+      <div class="novel-form">
+        <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
+        <%= f.text_field(:title, class: "novel-title") %>
+          <div class="content"><%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %></div>
+          <div class="edit-actions">
+        <div class="bar">
+          <div id="progress" style="width: 0"></div>
+            <%= submit_tag('Save Novel', class: "btn btn-primary")%>
+        </div>
+          </div>
+          <% end %>
+
       </div>
-  <% end %>
-  </div>
-  <div id="counter"><%= @novel.novel_wordcount %></div>
-  <div class="bar">
-    <%  %>
-    <div id="progress" style="width: 0">
     </div>
   </div>
 
-
-
-  <div class="edit-helpers">
-    <!-- random sentence generator modal -->
-    <%= render 'shared/random' %>
-    <div class="edit-counter">
+  <div class="edit-content-container-right">
+    <div class="edit-helpers">
+      <!-- random sentence generator modal -->
+      <%= render 'shared/random' %>
+      <%= render 'shared/statistics' %>
+      <div class="edit-counter">
         <div><span class="wordcount"><%= @novel.novel_wordcount %></span> words</div>
-        <span class=".">Word Count Target: <span id="word-goal">1450</span></span>
-        <span class = "target"></span>
+          <span class=".">Word Count Target: <span id="word-goal"><%= @todays_goal %></span></span>
+          <span class = "target"></span>
+        </div>
     </div>
   </div>
-
- <%= render 'shared/statistics' %>
 
 
 

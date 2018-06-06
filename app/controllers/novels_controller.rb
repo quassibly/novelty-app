@@ -51,6 +51,7 @@ class NovelsController < ApplicationController
     @yesterday_total_all = yesterday_total_all
     @session = WritingSession.create(created_at: Time.now, user: current_user, novel: @novel, starting_wordcount: @novel.novel_wordcount)
 
+    @todays_goal = todays_goal
     if @novel.nil?
       self.new
     end

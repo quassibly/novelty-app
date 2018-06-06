@@ -64,7 +64,7 @@
   }
 }
 
-#novel_content {
+#novel-text-area {
   padding-bottom: 200px;
   padding-left: 20px;
   padding-right: 20px;
@@ -90,20 +90,60 @@
   padding-top: 20px;
 }
 
-.textarea {
-    height: 100px;
-    width: 500px;
+.bar {
+    height: 5px;
+    background-color: $brand-medium-dark;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 
-  .bar {
+#progress {
     height: 5px;
     background-color: grey;
     border-radius: 5px;
-    width: 500px;
+
+    margin-bottom: 10px;
   }
 
-  #progress {
-    height: 5px;
-    background-color: red;
-    border-radius: 5px;
+.edit-content-container-right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 225px;
+  height: 100%;
+  padding: 40px 30px;
+  right: 0;
+  top: 0;
   }
+
+
+.edit-helpers {
+
+  .btn {
+    cursor: pointer;
+    // margin: 10px;
+  }
+}
+
+#save {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
