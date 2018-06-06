@@ -28,8 +28,12 @@ class NovelsController < ApplicationController
     self.create
   end
 
-  def create
+def create
     @novel = Novel.new(novel_params)
+    goal_date_str = more_novel_params[:goal_dates]
+    goal_date = goal_date_str.split(" to ")
+    @novel.goal_start_date = goal_date[0]
+    @novel.goal_deadline = goal_date[1]
     @novel.user_id = current_user.id
     if @novel.title.nil?
       @novel.title = "Please change title"
@@ -70,7 +74,7 @@ class NovelsController < ApplicationController
   def update
     # skip_authorization
     # authorization
-    @novel = Novel.find(params[:id])
+    @novel = Novel.find(params[:format])
     @novel.updated_at = Time.now
     if @novel.update(other_novel_params)
       novel_wordcount = @novel.content.split(" ").length
@@ -168,7 +172,12 @@ class NovelsController < ApplicationController
   end
 
   def other_novel_params
-    params.require(:novel).permit(:content, :title)
+    params.permit(:content, :title)
+  end
+
+  def more_novel_params
+    params.permit(:goal_dates)
+
   end
 
   def set_filtered_words

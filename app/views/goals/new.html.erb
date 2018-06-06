@@ -2,13 +2,13 @@
   <div class="form-container">
     <h1 class="form-heading">Create my new project</h1>
     <form class="form" action="/novels" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8sZqw+SaQe9rRtos3EDP1846ymCInPLaOJKD3DjYJCkw/zhbwyaVe/igDu0SyCqHVvJ+tuNnlF+WCfADEFXE1g==" />
-      <input type="hidden" name="content" id="content" />
+      <input type="hidden" name="content" id="content" value="<%= @novel.content %>" />
       <label class="form-label" for="title">Title</label>
       <input type="text" name="title" id="title" />
       <label class="form-label" for="goal_wordcount">Wordcount Goal</label>
       <input type="number" name="goal_wordcount" id="goal_wordcount" value="50000" />
       <label class="form-label" for="goal_start_date">Start Date</label>
-      <input type="text" name="booking[booking_date]" id="flatpickr" ref="flatpickr" placeholder="Select a date" />
+      <input type="text" name="goal_dates" id="flatpickr" ref="flatpickr" placeholder="Select a date" />
       <input type="submit" name="commit" value="Create" class="btn btn-primary" data-disable-with="Create" />
       <% unless current_user.nil? %>
     </form>

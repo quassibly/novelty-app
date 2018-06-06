@@ -16,6 +16,6 @@ Rails.application.routes.draw do
   get 'novels/:id/goals/new_nanowrimo', to: 'goals#nanowrimo'
   patch 'novels/:id/goals/new', to: 'goals#update', as: :goals
   get 'novels/random', to: 'novels#random', as: :random
-  patch 'novels/:id/sentences/random', to: 'sentences#update'
+  patch 'novels/:id/sentences/random', to: 'sentences#update', as: 'random/sentence'
 end
 
