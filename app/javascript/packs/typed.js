@@ -12,7 +12,7 @@ import Typed from 'typed.js';
 var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
     startDelay: 30,
-    typeSpeed: 70,
+    typeSpeed: 65,
     showCursor: true,
     cursorChar: '|',
     autoInsertCss: true,
