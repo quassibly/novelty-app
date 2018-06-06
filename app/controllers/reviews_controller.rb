@@ -23,6 +23,12 @@ class ReviewsController < ApplicationController
     @review.update(status: "Completed")
   end
 
+  # def save_novel
+  #   @novel = Novel.find(params[:novel_id])
+  #   @novel.update(novel_params)
+  #   raise
+  #   redirect_to reviews_path(@novel)
+  # end
 
   def destroy
     @review = Review.find(params[:id])
@@ -41,4 +47,8 @@ class ReviewsController < ApplicationController
   def review_params
     params.require(:review).permit(:comment_title, :comment_text, :selected_text, :suggested_change, :novel_id)
   end
+
+  # def novel_params
+  #   params.permit(:content)
+  # end
 end
