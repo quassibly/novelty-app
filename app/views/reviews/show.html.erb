@@ -9,7 +9,8 @@
         <%= @novel.content.html_safe %>
       </div>
         <% if @novel.user == current_user %>
-           <button onclick="saveNovel()" class= "btn btn-primary">Save Novel
+           <!-- <%= link_to "Save Novel", novel_save_path(novel_id: @novel), method: :patch, onclick: "saveNovel()", class: "btn btn-primary save"%> -->
+        <button class="btn btn-primary save" onclick="saveNovel()">Save</button>
       <% end %>
     </div>
 

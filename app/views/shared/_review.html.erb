@@ -81,6 +81,7 @@ function saveComment() {
     },
     body: JSON.stringify(content_text)
   })
+  .then(window.location.href = `http://localhost:3000/reviews/${novel_id}`)
 };
 
 
@@ -128,5 +129,6 @@ function saveComment() {
       selected_text.style.backgroundColor = "white"
     })
 
-
+    const save = document.querySelector('.save')
+    save.addEventListener('click', saveNovel)
   </script>
