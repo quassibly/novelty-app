@@ -1,9 +1,10 @@
+<%= javascript_include_tag 'https://www.gstatic.com/charts/loader.js', 'chartkick' %>
 <div class="side-container">
 <%= render 'shared/sidebar' %>
 <!-- <div class="main-container"> -->
+      <h1 class="main-dashboard-header">Dashboard</h1>
   <div class="main-dashboard-container">
     <!-- <div class="main-dashboard-header"> -->
-      <h1 class="main-dashboard-header">Dashboard</h1>
       <!-- <%= link_to edit_novel_path(@novels.first), class:"btn btn-primary" do %>
         Keep writing
       <% end %> -->
@@ -11,65 +12,115 @@
 
     <!-- <div class="main-dashboard-container"> -->
       <div class="main-dashboard-novels-container">
-        <h2 class="main-dashboard-novels-head">Your progress</h2>
+        <h2 class="main-dashboard-cont-head">Your novels</h2>
+
+
         <div class="main-dashboard-novel">
           <div class="main-dashboard-novel-heading">
-            <p class="main-dashboard-novel-title">Harry Potter: the new Dragon</p><span>30 days left</span>
-          </div>
-          <div class="main-dashboard-novel-content">
-            <div class="main-dashboard-novel-metrics">
-              <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span>
-              <span>Overall progress: <span>300 words</span></span>
-            </div>
-            <div class="main-dashboard-novel-bar">
-              <div class="main-dashboard-novel-progress" style="width: 30%;">
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="main-dashboard-novel">
-          <div class="main-dashboard-novel-heading">
-            <p class="main-dashboard-novel-title">Harry Potter: the new Dragon</p>
-
+            <p class="main-dashboard-novel-title">Harry Potter and the stoned Philosopher</p>
             <div class="main-dashboard-novel-days-left">
-              <span>30</span>
+              <span class="days-number">30</span>
               <div class="days">
                 <span>days</span>
                 <span>left</span>
               </div>
             </div>
-
-
           </div>
           <div class="main-dashboard-novel-content">
             <div class="main-dashboard-novel-metrics">
-              <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span>
-              <span>Overall progress: <span>300 words</span></span>
+              <span>Overall progress: <span>21300 words</span></span>
             </div>
             <div class="main-dashboard-novel-bar">
-              <div class="main-dashboard-novel-progress" style="width: 70%;">
+              <div class="main-dashboard-novel-progress" style="width: 90%;">
 
+              </div>
+            </div>
+            <div class="main-dashboard-novel-footer">
+              <div class="main-dashboard-goal-today">
+                <span>Goal today: </span>
+                <span class="main-dashboard-todays-goal-count">1200 words</span>
+              </div>
+
+
+              <div class="main-dashboard-novel-actions">
+                <!-- <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span> -->
+                <a href="#" class="btn btn-primary">Details</a>
+                <a href="#" class="btn btn-primary">Keep writing</a>
               </div>
             </div>
           </div>
         </div>
+
         <div class="main-dashboard-novel">
           <div class="main-dashboard-novel-heading">
-            <p class="main-dashboard-novel-title">Harry Potter: the new Dragon</p><span>30 days left</span>
+            <p class="main-dashboard-novel-title">Harry Potter and the stoned Philosopher</p>
+            <div class="main-dashboard-novel-days-left">
+              <span class="days-number">16</span>
+              <div class="days">
+                <span>days</span>
+                <span>left</span>
+              </div>
+            </div>
           </div>
           <div class="main-dashboard-novel-content">
             <div class="main-dashboard-novel-metrics">
-              <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span>
-              <span>Overall progress: <span>300 words</span></span>
+              <span>Overall progress: <span>713 words</span></span>
             </div>
             <div class="main-dashboard-novel-bar">
               <div class="main-dashboard-novel-progress" style="width: 10%;">
 
               </div>
             </div>
+            <div class="main-dashboard-novel-footer">
+              <div class="main-dashboard-goal-today">
+                <span>Goal today: </span>
+                <span class="main-dashboard-todays-goal-count">3000 words</span>
+              </div>
+
+
+              <div class="main-dashboard-novel-actions">
+                <!-- <span>Goal today: <span class="main-dashboard-todays-goal">300 words</span></span> -->
+                <a href="#" class="btn btn-primary">Details</a>
+                <a href="#" class="btn btn-primary">Keep writing</a>
+              </div>
+            </div>
           </div>
         </div>
+
+      </div>
+      <div class="main-dashboard-stats-container">
+        <h2 class="main-dashboard-cont-head">Your progress</h2>
+        <div class="main-dashboard-stats-total-words main-dashboard-bubble">
+          <div>
+
+
+            <% data = ({"Written" => 50, "Remaining" => 50}) %>
+            <%= pie_chart data, donut: true,
+                                legend: false,
+                                width: "320px",
+                                id: "chart",
+                                height: "320px",
+                                colors: [ '#FF5E3A', '#22829d'],
+                                thousands: ",",
+                                animation: true,
+                                library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
+          </div>
+          <div class="main-dashboard-bubble-content">
+            <span class="main-dashboard-total-wordcount main-dashboard-bubble-count-sm" id="total-wordcount">
+              200 words
+            </span>
+            <span>Todays goal</span>
+          </div>
+        </div>
+
+
+
+        <div class="">
+          Inbox comes here:
+          TITLE, NOVEL  and USER
+        </div>
+
+
       </div>
     </div>
   </div>
