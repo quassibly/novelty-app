@@ -86,14 +86,12 @@
             </div>
           </div>
         </div>
-
       </div>
-      <div class="main-dashboard-stats-container">
-        <h2 class="main-dashboard-cont-head">Your progress</h2>
+
+      <div class="main-dashboard-summary-container">
+        <h2 class="main-dashboard-cont-head--center">Your progress</h2>
         <div class="main-dashboard-stats-total-words main-dashboard-bubble">
           <div>
-
-
             <% data = ({"Written" => 50, "Remaining" => 50}) %>
             <%= pie_chart data, donut: true,
                                 legend: false,
@@ -114,13 +112,38 @@
         </div>
 
 
+        <div class="main-dashboard-inbox">
+          <h2 class="main-dashboard-cont-head--center">Inbox</h2>
+          <div class="main-dashboard-inbox-list">
+            <a class="main-dashboard-inbox-item unread">
+              <p class="main-dashboard-review-title">HARRY POTTER AND THE STONED PHILOSOPHER</p>
+              <div class="main-dashboard-review">
+                <span class="main-dashboard-reviewer">Catherine</span>
+                <span class="main-dashboard-review-content">More vividness for this paragraph needed! More vividness for this paragraph needed! More vividness for this paragraph needed!</span>
+              </div>
+            </a>
 
-        <div class="">
-          Inbox comes here:
-          TITLE, NOVEL  and USER
+            <a class="main-dashboard-inbox-item unread">
+              <p class="main-dashboard-review-title">
+                Angels of love
+                <span class="main-dashboard-review-request"> - Request</span>
+              </p>
+              <div class="main-dashboard-review">
+                <span class="main-dashboard-reviewer">Thomas</span>
+                <span class="main-dashboard-review-content">Hey, please check if you like the ending of chapter five.</span>
+              </div>
+            </a>
+
+            <a class="main-dashboard-inbox-item">
+              <p class="main-dashboard-review-title">HARRY POTTER AND THE STONED PHILOSOPHER</p>
+              <div class="main-dashboard-review">
+                <span class="main-dashboard-reviewer">Carlos</span>
+                <span class="main-dashboard-review-content">The philosopher is too stoned in this sentence.</span>
+              </div>
+            </a>
+
+          </div>
         </div>
-
-
       </div>
     </div>
   </div>

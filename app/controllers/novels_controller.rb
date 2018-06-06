@@ -36,6 +36,9 @@ class NovelsController < ApplicationController
     end
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
+    if current_user.favorite.nil?
+      @novel.user.favorite = @novel.id
+    end
     skip_authorization
     if @novel.save!
       redirect_to edit_novel_path(@novel)
@@ -116,10 +119,10 @@ class NovelsController < ApplicationController
 
   def words_day(date)
     @wordcount_by_date_hash = WritingSession.where("novel_id = ?", @novel.id).where("created_at >= ?", @novel.goal_start_date).group_by_day(:created_at).sum(:session_wordcount)
-    if @words_day.nil?
-      @words_day = [0]
-    end
     @words_day = @wordcount_by_date_hash.values_at(date)[0]
+    if @words_day.nil?
+      @words_day = 0
+    end
   end
 
   def date_array

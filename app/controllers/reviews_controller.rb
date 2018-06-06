@@ -18,6 +18,12 @@ class ReviewsController < ApplicationController
     p "created"
   end
 
+  def update
+    @review = Review.find(params[:id])
+    @review.update(status: "Completed")
+  end
+
+
   def destroy
     @review = Review.find(params[:id])
     skip_authorization
@@ -25,8 +31,9 @@ class ReviewsController < ApplicationController
   end
 
   def comments
-    @novel = Novel.find(params[:id])
-    @novel.reviews
+    @novel = Novel.find(params[:novel_id])
+
+    render json: @novel.reviews
   end
 
   private
