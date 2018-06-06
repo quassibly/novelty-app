@@ -25,7 +25,7 @@
       <%= render 'shared/random' %>
       <%= render 'shared/statistics' %>
       <div class="edit-counter">
-        <div><span class="wordcount"><%= @novel.novel_wordcount %></span> words</div>
+        <div><span class="wordcount"> Today: <%= @novel.novel_wordcount %> of <%= @todays_goal %></span> words</div>
           <span class=".">Word Count Target: <span id="word-goal"><%= @todays_goal %></span></span>
           <span class = "target"></span>
         </div>
