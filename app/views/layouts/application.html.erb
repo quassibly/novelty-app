@@ -37,7 +37,7 @@
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
-    <% if notice || alert %>
+     <% if notice || alert %>
       <%= javascript_pack_tag 'flashes' %>
     <% end %>
   </body>
