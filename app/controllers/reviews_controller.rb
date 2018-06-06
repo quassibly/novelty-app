@@ -18,6 +18,12 @@ class ReviewsController < ApplicationController
     p "created"
   end
 
+  def update
+    @review = Review.find(params[:id])
+    @review.update(status: "Completed")
+  end
+
+
   def destroy
     @review = Review.find(params[:id])
     skip_authorization

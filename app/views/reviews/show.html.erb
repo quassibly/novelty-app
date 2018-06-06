@@ -8,6 +8,9 @@
       <div contenteditable="true" class = "review-novel" data-id=<%="#{@novel.id}"%>>
         <%= @novel.content.html_safe %>
       </div>
+        <% if @novel.user == current_user %>
+           <button onclick="saveNovel()" class= "btn btn-primary">Save Novel
+      <% end %>
     </div>
 
 
@@ -20,13 +23,13 @@
         <span class="review-comment_title"><%= review.comment_title %></span>
         <p><%= review.comment_text %></p>
         <p><%= review.status %></p>
-        <a href="#" onclick="showComment()">Show comment</a>
+        <% if review.status == "pending" %>
+        <%= link_to "Completed", review_path(review), method: :patch, class: "Status" %>
+        <a href="#" onclick="showComment(<%= review.id %>)">Show comment</a>
+        <% end %>
       </div>
       <% end %>
     </div>
-
-
-  <button onclick="getReviews()"
   </div>
 
 
