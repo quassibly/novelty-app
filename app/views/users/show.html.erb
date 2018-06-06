@@ -21,7 +21,9 @@
           <div class="main-dashboard-novel-heading">
             <p class="main-dashboard-novel-title"><%= novel.title %></p>
             <div class="main-dashboard-novel-days-left">
-              <span class="days-number"><%= (novel.goal_deadline - Time.now.to_date).to_i + 1 %></span>
+
+              <span class="days-number"><%=(novel.goal_deadline - Time.now.to_date).to_i + 1 %></span>
+
               <div class="days">
                 <span>days</span>
                 <span>left</span>
