@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.4.4'
 
-gem 'chartkick'
-gem 'groupdate'
 
 gem 'bootsnap', require: false
 gem 'devise'
@@ -13,6 +11,10 @@ gem 'puma'
 gem 'rails', '5.2.0'
 gem 'redis'
 gem 'pundit'
+
+gem 'chartkick'
+gem 'groupdate'
+gem 'flatpickr'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.0.9'

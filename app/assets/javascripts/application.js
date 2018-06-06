@@ -1,3 +1,5 @@
 //= require rails-ujs
-//= require_tree .
+//= require flatpickr
 //= require chartkick
+//= require_tree .
+
