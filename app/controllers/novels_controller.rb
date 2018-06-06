@@ -74,7 +74,7 @@ def create
   def update
     # skip_authorization
     # authorization
-    @novel = Novel.find(params[:format])
+    @novel = Novel.find(params[:id])
     @novel.updated_at = Time.now
     if @novel.update(other_novel_params)
       novel_wordcount = @novel.content.split(" ").length
