@@ -24,6 +24,9 @@
         <span class="review-comment_title"><%= review.comment_title %></span>
         <p><%= review.comment_text %></p>
         <p><%= review.status %></p>
+        <% if review == @novel.reviews.last %>
+        <p class="num" data-num="<%=review.id%>">
+          <% end %>
         <% if review.status == "pending" %>
         <%= link_to "Completed", review_path(review), method: :patch, class: "Status" %>
         <a href="#" onclick="showComment(<%= review.id %>)">Show comment</a>

@@ -18,7 +18,8 @@
 
   <script>
 
-    let num = 0
+    let num = document.querySelector('.num').dataset.num
+     num = Number(num)
 
 
 
@@ -35,7 +36,6 @@
 }
 
 function saveComment() {
-  let selected_location = window.getSelection()
   let selected_text = document.getElementById(`${num}`).innerText
   let comment_title = document.querySelector('.comment_title').value
   let comment_text = document.querySelector('.comment_text').value
@@ -70,8 +70,12 @@ function saveComment() {
 
 
   function saveNovel() {
+    console.log(1)
   const content_area = document.querySelector(".review-novel")
+  document.querySelector('.comment-text').style.backgroundColor = "white"
+  document.querySelector('.suggested_change').style.backgroundColor = "white"
   const content_text = content_area.innerHTML
+  console.log(content_text)
   const novel_id = content_area.dataset.id
   fetch(`/novels/autosave/${novel_id}`, {
     method: "PATCH",
@@ -81,7 +85,7 @@ function saveComment() {
     },
     body: JSON.stringify(content_text)
   })
-  .then(window.location.href = `http://localhost:3000/reviews/${novel_id}`)
+
 };
 
 
@@ -131,4 +135,5 @@ function saveComment() {
 
     const save = document.querySelector('.save')
     save.addEventListener('click', saveNovel)
+
   </script>
