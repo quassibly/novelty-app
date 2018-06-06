@@ -123,6 +123,7 @@ class NovelsController < ApplicationController
     if @words_day.nil?
       @words_day = 0
     end
+    return @words_day
   end
 
   def date_array
