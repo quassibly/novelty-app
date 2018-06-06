@@ -8,10 +8,11 @@
         <%= f.text_field(:title, class: "novel-title") %>
           <div class="content"><%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %></div>
           <div class="edit-actions">
-        <div class="bar">
-          <div id="progress" style="width: 0"></div>
-            <%= submit_tag('Save Novel', class: "btn btn-primary")%>
-        </div>
+            <div class="bar">
+              <div id="counter"></div>
+              <div id="progress" style="width: 0"></div>
+              <%= submit_tag('Save Novel', class: "btn btn-primary")%>
+            </div>
           </div>
           <% end %>
 
@@ -25,8 +26,8 @@
       <%= render 'shared/random' %>
       <%= render 'shared/statistics' %>
       <div class="edit-counter">
-        <div><span class="wordcount"> Today: <%= @novel.novel_wordcount %> of <%= @todays_goal %></span> words</div>
-          <span class=".">Word Count Target: <span id="word-goal"><%= @todays_goal %></span></span>
+        <div>Written today: <span class="wordcount"> <%= @novel.novel_wordcount %></span> words</div>
+          <span class=".">Goal for today: <span id="word-goal"><%= @todays_goal %></span> words</span>
           <span class = "target"></span>
         </div>
     </div>

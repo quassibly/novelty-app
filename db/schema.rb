@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2018_06_06_090433) do
     t.string "title"
     t.string "genre"
     t.text "content"
-    t.integer "novel_wordcount", default: 0
+    t.integer "novel_wordcount"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -34,7 +34,6 @@ ActiveRecord::Schema.define(version: 2018_06_06_090433) do
     t.string "comment_title"
     t.text "comment_text"
     t.text "selected_text"
-    t.text "suggested_change"
     t.bigint "novel_id"
     t.bigint "user_id"
     t.datetime "created_at", null: false
@@ -66,15 +65,17 @@ ActiveRecord::Schema.define(version: 2018_06_06_090433) do
     t.string "nanowrimo_username"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "admin", default: false, null: false
     t.string "nanowrimo_secret_key"
+    t.boolean "admin", default: false, null: false
     t.integer "favorite", default: 0
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
   create_table "writing_sessions", force: :cascade do |t|
-    t.integer "session_wordcount", default: 0
+    t.integer "session_wordcount"
+    t.date "start_time"
+    t.date "end_time"
     t.bigint "novel_id"
     t.bigint "user_id"
     t.datetime "created_at", null: false
