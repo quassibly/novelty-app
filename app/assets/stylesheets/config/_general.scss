@@ -21,6 +21,13 @@ input, select {
   outline: none !important;
 }
 
+.heading {
+  font-family: $secondary-font;
+  color: lighten($brand-dark, 5);
+  font-weight: 300;
+  font-size: $font-xl !important;
+}
+
 .link {
   padding: 18px 4px;
 }

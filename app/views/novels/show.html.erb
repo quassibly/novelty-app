@@ -3,7 +3,7 @@
   <%= render 'shared/sidebar' %>
   <div class="dashboard-container">
     <div class="dashboard-header">
-      <h1><%= @novel.title %></h1>
+      <h1 class="heading"><%= @novel.title %></h1>
       <%= link_to edit_novel_path(@novel), class: "btn btn-primary" do %>
         Keep writing
       <% end %>
@@ -18,7 +18,7 @@
                               legend: false,
                               width: "300px",
                               height: "300px",
-                              colors: [ '#FF5E3A', 'transparent'],
+                              colors: [ '#FF5E3A', '#f2f2f2'],
                               thousands: ",",
                               animation: true,
                               library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
@@ -40,7 +40,7 @@
                               legend: false,
                               width: "400px",
                               height: "400px",
-                              colors: [ '#07617D', 'transparent'],
+                              colors: [ '#07617D', '#f2f2f2'],
                               thousands: ",",
                               animation: true,
                               library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
@@ -73,7 +73,7 @@
                               legend: false,
                               width: "300px",
                               height: "300px",
-                              colors: ['transparent', '#07617D'],
+                              colors: ['#f2f2f2', '#07617D'],
                               thousands: ",",
                               animation: true,
                               library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>

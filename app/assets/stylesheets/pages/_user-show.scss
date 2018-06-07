@@ -1,11 +1,9 @@
 .main-dashboard {
   &-container {
-    // height: 300px;
     padding: 20px 0 20px;
     display: flex;
     min-height: 530px;
     max-height: 80vh;
-    // height:
   }
   &-cont-head {
     padding-bottom: 10px;
@@ -13,12 +11,14 @@
       text-align: center;
     }
   }
+
   &-header {
     padding: 40px 0 0;
     font-family: $secondary-font;
     color: lighten($brand-dark, 5);
     font-weight: 300;
   }
+
   &-novels-container {
     overflow: scroll;
     padding: 6px;
@@ -53,13 +53,8 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 10px 4px;
-      border-bottom: 1px solid $brand-medium-dark;
+      padding: 10px 4px 2px;
       color: $brand-secondary;
-      // & p, span {
-      //   // font-weight: 300 !important;
-      //   // font-family: $secondary-font !important;
-      // }
     }
     &-title {
       padding: 0 16px 0 0;
@@ -72,7 +67,7 @@
       letter-spacing: 0.2px;
     }
     &-content {
-      padding: 10px 0;
+      padding: 4px 0 10px;
       display: flex;
       flex-direction: column;
       color: $brand-dark;
@@ -224,14 +219,11 @@
     font-weight: bold;
   }
   &-reviewer {
-    // display: flex;
     font-weight: bold;
-    // width: 20%;
     min-width: 80px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    // padding-right: 9px;
   }
   &-review-content {
     padding-left: 16px;
@@ -246,13 +238,9 @@
     padding-left: 40px;
     padding: 16px 0 16px 40px;
     display: flex;
-    // justify-content: center;
-    // flex-direction: column;
-    // align-items: center;
+    min-height: 350px;
   }
-  &-chart {
 
-  }
   &-summary {
     background-color: $brand-secondary;
     color: #fff !important;
@@ -282,7 +270,6 @@
       & .days {
         display: flex;
         flex-direction: column;
-        // font-size: $font-xxs;
         font-weight: 300;
       }
       & .days-number {

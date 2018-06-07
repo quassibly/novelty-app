@@ -58,14 +58,6 @@
   box-shadow: 0px 0px 6px 1px $brand-dark;
 }
 
-
-table {
-  width: 80px;
-  border-collapse:
-  collapse; border-spacing: 0;
-  font-family: $primary-font;
-}
-
 td, th {
     border: 1px solid transparent; /* No more visible border */
     height: 30px;
@@ -74,52 +66,69 @@ td, th {
 }
 
 th {
-    background: #DFDFDF;  /* Darken header a bit */
+    // background: #DFDFDF;  /* Darken header a bit */
     font-weight: bold;
 }
 
 td {
-    background: #FAFAFA;
+    // background: #FAFAFA;
     // text-align: center;
 }
 
 
 tr:nth-child(even) td {
-  background: #F1F1F1;
+  // background: #F1F1F1;
 }
 
 tr:nth-child(odd) td {
-  background: #FEFEFE;
+  // background: #FEFEFE;
 }
 
 .flex-counted {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
 
 
 .counted-words {
- flex: 1;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   font-weight: 300;
+   flex-direction: column;
+   padding-left: 26px;
+}
+
+.counted-words p {
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.top-5 table {
+  border-collapse:
+  collapse; border-spacing: 0;
+  font-family: $primary-font;
+  width: 100%;
+  margin-bottom: 16px;
+  border-collapse: collapse;
+  & tr {
+    // background-color: $brand-light !important;
+    border-bottom: 2px solid #f2f2f2 !important;
+  }
 }
 
 .top-5{
  flex: 1;
 }
 
+.top-words {
+  font-family: $secondary-font;
+  font-size: $font-sm;
+  padding-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dialog2 .heading {
+  text-align: center;
+  margin-bottom: 16px;
+}
