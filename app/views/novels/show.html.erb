@@ -25,7 +25,7 @@
         </div>
         <div class="dashboard-bubble-content">
           <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="total-wordcount">
-            <%= @novel.novel_wordcount %>
+            <%= number_with_delimiter(@novel.novel_wordcount, :delimiter => ',') %>
           </span>
           <span>Total words</span>
         </div>
@@ -60,8 +60,8 @@
         </div>
         <div class="dashboard-bubble-content-lg">
           <span>Today's goal</span>
-          <span class="dashboard-todays-gaol dashboard-bubble-count-lg" id="todays-goal"><%= @todays_goal %></span>
-          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= @words_today %></span></span>
+          <span class="dashboard-todays-gaol dashboard-bubble-count-lg" id="todays-goal"><%= number_with_delimiter(@todays_goal, :delimiter => ',') %></span>
+          <span><span style="color: #333333; opacity: 0.5">Written today: </span><span style="color: #FF5E3A"><%= number_with_delimiter(@words_today, :delimiter => ',') %></span></span>
         </div>
       </div>
       <div class="dashboard-stats-total-words dashboard-bubble">
@@ -79,7 +79,7 @@
                               library: { :backgroundColor => "transparent", :animation => { :startup => true, :duration => 50000 } } %>
         </div>
         <div class="dashboard-bubble-content">
-          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="days-left"><%= @days_left %></span><span>days left</span>
+          <span class="dashboard-total-wordcount dashboard-bubble-count-sm" id="days-left"><%= number_with_delimiter(@days_left, :delimiter => ',') %></span><span>days left</span>
         </div>
       </div>
 
