@@ -25,9 +25,11 @@
                   </div>
                   <div>Written today: <span class="wordcount"> <%= @novel.novel_wordcount - @novel.yesterday_total_all %></span> words</div>
                     <span class=".">Goal for today: <span id="word-goal"><%= @todays_goal %></span> words</span>
-                    <span class = "target"></span>
+                  <span class = "gif"></span>
                   </div>
                 </div>
+              </div>
+              <div>
               </div>
               <div class="edit-submit">
                 <%= submit_tag('Save Novel', class: "btn btn-primary submit-btn")%>
@@ -40,7 +42,6 @@
             <%= render 'shared/statistics' %>
             <%= render 'shared/random' %>
           </div>
-
         </div>
       </div>
     </div>
