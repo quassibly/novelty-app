@@ -13,7 +13,6 @@ function autosaveNovel() {
 }
 
 function keyCount() {
-  console.log(count)
   count = count + 1
   if(count % 100 == 0) {
     console.log('fghjks')
@@ -41,6 +40,14 @@ function wordCount(e) {
     let num = Number(wordcount);
     num = num + 1;
     document.querySelector(".wordcount").innerText = num
+    const word_count = Number(document.getElementById('word-goal').innerText)
+    const target_count = Number(document.querySelector('.wordcount').innerText)
+    const gif = document.querySelector('.gif')
+
+    if(word_count <= target_count) {
+      gif.innerHTML = ""
+      gif.insertAdjacentHTML('afterbegin', '<img src="https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif" style="height:50px;width:100px;">')
+    }
     // Implement logic to acquire daily goal and compare with words to inform of goal status
  //   if(num > 300) {
 //      document.querySelector(".target").innerText = "Goal Reached!"
@@ -55,6 +62,15 @@ function timer() {
   timer()
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+      const word_count = Number(document.getElementById('word-goal').innerText)
+    const target_count = Number(document.querySelector('.wordcount').innerText)
+    const gif = document.querySelector('.gif')
 
+    if(word_count <= target_count) {
+      gif.innerHTML = ""
+      gif.insertAdjacentHTML('afterbegin', '<img src="https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif" style="height:50px;width:100px;">')
+    }
+})
 countContentWords()
 autosaveNovel()
