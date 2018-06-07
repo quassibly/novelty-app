@@ -9135,9 +9135,9 @@ WritingSession.create(novel_id: 1, user_id: 1, created_at: "2018-06-01 10:15:58 
 
 
 WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-08 10:15:58 +0200", updated_at: "2018-06-08 11:15:58 +0200", session_wordcount: 1666)
-WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-07 10:15:58 +0200", updated_at: "2018-06-07 11:15:58 +0200", session_wordcount: 701)
+WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-07 10:15:58 +0200", updated_at: "2018-06-07 11:15:58 +0200", session_wordcount: 1701)
 WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-06 10:15:58 +0200", updated_at: "2018-06-06 11:15:58 +0200", session_wordcount: 898)
-WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-05 10:15:58 +0200", updated_at: "2018-06-05 11:15:58 +0200", session_wordcount: 1147)
+WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-05 10:15:58 +0200", updated_at: "2018-06-05 11:15:58 +0200", session_wordcount: 147)
 WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-04 10:15:58 +0200", updated_at: "2018-06-04 11:15:58 +0200", session_wordcount: 611)
 WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-03 10:15:58 +0200", updated_at: "2018-06-03 11:15:58 +0200", session_wordcount: 1069)
 WritingSession.create(novel_id: 2, user_id: 2, created_at: "2018-06-02 10:15:58 +0200", updated_at: "2018-06-02 11:15:58 +0200", session_wordcount: 824)
