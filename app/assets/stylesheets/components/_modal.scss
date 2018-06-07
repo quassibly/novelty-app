@@ -59,8 +59,8 @@
 }
 
 
-table{
-  width: 50%;
+table {
+  width: 80px;
   border-collapse:
   collapse; border-spacing: 0;
   font-family: $primary-font;
@@ -90,6 +90,20 @@ tr:nth-child(even) td {
 
 tr:nth-child(odd) td {
   background: #FEFEFE;
+}
+
+.flex-counted {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.counted-words {
+ flex: 1;
+}
+
+.top-5{
+ flex: 1;
 }
 
 
