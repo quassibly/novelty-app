@@ -1,35 +1,38 @@
   <dialog id="statistics">
   <div class="dialog2">
-    <div class="counted-words">
+    <div class="flex-counted">
 
-    <p>Total Word Count: <%= @novel.novel_wordcount %></p>
-    <p>Todays Word Count: <%= @novel.novel_wordcount - @novel.yesterday_total_all %></p>
-    <p>Unique Words: <%=  @counter.uniq_token_count %></p>
-    <p>Character Count: <%= @counter.char_count %></p>
-    </div>
-    <div class="top-5">
+      <div class="counted-words">
 
-      <table>
-        <thead>
-          <tr>
-            <th colspan="2">Top 5 Words</th>
-          </tr>
-        </thead>
-        <% @filtered_words.first(5).each do |key| %>
-        <tbody>
-          <tr>
-            <td align="left">'<%= key[0] %>'</td>
-            <td align="right"><%= key[1] %> times</td>
-          </tr>
-        </tbody>
-      <% end %>
-      </table>
-    </p>
+      <p>Total Word Count: <%= @novel.novel_wordcount %></p>
+      <p>Todays Word Count: <%= @novel.novel_wordcount - @novel.yesterday_total_all %></p>
+      <p>Unique Words: <%=  @counter.uniq_token_count %></p>
+      <p>Character Count: <%= @counter.char_count %></p>
+      </div>
+      <div class="top-5">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Top 5 Words</th>
+            </tr>
+          </thead>
+          <% @filtered_words.first(5).each do |key| %>
+          <tbody>
+            <tr>
+              <td align="left">'<%= key[0] %>'</td>
+              <td align="right"><%= key[1] %> times</td>
+            </tr>
+          </tbody>
+        <% end %>
+        </table>
+      </div>
     </div>
       <div class="modal-actions">
         <button id="cancel2" type="reset" class="btn btn-secondary">Keep Writing</button>
       </div>
   </div>
+
+
 </dialog>
 
 
