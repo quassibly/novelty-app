@@ -18,10 +18,6 @@
 
   <script>
 
-    let num = document.querySelector('.num').dataset.num
-     num = Number(num)
-
-
 
     function wrapSelectedText() {
     var selection= window.getSelection().getRangeAt(0);
@@ -36,6 +32,7 @@
 }
 
 function saveComment() {
+  console.log('working')
   let selected_text = document.getElementById(`${num}`).innerText
   let comment_title = document.querySelector('.comment_title').value
   let comment_text = document.querySelector('.comment_text').value
@@ -70,7 +67,6 @@ function saveComment() {
 
 
   function saveNovel() {
-    console.log(1)
   const content_area = document.querySelector(".review-novel")
   document.querySelector('.comment-text').style.backgroundColor = "white"
   document.querySelector('.suggested_change').style.backgroundColor = "white"
@@ -85,21 +81,13 @@ function saveComment() {
     },
     body: JSON.stringify(content_text)
   })
-
+  let status5 = document.querySelector('.status1')
+  status5.innerText = "Completed"
+  let show5 = document.querySelector('.show1')
+  show5.innerText = ""
 };
 
 
-  function getReviews() {
-  const content_area = document.querySelector(".review-novel")
-  const novel_id = content_area.dataset.id
-    fetch(`/reviews/comments/${novel_id}`)
-    .then(response => response.json())
-    .then((data) => {
-     console.log(data)
-
-    })
-
-  }
 
     function showComment(id) {
       selected_text = document.getElementById(`${id}`)
@@ -109,12 +97,54 @@ function saveComment() {
       suggested_text.style.display = ""
     }
 
+
+    const status = document.querySelector('.Status')
+    if(status !== null) {
+    status.addEventListener('click', function() {
+      const selected_text = document.getElementById(`${id}`)
+      selected_text.style.backgroundColor = "white"
+    })
+    }
+
+    const save = document.querySelector('.save')
+    save.addEventListener('click', saveNovel)
+
+
+
+  function getReviews(data) {
+    if(data !== null){
+      console.log(1)
+  const content_area = document.querySelector(".review-novel")
+  const novel_id = content_area.dataset.id
+    fetch(`/reviews/comments/${novel_id}`)
+    .then(response => response.json())
+    .then((data) => {
+     let review_list = document.querySelector('.review-comments')
+        review_list.innerHTML = ''
+     data.forEach((key) => {
+      review_list.insertAdjacentHTML('afterbegin', `<div class ="review-comment" id="span${key.id}"><span class="review-comment_title">${key.comment_title}</span>
+        <p">${key.comment_text}</p>
+        <p class="status${key.id}">${key.status}</p>
+        </div>`)
+      if(key.status === "pending"){
+       let span2 = document.getElementById(`span${key.id}`)
+          span2.insertAdjacentHTML('beforeend', `<a href"#" onclick="showComment(${key.id})">Show Comment</a>`)
+      }
+     })
+     })
+    }
+  }
+
+    document.addEventListener('DOMContentLoaded', getReviews())
+    let num = 0
+
     const commentButton = document.getElementById('add-comment');
     const dialog = document.getElementById('comment');
     const cancelButton = document.getElementById('cancel')
     const submit = document.getElementById('submit');
 
     commentButton.addEventListener('click', function() {
+      console.log(2)
       dialog.showModal();
     });
     cancelButton.addEventListener('click', function() {
@@ -127,13 +157,9 @@ function saveComment() {
       dialog.close();
     })
 
-    const status = document.querySelector('.Status')
-    status.addEventListener('click', function() {
-      const selected_text = document.getElementById(`${id}`)
-      selected_text.style.backgroundColor = "white"
-    })
 
-    const save = document.querySelector('.save')
-    save.addEventListener('click', saveNovel)
-
+    myVar = setInterval(getReviews, 10000);
   </script>
+
+
+

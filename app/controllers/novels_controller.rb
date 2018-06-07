@@ -172,7 +172,7 @@ def create
   end
 
   def other_novel_params
-    params.permit(:content, :title)
+    params.require(:novel).permit(:content, :title)
   end
 
   def more_novel_params
