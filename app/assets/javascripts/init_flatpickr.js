@@ -1,4 +1,5 @@
   flatpickr('#flatpickr', {
     mode: "range",
-    defaultDate: "2018-09-01 to 2018-09-30"
+    defaultDate: "08 Jun 2018 to 07 Jul 2018",
+    dateFormat: "d M Y"
   });
