@@ -44,7 +44,7 @@
 
 .novel-form {
   // width: 80%;
-  margin-right: 200px;
+  // margin-right: 200px;
   // width: 100%;
   align-items: center;
   display: flex;
@@ -76,9 +76,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  bottom: 100px;
-  right: 40px;
+  // position: absolute;
+  // bottom: 100px;
+  // right: 40px;
 }
 
 .edit-counter {
@@ -87,11 +87,11 @@
   flex-direction: column;
   align-items: center;
   color: $brand-medium-dark;
-  padding-top: 20px;
+  padding-top: 23px;
 }
 
 .bar {
-    height: 5px;
+    height: 15px;
     background-color: $brand-medium-dark;
     border-radius: 5px;
     width: 100%;
@@ -100,7 +100,7 @@
   }
 
 #progress {
-    height: 5px;
+    height: 15px;
     background-color: grey;
     border-radius: 5px;
     margin-bottom: 35px;
@@ -128,8 +128,33 @@
 }
 
 
+.form-inner {
+  display: flex;
+  .form-part:first-child {
+    flex: 1;
+    padding-right: 25px;
+  }
+  .form-part:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    // margin: 10px;
+  }
+}
 
-
+.content-control {
+  display: flex;
+  flex-direction: column;
+    .btn1 {
+      margin: 0px 0px 10px 0px;
+    }
+    #stats {
+      width: 191px;
+    }
+    #unblockMe {
+      width: 191px;
+    }
+}
 
 
 
