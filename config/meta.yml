@@ -1,0 +1,5 @@
+meta_product_name: "Novelty"
+meta_title: "Novelty ... keep writing all the way to The End"
+meta_description: "The app designed to help you with NaNoWriMo from beginning to The End"
+meta_image: "og-image.png"                       # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
