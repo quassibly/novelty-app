@@ -1,6 +1,6 @@
  <div class="container">
   <div class="form-container">
-    <h1 class="form-heading">Create my new project</h1>
+    <h1 class="form-heading roboto-slab">Set my project goals</h1>
     <form class="form" action="/novels" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8sZqw+SaQe9rRtos3EDP1846ymCInPLaOJKD3DjYJCkw/zhbwyaVe/igDu0SyCqHVvJ+tuNnlF+WCfADEFXE1g==" />
       <input type="hidden" name="content" id="content" value="<%= @novel.content %>" />
       <label class="form-label" for="title">Title</label>
@@ -12,7 +12,7 @@
       <input type="submit" name="commit" value="Create" class="btn btn-primary" data-disable-with="Create" />
       <% unless current_user.nil? %>
     </form>
-      <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-primary btn-sub-form" %>
+      <%= link_to "To my Dashboard", user_path(current_user), class: "btn btn-secondary btn-sub-form" %>
       <% end %>
   </div>
 </div>

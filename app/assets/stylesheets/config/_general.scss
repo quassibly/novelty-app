@@ -41,6 +41,10 @@ input, select {
   margin-bottom: 40px;
 }
 
+.roboto-slab {
+  font-family: $secondary-font
+}
+
 // overwriting flatpickr month to make it look better
 // .flatpickr-current-month {
 //   font-size: 115% !important;
