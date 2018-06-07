@@ -28,14 +28,21 @@ class NovelsController < ApplicationController
     self.create
   end
 
-  def create
+def create
     @novel = Novel.new(novel_params)
+    goal_date_str = more_novel_params[:goal_dates]
+    goal_date = goal_date_str.split(" to ")
+    @novel.goal_start_date = goal_date[0]
+    @novel.goal_deadline = goal_date[1]
     @novel.user_id = current_user.id
     if @novel.title.nil?
       @novel.title = "Please change title"
     end
     @novel.created_at = Time.now
     @novel.updated_at = Time.now
+    if current_user.favorite.nil?
+      @novel.user.favorite = @novel.id
+    end
     skip_authorization
     if @novel.save!
       redirect_to edit_novel_path(@novel)
@@ -51,6 +58,7 @@ class NovelsController < ApplicationController
     @yesterday_total_all = yesterday_total_all
     @session = WritingSession.create(created_at: Time.now, user: current_user, novel: @novel, starting_wordcount: @novel.novel_wordcount)
 
+    @todays_goal = todays_goal
     if @novel.nil?
       self.new
     end
@@ -119,6 +127,7 @@ class NovelsController < ApplicationController
     if @words_day.nil?
       @words_day = 0
     end
+    return @words_day
   end
 
   def date_array
@@ -140,9 +149,9 @@ class NovelsController < ApplicationController
     date_array
     @daily_goals = @date_array.map do |date|
       if date < today
-        goal = (@novel.goal_wordcount - wordcount_before(date)) / (@novel.goal_deadline - date).to_i
+        goal = (@novel.goal_wordcount - wordcount_before(date)) / ((@novel.goal_deadline - date).to_i + 1)
       else
-        goal = (@novel.goal_wordcount - wordcount_before(today)) / (@novel.goal_deadline - today).to_i
+        goal = (@novel.goal_wordcount - wordcount_before(today)) / ((@novel.goal_deadline - today).to_i + 1)
       end
         date = [date, goal]
     end
@@ -163,7 +172,12 @@ class NovelsController < ApplicationController
   end
 
   def other_novel_params
-    params.require(:novel).permit(:content, :title)
+    params.permit(:content, :title)
+  end
+
+  def more_novel_params
+    params.permit(:goal_dates)
+
   end
 
   def set_filtered_words

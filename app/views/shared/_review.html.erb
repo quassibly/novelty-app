@@ -43,6 +43,12 @@ function saveComment() {
   let novel = document.querySelector('.review-novel')
   const novel_id = novel.dataset.id
 
+  const highlight_span = document.querySelector(`.highlight`)
+  highlight_span.className = "comment-text"
+  highlight_span.style.backgroundColor = "white"
+  highlight_span.insertAdjacentHTML('beforebegin', `<span class="suggested_change" id=r${num} style="display:none; backgroundColor:white">${suggested_change}</span>`)
+
+
   fetch(`/reviews/${novel_id}`, {
     method: "POST",
     headers: {
@@ -59,19 +65,13 @@ function saveComment() {
       }
     })
   })
-    const highlight_span = document.querySelector(`.highlight`)
-    highlight_span.className = "comment-text"
-    highlight_span.style.backgroundColor = "white"
-    highlight_span.insertAdjacentHTML('beforebegin', '<span class="suggested_change" style="display:none">${suggested_change}</span>')
-    saveNovel()
-
+  saveNovel()
 };
 
 
   function saveNovel() {
-    console.log("working1")
   const content_area = document.querySelector(".review-novel")
-  const content_text = content_area.value
+  const content_text = content_area.innerHTML
   const novel_id = content_area.dataset.id
   fetch(`/novels/autosave/${novel_id}`, {
     method: "PATCH",
@@ -81,12 +81,29 @@ function saveComment() {
     },
     body: JSON.stringify(content_text)
   })
+  .then(window.location.href = `http://localhost:3000/reviews/${novel_id}`)
 };
 
 
+  function getReviews() {
+  const content_area = document.querySelector(".review-novel")
+  const novel_id = content_area.dataset.id
+    fetch(`/reviews/comments/${novel_id}`)
+    .then(response => response.json())
+    .then((data) => {
+     console.log(data)
 
+    })
 
+  }
 
+    function showComment(id) {
+      selected_text = document.getElementById(`${id}`)
+      suggested_text = document.getElementById(`r${id}`)
+      selected_text.style.backgroundColor = "yellow"
+      suggested_text.style.backgroundColor = "red"
+      suggested_text.style.display = ""
+    }
 
     const commentButton = document.getElementById('add-comment');
     const dialog = document.getElementById('comment');
@@ -106,7 +123,12 @@ function saveComment() {
       dialog.close();
     })
 
+    const status = document.querySelector('.Status')
+    status.addEventListener('click', function() {
+      const selected_text = document.getElementById(`${id}`)
+      selected_text.style.backgroundColor = "white"
+    })
 
-
-
+    const save = document.querySelector('.save')
+    save.addEventListener('click', saveNovel)
   </script>

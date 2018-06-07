@@ -9,9 +9,9 @@ function count() {
   const chars = textareaVal.length;
   let progress = (words / wordGoal) * 100;
   const progressBar = document.querySelector("#progress")
-  const counter = document.querySelector("#counter")
-  console.log(words);
-  console.log(textareaVal);
+  // const counter = document.querySelector("#counter")
+  // console.log(words);
+  // console.log(textareaVal);
   if(!chars)words=0;
   if(!chars)progress=0;
 
@@ -21,7 +21,7 @@ function count() {
     progress = 100;
   }
   progressBar.style.width = `${progress}%`;
-  counter.innerHTML = words;
+  document.querySelector(".wordcount").innerText = words;
 }
 
 

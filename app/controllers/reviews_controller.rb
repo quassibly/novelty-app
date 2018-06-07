@@ -18,6 +18,18 @@ class ReviewsController < ApplicationController
     p "created"
   end
 
+  def update
+    @review = Review.find(params[:id])
+    @review.update(status: "Completed")
+  end
+
+  # def save_novel
+  #   @novel = Novel.find(params[:novel_id])
+  #   @novel.update(novel_params)
+  #   raise
+  #   redirect_to reviews_path(@novel)
+  # end
+
   def destroy
     @review = Review.find(params[:id])
     skip_authorization
@@ -25,8 +37,9 @@ class ReviewsController < ApplicationController
   end
 
   def comments
-    @novel = Novel.find(params[:id])
-    @novel.reviews
+    @novel = Novel.find(params[:novel_id])
+
+    render json: @novel.reviews
   end
 
   private
@@ -34,4 +47,8 @@ class ReviewsController < ApplicationController
   def review_params
     params.require(:review).permit(:comment_title, :comment_text, :selected_text, :suggested_change, :novel_id)
   end
+
+  # def novel_params
+  #   params.permit(:content)
+  # end
 end
