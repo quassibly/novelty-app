@@ -10,7 +10,7 @@
             <div class="form-part">
               <%= f.text_field(:title, class: "novel-title") %>
               <div class="content">
-                <%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %>
+                <%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id, "yesterday" => @yesterday_total_all}) %>
               </div>
               <div class="edit-actions">
                 <div class="bar">
@@ -21,7 +21,10 @@
               <div class="edit-helpers">
                 <!-- random sentence generator modal -->
                 <div class="edit-counter">
-                  <div>Written today: <span class="wordcount"> <%= @novel.novel_wordcount %></span> words</div>
+                  <div style="display: none" id="yesterday_total_all">
+                    <%= @novel.yesterday_total_all %>
+                  </div>
+                  <div>Written today: <span class="wordcount"> <%= @novel.novel_wordcount - @novel.yesterday_total_all %></span> words</div>
                     <span class=".">Goal for today: <span id="word-goal"><%= @todays_goal %></span> words</span>
                     <span class = "target"></span>
                   </div>

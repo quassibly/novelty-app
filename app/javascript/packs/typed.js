@@ -10,14 +10,15 @@ import Typed from 'typed.js';
 
 
 var typed = new Typed('#typed', {
+
     stringsElement: '#typed-strings',
-    startDelay: 30,
+    startDelay: 1000,
     typeSpeed: 65,
     showCursor: true,
     cursorChar: '|',
     autoInsertCss: true,
-  });
 
+  });
 
 // <div id="typed-strings">
 //     <p>Typed.js is a <strong>JavaScript</strong> library.</p>
