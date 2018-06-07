@@ -5,7 +5,7 @@
     <%= form_tag(random_sentence_path(@novel.id), method: "patch") do %>
       <%= label_tag(:new_sentence, "Complete the sentence:") %>
       <%= text_area_tag(:new_sentence, @sentence, size: "24x6") %>
-      <div class="modal-actions">
+      <div class="modal-actions-random">
         <button id="cancel" type="reset" class="btn btn-secondary">Cancel</button>
         <%= submit_tag("Add to my novel", class: "btn btn-primary") %>
       </div>
