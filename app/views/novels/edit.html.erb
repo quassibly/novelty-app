@@ -6,23 +6,17 @@
       <div class="novel-form">
         <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
           <div class="form-inner">
+
             <div class="form-part">
               <%= f.text_field(:title, class: "novel-title") %>
-              <div class="content"><%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %></div>
+              <div class="content">
+                <%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %>
+              </div>
               <div class="edit-actions">
                 <div class="bar">
                   <div id="counter"></div>
                   <div id="progress" style="width: 0"></div>
                 </div>
-              </div>
-            </div>
-            <div class="form-part">
-              <div class="content-control">
-                <div class="btn1"><%= render 'shared/statistics' %></div>
-               <!--  <button id="stats" class="btn btn-secondary">Word Stats</button> -->
-                <div class="btn1"><%= render 'shared/random' %></div>
-                <%= submit_tag('Save Novel', class: "btn btn-primary")%>
-
               </div>
               <div class="edit-helpers">
                 <!-- random sentence generator modal -->
@@ -33,49 +27,32 @@
                   </div>
               </div>
             </div>
-          </div>
+
+            <div class="form-part">
+                <%= submit_tag('Save Novel', class: "btn btn-primary more-margin")%>
         <% end %>
+
+
+              <!-- <div class="content-control"> -->
+                <!-- <div class="btn1"> -->
+
+                <!-- </div> -->
+                <!-- <div class="btn1"> -->
+
+                  <!-- </div> -->
+
+            </div>
+          </div>
+          <div class="other-buttons">
+
+                <%= render 'shared/statistics' %>   <br>
+                <%= render 'shared/random' %>
+          </div>
+        </div>
 
       </div>
     </div>
   </div>
-
-<!-- Script for statistics-modal -->
-<dialog id="statistics">
-  <div class="dialog2">
-    <p>Total Word Count: <%= @novel.novel_wordcount %></p>
-    <p>Todays Word Count: <%= @novel.novel_wordcount - @yesterday_total_all %></p>
-    <p>Unique Words: <%=  @counter.uniq_token_count %></p>
-    <p>Character Count: <%= @counter.char_count %></p>
-    <p>Top 5 Words:
-     <% @filtered_words.first(5).each do |key| %>
-      <table border="1" width="300px">
-        <tr>
-          <td width="150px">'<%= key[0] %>'</td>
-          <td width="150px" align="right"><%= key[1] %></td>
-        </tr>
-      </table>
-      <% end %>
-    </p>
-      <div class="modal-actions">
-        <button id="cancel2" type="reset" class="btn btn-secondary">Cancel</button>
-      </div>
-  </div>
-</dialog>
-
-  <script>
-    const cancelButton2 = document.getElementById('cancel2');
-    const statsButton = document.getElementById('stats')
-    const dialog2 = document.getElementById('statistics')
-
-    statsButton.addEventListener('click', function() {
-      dialog2.showModal();
-    });
-    cancelButton2.addEventListener('click', function() {
-      dialog2.close();
-    });
-  </script>
-
 
 
 
