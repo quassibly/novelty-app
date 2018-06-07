@@ -86,6 +86,7 @@
       height: 14px;
       background-color: $brand-primary;
       border-radius: 10px;
+      max-width: 100% !important;
     }
     &-footer {
       padding-top: 24px;
@@ -169,7 +170,8 @@
     padding: 8px 16px 12px;
   }
   &-inbox {
-    // padding-top: 50px;
+    // padding: 6px;
+    margin-left: 6px;
     background-color: #fbfbfb;
     box-shadow: 0px 2px 8px 1px rgb(191, 191, 191);
   }
@@ -180,8 +182,9 @@
 
   }
   &-inbox-item {
+    text-decoration: none !important;
     border-top: solid 1px $brand-medium-dark;
-    padding: 10px;
+    padding: 12px 10px;
     background-color: #fbfbfb;
     border-left: solid 6px $brand-medium-dark;
     color: lighten($brand-dark, 30);
@@ -200,7 +203,7 @@
 
   &-review {
     display: flex;
-    padding-top: 6px;
+    padding-top: 2px;
   }
   &-review-title {
     text-transform: uppercase;
@@ -258,53 +261,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-      padding: 10px 14px;
-      // display: flex;
-      // flex-direction: column;
-      // background-color: #F2F2F2;
-      box-shadow: 0px 2px 8px 1px rgb(191, 191, 191);
-      // margin: 16px 0;
-      height: 100%;
-      width: 100%;
-      // &-heading {
-      //   display: flex;
-      //   align-items: center;
-      //   justify-content: space-between;
-      //   padding: 10px 4px;
-      //   // border-bottom: 1px solid $brand-medium-dark;
-      //   color: $brand-light;
-      // }
-      &-title {
-        // padding: 0 16px 0 0;
-        // white-space: nowrap;
-        // overflow: hidden;
-        // text-overflow: ellipsis;
-        // width: 80%;
-        padding-top: 20px;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: $font-lg;
-      }
-      &-number {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: $font-xl;
-      }
-      &-days-left {
+    padding: 10px 14px;
+    box-shadow: 0px 2px 8px 1px rgb(191, 191, 191);
+    height: 100%;
+    width: 100%;
+    &-title {
+      padding-top: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: $font-lg;
+    }
+    &-number {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: $font-xl;
+    }
+    &-days-left {
+      display: flex;
+      align-items: center;
+      & .days {
         display: flex;
-        align-items: center;
-        & .days {
-          display: flex;
-          flex-direction: column;
-          // font-size: $font-xxs;
-          font-weight: 300;
-        }
-        & .days-number {
-          font-size: 34px;
-          padding-right: 4px;
-        }
+        flex-direction: column;
+        // font-size: $font-xxs;
+        font-weight: 300;
       }
-
-
+      & .days-number {
+        font-size: 34px;
+        padding-right: 4px;
+      }
+    }
   }
 }
