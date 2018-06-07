@@ -119,13 +119,14 @@ function saveComment() {
      let review_list = document.querySelector('.review-comments')
         review_list.innerHTML = ''
      data.forEach((key) => {
-      review_list.insertAdjacentHTML('afterbegin', `<div class ="review-comment" id="span${key.id}" style="margin-bottom:20px;"><span class="review-comment_title">${key.comment_title}</span>
-        <p">${key.comment_text}</p>
-        <p class="status${key.id}">${key.status}</p>
+
+      review_list.insertAdjacentHTML('beforeend', `<div class ="review-comment" id="span${key.id}" style="margin-bottom:20px;"><span class="review-comment_title">Meredith:</span>
+        "${key.comment_text}"
+
         </div>`)
       if(key.status === "pending"){
        let span2 = document.getElementById(`span${key.id}`)
-          span2.insertAdjacentHTML('beforeend', `<a href"#" onclick="showComment(${key.id})">Show Comment</a>`)
+          span2.insertAdjacentHTML('beforeend', `<a href="#" onclick="showComment(${key.id})"></a>`)
       }
      })
      })
