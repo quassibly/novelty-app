@@ -32,7 +32,6 @@
 }
 
 function saveComment() {
-  console.log('working')
   let selected_text = document.getElementById(`${num}`).innerText
   let comment_title = document.querySelector('.comment_title').value
   let comment_text = document.querySelector('.comment_text').value
@@ -71,7 +70,6 @@ function saveComment() {
   document.querySelector('.comment-text').style.backgroundColor = "white"
   document.querySelector('.suggested_change').style.backgroundColor = "white"
   const content_text = content_area.innerHTML
-  console.log(content_text)
   const novel_id = content_area.dataset.id
   fetch(`/novels/autosave/${novel_id}`, {
     method: "PATCH",
@@ -106,14 +104,13 @@ function saveComment() {
     })
     }
 
-    const save = document.querySelector('.save')
-    save.addEventListener('click', saveNovel)
+    // const save = document.querySelector('.save')
+    // save.addEventListener('click', saveNovel)
 
 
 
   function getReviews(data) {
     if(data !== null){
-      console.log(1)
   const content_area = document.querySelector(".review-novel")
   const novel_id = content_area.dataset.id
     fetch(`/reviews/comments/${novel_id}`)
@@ -122,13 +119,12 @@ function saveComment() {
      let review_list = document.querySelector('.review-comments')
         review_list.innerHTML = ''
      data.forEach((key) => {
-      review_list.insertAdjacentHTML('afterbegin', `<div class ="review-comment" id="span${key.id}"><span class="review-comment_title">${key.comment_title}</span>
-        <p">${key.comment_text}</p>
-        <p class="status${key.id}">${key.status}</p>
+      review_list.insertAdjacentHTML('beforeend', `<div class ="review-comment" id="span${key.id}" style="margin-bottom:20px;"><span class="review-comment_title">Dan:</span>
+        "${key.comment_text}"
         </div>`)
       if(key.status === "pending"){
        let span2 = document.getElementById(`span${key.id}`)
-          span2.insertAdjacentHTML('beforeend', `<a href"#" onclick="showComment(${key.id})">Show Comment</a>`)
+          span2.insertAdjacentHTML('beforeend', `<a href="#" onclick="showComment(${key.id})"></a>`)
       }
      })
      })
@@ -144,7 +140,6 @@ function saveComment() {
     const submit = document.getElementById('submit');
 
     commentButton.addEventListener('click', function() {
-      console.log(2)
       dialog.showModal();
     });
     cancelButton.addEventListener('click', function() {
