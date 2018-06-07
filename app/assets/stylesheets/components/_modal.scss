@@ -33,9 +33,19 @@
   & .btn {
     margin: 10px 6px;
     outline: none;
+    cursor: pointer;
   }
 }
 
+.modal-actions-random {
+  display: flex;
+  justify-content: flex-end;
+  & .btn {
+    margin: 10px 6px !important;
+    outline: none;
+    cursor: pointer;
+  }
+}
 #comment {
   position: fixed;
   z-index: 1;
