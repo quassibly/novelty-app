@@ -3,7 +3,7 @@
   <div class="review-container" style="padding-top:20px">
     <div class="review-container-main">
       <div class="title" style="margin-bottom:20px">
-        <h1><%= @novel.title %></h1>
+        <h1 class="heading"><%= @novel.title %></h1>
       </div>
       <div contenteditable="true" class = "review-novel" data-id=<%="#{@novel.id}"%> >
         <%= @novel.content.html_safe %>
@@ -20,7 +20,3 @@
   <%= render 'shared/review' %>
 </div>
 </div>
-
-
-
-
