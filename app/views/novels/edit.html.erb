@@ -6,7 +6,6 @@
       <div class="novel-form">
         <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
           <div class="form-inner">
-
             <div class="form-part">
               <%= f.text_field(:title, class: "novel-title") %>
               <div class="content">
@@ -28,31 +27,21 @@
                     <span class=".">Goal for today: <span id="word-goal"><%= @todays_goal %></span> words</span>
                     <span class = "target"></span>
                   </div>
+                </div>
               </div>
+              <div class="edit-submit">
+                <%= submit_tag('Save Novel', class: "btn btn-primary submit-btn")%>
+              </div>
+              <!-- <%= submit_tag('Save Novel', class: "btn btn-primary submit-btn")%> -->
             </div>
+          <% end %>
 
-            <div class="form-part">
-                <%= submit_tag('Save Novel', class: "btn btn-primary more-margin")%>
-        <% end %>
-
-
-              <!-- <div class="content-control"> -->
-                <!-- <div class="btn1"> -->
-
-                <!-- </div> -->
-                <!-- <div class="btn1"> -->
-
-                  <!-- </div> -->
-
-            </div>
-          </div>
           <div class="other-buttons">
-
-                <%= render 'shared/statistics' %>   <br>
-                <%= render 'shared/random' %>
+            <%= render 'shared/statistics' %>
+            <%= render 'shared/random' %>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </div>

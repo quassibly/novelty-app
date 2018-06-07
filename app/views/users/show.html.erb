@@ -80,7 +80,7 @@
   <div class="main-dashboard-inbox">
     <div class="main-dashboard-novel">
       <div class="main-dashboard-inbox-list">
-          <%= link_to review_path(id: 1), method: :get, class: "main-dashboard-inbox-item unread" do %>
+        <%= link_to review_path(id: 1), method: :get, class: "main-dashboard-inbox-item unread" do %>
           <div class="main-dashboard-review">
             <span class="main-dashboard-reviewer">Kolja</span>
             <span class="main-dashboard-review-content">Please give me feedback on my Novel! The Gospel of the Spaghetti Monster.</span>
@@ -89,16 +89,11 @@
 
         <a class="main-dashboard-inbox-item">
           <div class="main-dashboard-review">
-            <span class="main-dashboard-reviewer">Kolja</span>
-            <span class="main-dashboard-review-content"><%= link_to "Please give me feedback on my Novel! The Gospel of the Spaghetti Monster", review_path(id: 1), method: :get %></span>
-          </div>
-        </a>
-        <a class="main-dashboard-inbox-item">
-          <div class="main-dashboard-review">
             <span class="main-dashboard-reviewer">Thomas</span>
             <span class="main-dashboard-review-content">Hey, please check if you like the ending of chapter five.</span>
           </div>
         </a>
+
         <a class="main-dashboard-inbox-item">
           <div class="main-dashboard-review">
             <span class="main-dashboard-reviewer">Carlos</span>
