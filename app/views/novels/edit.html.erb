@@ -5,31 +5,52 @@
     <div class="edit-content-container-main">
       <div class="novel-form">
         <%= simple_form_for @novel, :url => novel_path(@novel), :method => :patch do |f| %>
-        <%= f.text_field(:title, class: "novel-title") %>
-          <div class="content"><%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %></div>
-          <div class="edit-actions">
-            <div class="bar">
-              <div id="counter"></div>
-              <div id="progress" style="width: 0"></div>
-              <%= submit_tag('Save Novel', class: "btn btn-primary")%>
+          <div class="form-inner">
+
+            <div class="form-part">
+              <%= f.text_field(:title, class: "novel-title") %>
+              <div class="content">
+                <%= f.text_area(:content, class: "novel", id: "novel-text-area", data: {"id" => @novel.id}) %>
+              </div>
+              <div class="edit-actions">
+                <div class="bar">
+                  <div id="counter"></div>
+                  <div id="progress" style="width: 0"></div>
+                </div>
+              </div>
+              <div class="edit-helpers">
+                <!-- random sentence generator modal -->
+                <div class="edit-counter">
+                  <div>Written today: <span class="wordcount"> <%= @novel.novel_wordcount %></span> words</div>
+                    <span class=".">Goal for today: <span id="word-goal"><%= @todays_goal %></span> words</span>
+                    <span class = "target"></span>
+                  </div>
+              </div>
+            </div>
+
+            <div class="form-part">
+                <%= submit_tag('Save Novel', class: "btn btn-primary more-margin")%>
+        <% end %>
+
+
+              <!-- <div class="content-control"> -->
+                <!-- <div class="btn1"> -->
+
+                <!-- </div> -->
+                <!-- <div class="btn1"> -->
+
+                  <!-- </div> -->
+
             </div>
           </div>
-          <% end %>
+          <div class="other-buttons">
+
+                <%= render 'shared/statistics' %>   <br>
+                <%= render 'shared/random' %>
+          </div>
+        </div>
 
       </div>
-    </div>
-  </div>
-
-  <div class="edit-content-container-right">
-    <div class="edit-helpers">
-      <!-- random sentence generator modal -->
-      <%= render 'shared/random' %>
-      <%= render 'shared/statistics' %>
-      <div class="edit-counter">
-        <div>Written today: <span class="wordcount"> <%= @novel.novel_wordcount %></span> words</div>
-          <span class=".">Goal for today: <span id="word-goal"><%= @todays_goal %></span> words</span>
-          <span class = "target"></span>
-        </div>
     </div>
   </div>
 
