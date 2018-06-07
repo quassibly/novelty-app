@@ -1,5 +1,6 @@
 const wordGoal = document.getElementById("word-goal").innerHTML;
-const textarea = document.querySelector("#novel-text-area")
+const textarea = document.querySelector("#novel-text-area");
+const content_area = document.getElementById("novel_content")
 
 function count() {
   const textareaVal = textarea.value.trim()
@@ -21,7 +22,7 @@ function count() {
     progress = 100;
   }
   progressBar.style.width = `${progress}%`;
-  document.querySelector(".wordcount").innerText = words;
+  document.querySelector(".wordcount").innerText = words - content_area.dataset.yesterday;
 }
 
 

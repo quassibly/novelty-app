@@ -23,6 +23,10 @@ class Novel < ApplicationRecord
     WritingSession.where("novel_id = ?", self.id).where("created_at >= ?", self.goal_start_date).where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
   end
 
+  def yesterday_total_all
+    WritingSession.where("novel_id = ?", self.id).where("created_at < ?", today).sum(:session_wordcount)
+  end
+
   def days_left
     ((self.goal_deadline - today).to_i) + 1
   end
