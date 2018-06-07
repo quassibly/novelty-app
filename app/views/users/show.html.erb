@@ -20,7 +20,7 @@
           </div>
           <div class="main-dashboard-novel-content">
             <div class="main-dashboard-novel-metrics">
-              <span>Overall progress: <span><%= novel.novel_wordcount %> words</span>
+              <span>Overall progress: <span><%= number_with_delimiter(novel.novel_wordcount, :delimiter => ',') %> words</span>
               </span>
             </div>
             <div class="main-dashboard-novel-bar">
@@ -30,7 +30,7 @@
             <div class="main-dashboard-novel-footer">
               <div class="main-dashboard-goal-today">
                 <span>Goal today: </span>
-                <span class="main-dashboard-todays-goal-count"><%= novel.todays_goal %> words</span>
+                <span class="main-dashboard-todays-goal-count"><%= number_with_delimiter(novel.todays_goal, :delimiter => ',') %> words</span>
               </div>
               <div class="main-dashboard-novel-actions">
                 <%= link_to novel_path(novel), class: "btn btn-primary" do %>
@@ -54,7 +54,7 @@
         <span class="main-dashboard-summary-title">Goal today:</span>
         <span>
           <span class="main-dashboard-summary-number">
-              <%= @todays_goals %>
+              <%= number_with_delimiter(@todays_goals, :delimiter => ',') %>
           </span>
           words
         </span>
