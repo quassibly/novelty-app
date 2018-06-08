@@ -14,11 +14,11 @@
     margin-right: 225px;
   }
   &-container-right {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 225px;
+    width: 250px;
     min-height: 400px;
     height: 100vh;
     right: 0;
@@ -26,23 +26,28 @@
     padding-right: 10px;
     text-alight: right;
   }
+  &-button-add {
+    margin: 11px 0
+  }
   &-comment {
     padding: 8px;
     display: flex;
     flex-direction: column;
-    background-color: $brand-dark;
-    box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.2);
     font-family: $secondary-font !important;
     margin: 10px 0;
-    color: $brand-light;
+    color: $brand-dark;
     &_title {
       padding: 0 16px 0 0;
       white-space: wrap;
       text-overflow: ellipsis;
       width: 80%;
-      text-transform: uppercase;
       font-weight: bold;
       color: $brand-secondary;
+      text-align: right;
     }
+  }
+  &-comment .fas {
+    margin: 0 5px;
+    color: $brand-primary
   }
 }

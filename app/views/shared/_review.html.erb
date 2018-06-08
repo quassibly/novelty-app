@@ -13,7 +13,7 @@
 
 
 <!-- <menu> -->
-  <button id="add-comment" class="btn btn-secondary" onclick="wrapSelectedText();" value="Highlight"">Add Comment</button>
+  <button id="add-comment" class="btn btn-secondary review-button-add" onclick="wrapSelectedText();" value="Highlight"">Add Comment</button>
 <!-- </menu> -->
 
   <script>
@@ -120,9 +120,13 @@ function saveComment() {
         review_list.innerHTML = ''
      data.forEach((key) => {
 
-      review_list.insertAdjacentHTML('beforeend', `<div class ="review-comment" id="span${key.id}" style="margin-bottom:20px;"><span class="review-comment_title">Meredith:</span>
-        "${key.comment_text}"
-
+      review_list.insertAdjacentHTML('beforeend', `<div class ="review-comment" id="span${key.id}" style="margin-bottom:20px;">
+          <div>
+            <i class="fas fa-quote-left"></i>${key.comment_text}
+          </div>
+          <span class="review-comment_title">
+             - Meredith
+          </span>
         </div>`)
       if(key.status === "pending"){
        let span2 = document.getElementById(`span${key.id}`)
