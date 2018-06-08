@@ -122,7 +122,7 @@ function saveComment() {
 
       review_list.insertAdjacentHTML('beforeend', `<div class ="review-comment" id="span${key.id}" style="margin-bottom:20px;">
           <div>
-            <i class="fas fa-quote-left"></i>${key.comment_text}
+            <i class="fas fa-quote-left"></i>${key.suggested_change}
           </div>
           <span class="review-comment_title">
              - Meredith
@@ -159,7 +159,7 @@ function saveComment() {
     })
 
 
-    myVar = setInterval(getReviews, 10000);
+    myVar = setInterval(getReviews, 1000);
   </script>
 
 
