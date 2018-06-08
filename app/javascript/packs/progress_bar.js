@@ -3,12 +3,11 @@ const textarea = document.querySelector("#novel-text-area");
 
 function count() {
   const textareaVal = textarea.value.trim()
-
   // replace all whitespace, enters, breaks with a simple space
+  let words2 = document.querySelector('.wordcount').innerText
   let words = textareaVal.replace(/\s+/gi, ' ').split(' ').length;
-  console.log()
   const chars = textareaVal.length;
-  let progress = (words / wordGoal) * 100;
+  let progress = (words2 / wordGoal) * 100;
   const progressBar = document.querySelector("#progress")
   // const counter = document.querySelector("#counter")
   // console.log(words);

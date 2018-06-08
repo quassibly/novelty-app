@@ -106,7 +106,7 @@ def create
   end
 
   def yesterday_total_all
-    @yesterday_total_all = WritingSession.where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
+    @yesterday_total_all = WritingSession.where("novel_id = ?", @novel.id).where("created_at < ?", Time.now.to_date).sum(:session_wordcount)
   end
 
   def days_left
