@@ -28,33 +28,9 @@ Ackn owl ed gm en ts
 
 
 
-DELIVERING A DIVINE MESSAGE requires a great deal of coordination
-and effort on the part of many people. I would like to acknowledge the
-hard work of all those who have devoted long hours and considerable
-mind power to keeping up the website and thereby assuring that His
-Word is spread across the globe. To you all, I say, thank you from the
-bottom of my heart — you have done benevolent and thoughtful work,
-and together we have accomplished much, though I can't help feeling
-that our greatest moments are still ahead of us.
-
-To my agent, Paula Balzer, I offer my sincerest gratitude. You have
-been brave and steadfast, guiding me through occasionally stormy seas
-like the great Pirate that you are.
-
-This book could never have happened without the unwavering dedi-
-cation of the publishing crew at Villard. Thank you to Daniel Menaker,
-editor in chief of Random House, for his wisdom, vision, and encour-
-agement. Thank you to Sanyu Dillon and Avideh Bashirrad for their
-kindness and support, and especially for the marketing genius that
-helped get this book off to a great start. Thank you to Erich Schoene-
-weiss for producing a great book and contributing his own Piratical
-ideas on many an occasion. Thank you to Simon Sullivan and Gabe
-Levine for their incredible design. Thank you to Nancy Delia for her
-patience and unwavering commitment to this project. Thank you to
-Tim Mak, who is an artist, gentleman, and Pirate all in one. And,
-above all, my greatest thanks goes to my editor, Chris Schluep, with-
-out whom the Flying Spaghetti Monster wouldn't even have gotten
-off the ground. I nominate you official Pastriarch ofFSMism.
+DELIVERING A DIVINE MESSAGE requires a great deal of coordinationand effort on the part of many people. I would like to acknowledge thehard work of all those who have devoted long hours and considerablemind power to keeping up the website and thereby assuring that HisWord is spread across the globe. To you all, I say, thank you from thebottom of my heart — you have done benevolent and thoughtful work,and together we have accomplished much, though I can't help feelingthat our greatest moments are still ahead of us.
+To my agent, Paula Balzer, I offer my sincerest gratitude. You havebeen brave and steadfast, guiding me through occasionally stormy seaslike the great Pirate that you are.
+This book could never have happened without the unwavering dedi-cation of the publishing crew at Villard. Thank you to Daniel Menaker,editor in chief of Random House, for his wisdom, vision, and encour-agement. Thank you to Sanyu Dillon and Avideh Bashirrad for theirkindness and support, and especially for the marketing genius thathelped get this book off to a great start. Thank you to Erich Schoene-weiss for producing a great book and contributing his own Piraticalideas on many an occasion. Thank you to Simon Sullivan and GabeLevine for their incredible design. Thank you to Nancy Delia for herpatience and unwavering commitment to this project. Thank you toTim Mak, who is an artist, gentleman, and Pirate all in one. And,above all, my greatest thanks goes to my editor, Chris Schluep, with-out whom the Flying Spaghetti Monster wouldn't even have gottenoff the ground. I nominate you official Pastriarch ofFSMism.
 
 
 
@@ -130,13 +106,7 @@ Disclaimer
 
 
 
-WHILE PASTAFARIANISM IS the only religion
-based on empirical evidence, it should also be
-noted that this is a faith-based book. Attentive
-readers will note numerous holes and contra-
-dictions throughout the text; they will even
-find blatant lies and exaggerations. These have
-been placed there to test the reader's faith.
+WHILE PASTAFARIANISM IS the only religionbased on empirical evidence, it should also benoted that this is a faith-based book. Attentivereaders will note numerous holes and contra-dictions throughout the text; they will evenfind blatant lies and exaggerations. These havebeen placed there to test the reader's faith.
 
 
 
@@ -144,19 +114,11 @@ Disclaimer About Midgets' 1, Sometimes referred to as
 
 midgits or little people.
 
-OUR RELIGION DOES NOT WISH to discriminate or cause
-hurt feelings among any group — and this is especially true
-of the very short, who, if provoked, could easily appear out
-of nowhere and attack. As a solution, we offer the following:
+OUR RELIGION DOES NOT WISH to discriminate or causehurt feelings among any group — and this is especially trueof the very short, who, if provoked, could easily appear outof nowhere and attack. As a solution, we offer the following:
 
 
 
-To prevent angering the little people community, we
-suggest that this book be placed on the very highest
-shelf possible.
-
-
-
+To prevent angering the little people community, wesuggest that this book be placed on the very highestshelf possible.
 
 DEAR FRIEND,
 
@@ -164,19 +126,9 @@ DEAR FRIEND,
 
 
 
-These are exciting times in holiness — politicians are crusading, na-
-tions are invading, and science 1 is fading. With these changes come re- 1. Also known as the lan-
-ligious opportunities the likes of which haven't been seen since the guage of the forked tongue.
-Reformation... or at least since the persecuted masses first huddled to-
-gether and shipped off to that great democratic revival meeting we call
-the United States ofAmerica.
+These are exciting times in holiness — politicians are crusading, na- tions are invading, and science 1 is fading. With these changes come re- 1. Also known as the lan- ligious opportunities the likes of which haven't been seen since the guage of the forked tongue. Reformation... or at least since the persecuted masses first huddled to- gether and shipped off to that great democratic revival meeting we call the United States ofAmerica.
 
-With this in mind, the Church of the Flying Spaghetti Monster
-(FSM) invites you to learn a little more about us. We'd like to tell you all
-about our Heaven, which features a Stripper Factory and a giant Beer
-Volcano. We'd love to see you dressed in His chosen garb: full Pirate re-
-galia. We want you to enjoy Fridays as His chosen holiday. But first you
-need to know a little more about us.
+With this in mind, the Church of the Flying Spaghetti Monster (FSM) invites you to learn a little more about us. We'd like to tell you all about our Heaven, which features a Stripper Factory and a giant Beer Volcano. We'd love to see you dressed in His chosen garb: full Pirate re- galia. We want you to enjoy Fridays as His chosen holiday. But first you need to know a little more about us.
 
 
 
@@ -187,13 +139,7 @@ What are we against?
 
 • All that isn't good.
 
-Sounds sweet, right? Of course it's not that simple, and that's why
-we need a book. (Doesn't every religion have a book?) The Jews have the
-Bible (The Old Testicle), the Christians have ditto (The New Testicle),
-the Muslims have the Q-tip or whatever, the Jains have Fun with Dick
-andJain, the Sufis have Sufis Up!, the Buddhists have the Bananapada,
-the Hindus have Ten Little Indians, the Wiccans have The Witches of
-Eastwick, and so on. If this was a manifesto, a pamphlet, a flyer, an
+Sounds sweet, right? Of course it's not that simple, and that's why we need a book. (Doesn't every religion have a book?) The Jews have the Bible (The Old Testicle), the Christians have ditto (The New Testicle), the Muslims have the Q-tip or whatever, the Jains have Fun with Dick andJain, the Sufis have Sufis Up!, the Buddhists have the Bananapada, the Hindus have Ten Little Indians, the Wiccans have The Witches of Eastwick, and so on. If this was a manifesto, a pamphlet, a flyer, an
 
 
 
@@ -201,19 +147,11 @@ xiv* *A Letter from Bobby Henderson
 
 
 
-article, or some nut preaching from a street corner, you, fair reader,
-2. Also known as Pastafari- might perceive FSMisnr to be just another two-bit cult. But we're not a
-anism - cult (we're more like a boutique religion at this point), and this is a
+article, or some nut preaching from a street corner, you, fair reader, 2. Also known as Pastafari- might perceive FSMisnr to be just another two-bit cult. But we're not a anism - cult (we're more like a boutique religion at this point), and this is a
 
-book that will stand up to any of the others — at least in terms of strict
-plausibility if not literary finesse and retributive beheadings and disem-
-bowelments. The more you read about us the more you're going to be
-persuaded that the Flying Spaghetti Monster is the true Creator and
-that FSMismjust might be the Best. Religion. Ever.
+book that will stand up to any of the others — at least in terms of strict plausibility if not literary finesse and retributive beheadings and disem- bowelments. The more you read about us the more you're going to be persuaded that the Flying Spaghetti Monster is the true Creator and that FSMismjust might be the Best. Religion. Ever.
 
-Go ahead. Try us for thirty days. If you don't like us, your old religion
-will most likely take you back. Unless it's the Jains, whose feelings are
-easily hurt.
+Go ahead. Try us for thirty days. If you don't like us, your old religion will most likely take you back. Unless it's the Jains, whose feelings are easily hurt.
 
 RAmen.
 
@@ -238,39 +176,13 @@ The Need for Alternative Theories
 
 
 
-^^^J SCIENCE IS A SUBJECT IN CRISIS. There's a dirty little secret
-that the scientific establishment has been trying to keep
-f^mJ under wraps for years: There are many unproven theories that
-are being taught to people as if they were established fact. But thanks
-to the heroic efforts of a handful of deep thinkers, the winds of truth
-are sweeping across the nation.
+^^^J SCIENCE IS A SUBJECT IN CRISIS. There's a dirty little secret that the scientific establishment has been trying to keep f^mJ under wraps for years: There are many unproven theories that are being taught to people as if they were established fact. But thanks to the heroic efforts of a handful of deep thinkers, the winds of truth are sweeping across the nation.
 
-Consider the theory of Evolution. To their credit, Intelligent Design
-advocates have successfully argued that their alternative theory deserves
-as much attention as Evolution, since neither can be considered fact.
-This is a valid point, but Evolution is hardly the only theory in trouble.
+Consider the theory of Evolution. To their credit, Intelligent Design advocates have successfully argued that their alternative theory deserves as much attention as Evolution, since neither can be considered fact. This is a valid point, but Evolution is hardly the only theory in trouble.
 
-It seems strange that Evolution is singled out as just a theory when
-there are so many basic ideas in science that remain unproven, yet are
-still taught as fact. The objections to teaching Evolution have only il-
-lustrated this point further: Alternative theories must be taught in order to
-give our young students' minds a broad foundation. The Intelligent Design
-proponents make a compelling, and totally legitimate, argument that if
-a theory has not been proven, then one suggested theory is just as good
-as another.
+It seems strange that Evolution is singled out as just a theory when there are so many basic ideas in science that remain unproven, yet are still taught as fact. The objections to teaching Evolution have only il- lustrated this point further: Alternative theories must be taught in order to give our young students' minds a broad foundation. The Intelligent Design proponents make a compelling, and totally legitimate, argument that if a theory has not been proven, then one suggested theory is just as good as another.
 
-Take gravity, for example: the force of attraction between massive
-particles. We know a great deal about the properties of gravity, yet we
-know nothing about the cause of the force itself. Why are particles at-
-tracted to one other? If we review the literature, we find a lot of material
-dealing with the properties of gravity, but very little dealing with the
-underlying cause of this attraction. Until we have a proven answer to
-this question, it seems irresponsible to instruct students in what is, ul-
-timately, just a theory. However, if we must discuss the theory of grav-
-ity at all, then it's reasonable that all suggested theories should be given
-equal time, since none have been proven or disproven. Therefore, I for-
-mally submit that the Flying Spaghetti Monster is behind this strange
-and often misunderstood force.
+Take gravity, for example: the force of attraction between massive particles. We know a great deal about the properties of gravity, yet we know nothing about the cause of the force itself. Why are particles at- tracted to one other? If we review the literature, we find a lot of material dealing with the properties of gravity, but very little dealing with the underlying cause of this attraction. Until we have a proven answer to this question, it seems irresponsible to instruct students in what is, ul- timately, just a theory. However, if we must discuss the theory of grav- ity at all, then it's reasonable that all suggested theories should be given equal time, since none have been proven or disproven. Therefore, I for- mally submit that the Flying Spaghetti Monster is behind this strange and often misunderstood force.
 
 
 
@@ -278,60 +190,19 @@ and often misunderstood force.
 
 
 
-1. It would appear that
-midgets receive the most
-FSM touching — thus placing
-them on a pedestal in His
-eyes.
+1. It would appear that midgets receive the most FSM touching — thus placing them on a pedestal in His eyes.
 
 
 
-2. If we are to believe that
-height is a function of nutri-
-tion, as we're told, then a
-smaller population with
-more food available per per-
-son should correlate to a
-taller height. This is not what
-we find.
+2. If we are to believe that height is a function of nutri- tion, as we're told, then a smaller population with more food available per per- son should correlate to a taller height. This is not what we find.
 
 
 
-What if it is He, pushing us down with His Noodly Appendages, that
-causes this force? He is invisible, remember, and is undetectable by
-current instruments, so in theory it is possible. And the fact that the
-gravitational powers of the Spaghetti Monster haven't been disproven
-makes it all the more likely to be true. We can only guess as to His mo-
-tives, but it's logical to assume that if He is going to such trouble, there
-is a good reason. It could be that He doesn't want us floating off earth
-into space, or maybe just that He enjoys touching us — we may never
-know.'
+What if it is He, pushing us down with His Noodly Appendages, that causes this force? He is invisible, remember, and is undetectable by current instruments, so in theory it is possible. And the fact that the gravitational powers of the Spaghetti Monster haven't been disproven makes it all the more likely to be true. We can only guess as to His mo- tives, but it's logical to assume that if He is going to such trouble, there is a good reason. It could be that He doesn't want us floating off earth into space, or maybe just that He enjoys touching us — we may never know.'
 
-And while it's true that we don't have any empirical evidence to back
-up this theory, keep in mind the precedent set by Intelligent Design
-proponents. Not only is observable, repeatable evidence not required to
-get an alternative theory included in the curriculum, but simply pok-
-ing holes in established theory may be enough. In this case, the
-established theory of gravity makes no mention as to the cause of the
-force; it merely presents the properties of it. I fully expect, then, that
-this FSM theory of gravity will be admitted into accepted science with
-a minimum of apparently unnecessary bureaucratic nonsense, includ-
-ing the peer-review process.
+And while it's true that we don't have any empirical evidence to back up this theory, keep in mind the precedent set by Intelligent Design proponents. Not only is observable, repeatable evidence not required to get an alternative theory included in the curriculum, but simply pok- ing holes in established theory may be enough. In this case, the established theory of gravity makes no mention as to the cause of the force; it merely presents the properties of it. I fully expect, then, that this FSM theory of gravity will be admitted into accepted science with a minimum of apparently unnecessary bureaucratic nonsense, includ- ing the peer-review process.
 
-For further evidence of the true cause of gravity — that we are being
-pushed down by His Noodly Appendages — we need only look at our his-
-torical records. The average height of humans two thousand years ago
-was about five feet three inches for males, compared with an average
-height of around five feet ten inches for males today. Useless by itself,
-this information becomes quite important when viewed in terms of
-worldwide population. Humans, apparently obsessed with fucking, have
-increased their numbers exponentially over the years. We find, counter-
-intuitively, that a small population correlates with shorter humans,
-and a larger population correlates with taller humans. 2 This only
-makes sense in light of the FSM theory of gravity. With more people on
-earth today, there are fewer Noodly Appendages to go around, so we
-each receive less touching — pushing down toward the earth — and thus,
-with less force downward, we're taller.
+For further evidence of the true cause of gravity — that we are being pushed down by His Noodly Appendages — we need only look at our his- torical records. The average height of humans two thousand years ago was about five feet three inches for males, compared with an average height of around five feet ten inches for males today. Useless by itself, this information becomes quite important when viewed in terms of worldwide population. Humans, apparently obsessed with fucking, have increased their numbers exponentially over the years. We find, counter- intuitively, that a small population correlates with shorter humans, and a larger population correlates with taller humans. 2 This only makes sense in light of the FSM theory of gravity. With more people on earth today, there are fewer Noodly Appendages to go around, so we each receive less touching — pushing down toward the earth — and thus, with less force downward, we're taller.
 
 We can fully expect that as the population increases, and we receive
 
@@ -346,27 +217,12 @@ EARLY MAN: SHORT MODERN MAN: TALL
 
 
 
-less downward pushing by the FSM, we'll continue to grow in height.
-Conversely, we can expect that the sudden occurrence of a worldwide
-plague would cause our average height to decrease. This phenomenon
-can be verified in historical records. We find that re-
-gions undergoing health crises have shorter people-
-strong evidence that the theory is sound.
-
-No one is saying that the FSM theory of gravity is
-necessarily true, but at the very least, it's based on
-sound science, sound enough to be included in the
-curriculum with the other nonproven theories. Until
-the currently taught theory of gravity, known as
-Newtonism, is proven as fact, alternatives should be
-taught as well.
+less downward pushing by the FSM, we'll continue to grow in height. Conversely, we can expect that the sudden occurrence of a worldwide plague would cause our average height to decrease. This phenomenon can be verified in historical records. We find that re- gions undergoing health crises have shorter people- strong evidence that the theory is sound.
+No one is saying that the FSM theory of gravity is necessarily true, but at the very least, it's based on sound science, sound enough to be included in the curriculum with the other nonproven theories. Until the currently taught theory of gravity, known as Newtonism, is proven as fact, alternatives should be taught as well.
 
 
 
-The unusually high placement of this
-prehistoric cave art is attributed to the
-natural shelter that caves provided from
-His Noodly Appendages.
+The unusually high placement of this prehistoric cave art is attributed to the natural shelter that caves provided from His Noodly Appendages.
 
 
 
@@ -377,35 +233,16 @@ An Alternative Viewpoint
 
 A Note from
 
-Ferris P. Longshanks: County Sheriff , School
-Board Member, Concerned Citizen
-
-Honestly, fellow citizens, I don't under-
-stand what all the fuss is about. We're not
-saying that Intelligent Design is any more
-valid than Evolution or any other half-
-baked theory of creation — all we're inter-
-ested in is giving people choices.
-
+Ferris P. Longshanks: County Sheriff , School Board Member, Concerned Citizen
+Honestly, fellow citizens, I don't under- stand what all the fuss is about. We're not saying that Intelligent Design is any more valid than Evolution or any other half- baked theory of creation — all we're inter- ested in is giving people choices.
 Isn't that what America is all about?
 
-Republican or Democrat
-McDonald's or Burger King
-Target orWal-Mart
-Coke or Pepsi
-
+Republican or Democrat McDonald's or Burger King Target orWal-Mart Coke or Pepsi
 And here's another to consider . .
 
-The Benevolent Lord Our Savior or
-Everlasting Damnation in Hellfire
+The Benevolent Lord Our Savior or Everlasting Damnation in Hellfire
 
-Whichever side you fall on doesn't really matter, because we're all
-Americans. Still, any real American supports his or her inalienable
-right to have choices— and lots of 'em. For what are people without
-choices? Communists! And despite this fact, there are those who
-would bar the public from having an open and honest discussion
-about Intelligent Design, a scientific concept that's so clear and logi-
-
+Whichever side you fall on doesn't really matter, because we're all Americans. Still, any real American supports his or her inalienable right to have choices— and lots of 'em. For what are people without choices? Communists! And despite this fact, there are those who would bar the public from having an open and honest discussion about Intelligent Design, a scientific concept that's so clear and logi-
 
 
 
@@ -413,42 +250,20 @@ An Alternative Viewpoint • * 7
 
 
 
-cal as to appeal to Baptist holy men and intellectually discerning
-NASCAR fans alike.
+cal as to appeal to Baptist holy men and intellectually discerning NASCAR fans alike.
 
 Sometimes I see the hypocrisy and just shake my head.
 
-Granted, these are controversial issues we're dealing with, and
-well-reasoned people do disagree on whether life as we know it was
-created by a benevolent and all-knowing Creator (ID) — or through a
-random and heartless struggle for dominance, commonly known as
-survival of the fittest (Evolution).
+Granted, these are controversial issues we're dealing with, and well-reasoned people do disagree on whether life as we know it was created by a benevolent and all-knowing Creator (ID) — or through a random and heartless struggle for dominance, commonly known as survival of the fittest (Evolution).
 
-For the sake of clarity, allow me to use a simple analogy to explain
-these two very different versions of creation.
+For the sake of clarity, allow me to use a simple analogy to explain these two very different versions of creation.
 
-Say you want to buy one of those new flatscreen TVs that are so
-popular these days. According to the opposing theories of ID and
-Evolution, you might acquire that TV in two very different ways:
+Say you want to buy one of those new flatscreen TVs that are so popular these days. According to the opposing theories of ID and Evolution, you might acquire that TV in two very different ways:
+1. You could assume, quite fairly, that Intelligent Designers from Sony, Toshiba, and Sharp are actively producing new and affordable forty-two-inch, high-definition flatscreen TVs, which are then boxed and shipped to the nearest Wal-Mart or Circuit City for you to purchase. Or . . .
 
-1. You could assume, quite fairly, that Intelligent Designers from
-Sony, Toshiba, and Sharp are actively producing new and
-affordable forty-two-inch, high-definition flatscreen TVs, which
-are then boxed and shipped to the nearest Wal-Mart or Circuit
-City for you to purchase. Or . . .
+2. You could wait several million years for a new flatscreen TV to evolve spontaneously from a soup composed of mud, DNA, and spare television parts. Once this happens, you might attempt to drag your new television out of a swamp and back to your house (or more likely, cave) before a stranger comes swinging out of a tree, Mils you and your children, then inseminates your wife with his own seed.
 
-2. You could wait several million years for a new flatscreen TV to
-evolve spontaneously from a soup composed of mud, DNA, and
-spare television parts. Once this happens, you might attempt
-to drag your new television out of a swamp and back to your
-house (or more likely, cave) before a stranger comes swinging
-out of a tree, Mils you and your children, then inseminates your
-wife with his own seed.
-
-As you can see, both theories present potentially dramatic conse-
-quences for society. I'm not saying that one scenario is more valid
-than the other, but I will say that the Intelligent Design option is the
-first one. In the interest of fairness, IH also say that Evolution (or
+As you can see, both theories present potentially dramatic conse- quences for society. I'm not saying that one scenario is more valid than the other, but I will say that the Intelligent Design option is the first one. In the interest of fairness, IH also say that Evolution (or
 
 
 
@@ -456,43 +271,19 @@ The Gospel of the Flying Spaghetti Monster
 
 
 
-Natural Selection) is the one where your wife gets raped by a man
-who lives in a tree. Both theories present unique challenges.
+Natural Selection) is the one where your wife gets raped by a man who lives in a tree. Both theories present unique challenges.
 
-When considering the two, ask yourself which makes more sense in
-your life.
+When considering the two, ask yourself which makes more sense in your life.
 
-Then ask yourself, Who's making these arguments, anyway?
-ID proponents can boast of several scientists — brave men who are
-willing to be called upon by name — to represent their views. You've
-seen these pro-ID champions on your televisions (which, we can safely
-assume, were designed by engineers and bought from a store . . .
+Then ask yourself, Who's making these arguments, anyway? ID proponents can boast of several scientists — brave men who are willing to be called upon by name — to represent their views. You've seen these pro-ID champions on your televisions (which, we can safely assume, were designed by engineers and bought from a store . . .
 
-further proof). You've observed them being viciously at-
-tacked by activistjudges, the liberal media, and a cer-
-tain Bobby Henderson. But where are the men of
-science who speak out in support of Evolution?
+further proof). You've observed them being viciously at- tacked by activistjudges, the liberal media, and a cer- tain Bobby Henderson. But where are the men of science who speak out in support of Evolution?
+A number of scientists have been cited in defense of Evolution, but ifwe examine the situation more closely we begin to see a disturbing pattern.
 
-A number of scientists have been cited in defense of
-Evolution, but ifwe examine the situation more closely
-we begin to see a disturbing pattern.
+Names like Darwin, Einstein, Carl Sagan, Stephen Jay Gould, Ernst Meyer — and many other scientists who 95 percent of the country have never heard of — are of- fered up as men who've supported Evolution. Yet you've never seen one ofthese so-called scientists pub- licly defending their theory. Why? Answer: Because they're all dead. Hmm . . . coincidence? When the pro-Evolutionary
+movement has to resort to dead scientists (who are probably a little warm right now, if you get my drift), it makes one wonder how good an argument they actually have. What's next. . . bringing backAristo tie (a homosexual) and Ptolemy (forgotten) to argue for a flat earth? Given the pro-Evolutionists' track record, that can't be too far away.
 
-Names like Darwin, Einstein, Carl Sagan, Stephen
-Jay Gould, Ernst Meyer — and many other scientists who
-95 percent of the country have never heard of — are of-
-fered up as men who've supported Evolution. Yet
-you've never seen one ofthese so-called scientists pub-
-licly defending their theory. Why?
-Answer: Because they're all dead.
-Hmm . . . coincidence? When the pro-Evolutionary
-movement has to resort to dead scientists (who are probably a little
-warm right now, if you get my drift), it makes one wonder how good
-an argument they actually have. What's next. . . bringing backAristo
-tie (a homosexual) and Ptolemy (forgotten) to argue for a flat earth?
-Given the pro-Evolutionists' track record, that can't be too far away.
-
-As I've stated, we do see livingjudges trying to wield their laws in
-the face ofthis highly scientific discussion. However, I predict that
+As I've stated, we do see livingjudges trying to wield their laws in the face ofthis highly scientific discussion. However, I predict that
 
 
 
@@ -500,40 +291,15 @@ An Alternative Viewpoint • • 9
 
 
 
-the well-prepared ID scientists will soon have liberal activist judges
-quaking in their penny loafers. These judges are much better suited
-for sanctioning same-sex marriage, and most of them are old and
-easily confused. Ignore their words and proclamations, for they tire
-easily.
+the well-prepared ID scientists will soon have liberal activist judges quaking in their penny loafers. These judges are much better suited for sanctioning same-sex marriage, and most of them are old and easily confused. Ignore their words and proclamations, for they tire easily.
 
-The liberal media has also chimed in on the subject, only to be re-
-minded that they're just overpromoted weathermen with good hair,
-deep voices, and small penises. I don't have conclusive evidence on
-this last point, but looking at Stone Phillips I'm pretty sure it's true.
-Don't worry about the media, they'll lose interest as soon as forest
-fire season returns.
+The liberal media has also chimed in on the subject, only to be re- minded that they're just overpromoted weathermen with good hair, deep voices, and small penises. I don't have conclusive evidence on this last point, but looking at Stone Phillips I'm pretty sure it's true. Don't worry about the media, they'll lose interest as soon as forest fire season returns.
 
-Aside from dead scientists, activist judges, and the liberal media,
-one other man has arisen as a voice for the Evolutionists — if not nec-
-essarily to argue for Evolution, then at least to mock the ID move-
-ment. We know little about this man, who hails from the Pacific
-Northwest and calls himself Bobby Henderson.
+Aside from dead scientists, activist judges, and the liberal media, one other man has arisen as a voice for the Evolutionists — if not nec- essarily to argue for Evolution, then at least to mock the ID move- ment. We know little about this man, who hails from the Pacific Northwest and calls himself Bobby Henderson.
 
-Far be it from me to cast stones, but there are disturbing rumors
-about him going around. I read on the Internet that he's not even a
-scientist. Also, a very reliable source reports that he lied about his
-military record. I hear that he's been divorced three times and sleeps
-in a crypt. Not all of these rumors are verified, but if we're to let this
-lying divorce A who may or may not be a shape-shifting night creature,
-take a lead on this important debate, I can only pray for the redemp-
-tion of this country.
+Far be it from me to cast stones, but there are disturbing rumors about him going around. I read on the Internet that he's not even a scientist. Also, a very reliable source reports that he lied about his military record. I hear that he's been divorced three times and sleeps in a crypt. Not all of these rumors are verified, but if we're to let this lying divorce A who may or may not be a shape-shifting night creature, take a lead on this important debate, I can only pray for the redemp- tion of this country.
 
-In conclusion, I would like to return to my original argument: We
-the People need choices. We need as many choices as possible, and we
-can't allow the leftist cabal of scientists, judges, Bobby Henderson,
-and the media to take these choices away from us. Write your con-
-gressmen and demand that ID be taught in the schools. Write your
-religious leaders and demand that they write your congressmen.
+In conclusion, I would like to return to my original argument: We the People need choices. We need as many choices as possible, and we can't allow the leftist cabal of scientists, judges, Bobby Henderson, and the media to take these choices away from us. Write your con- gressmen and demand that ID be taught in the schools. Write your religious leaders and demand that they write your congressmen.
 
 If we don't act now, I fear the day will come when judges and the
 
@@ -541,11 +307,7 @@ If we don't act now, I fear the day will come when judges and the
 
 • The Gospel of the Flying Spaghetti Monster
 
-media are free to operate with little regard for the tempering hand of
-public outrage. Laws will be passed and upheld, and onlyjudges will
-be able to rule on them. The media will report the news without
-threat of subpoena. To put it bluntly, the god-hating communists will
-have finally won.
+media are free to operate with little regard for the tempering hand of public outrage. Laws will be passed and upheld, and onlyjudges will be able to rule on them. The media will report the news without threat of subpoena. To put it bluntly, the god-hating communists will have finally won.
 
 I wonder if they'll appoint Bobby Henderson to be their dictator.
 
@@ -557,36 +319,11 @@ Toward a New SuperScience
 
 WE ARE ENTERING INTO AN EXCITING TIME, when no
 
-longer will science be limited to natural explana-
-tions. Who is to say that there aren't supernatural
-forces — magic, some might call it — at work, controlling events around us?
-Propelled by popular opinion and local government, science is quickly
-becoming receptive to all logical theories, natural and supernatural alike.
-Not since the Middle Ages have we seen such open-minded science
-policy.
+longer will science be limited to natural explana- tions. Who is to say that there aren't supernatural forces — magic, some might call it — at work, controlling events around us? Propelled by popular opinion and local government, science is quickly becoming receptive to all logical theories, natural and supernatural alike. Not since the Middle Ages have we seen such open-minded science policy.
 
-What is science, really? Some might call it the observational, descrip-
-tive, experimental, and theoretical explanation ofphenomena. And so,
-not surprisingly, there are a few who argue that supernatural theories
-have no place in science, since they make no testable claims about the
-world. But that idea is a little shortsighted. Science is also a collection
-of tools whose purpose is to enable mankind to solve problems. In this
-sense, supernatural — or magic, metaphysical, not real, what have you —
-theories have the potential to be just as helpful, if not more helpful,
-than the standard natural-only science we've used for the last two hun-
-dred years.
+What is science, really? Some might call it the observational, descrip- tive, experimental, and theoretical explanation ofphenomena. And so, not surprisingly, there are a few who argue that supernatural theories have no place in science, since they make no testable claims about the world. But that idea is a little shortsighted. Science is also a collection of tools whose purpose is to enable mankind to solve problems. In this sense, supernatural — or magic, metaphysical, not real, what have you — theories have the potential to be just as helpful, if not more helpful, than the standard natural-only science we've used for the last two hun- dred years.
 
-Extending the science tool metaphor further, shouldn't we endeavor
-to give scientists the largest collection of tools possible? No one is say-
-ing that they have to apply a supernatural explanation to any particu-
-lar phenomenon, only that the supernatural be available if nothing else
-works, or if it is convenient for deceptive political purposes. And re-
-member, this is not a radical new idea. In terms of years in use, supernat-
-ural science — SuperScience, if you will — has the edge on conventional
-science. Conventional, or empirical, science has been in use for only a few
-hundred years. Obviously there must be a reason supernatural science
-lasted so long, before this empirical-science' fad began. Could it be that
-supernatural science is more productive than empirical science?
+Extending the science tool metaphor further, shouldn't we endeavor to give scientists the largest collection of tools possible? No one is say- ing that they have to apply a supernatural explanation to any particu- lar phenomenon, only that the supernatural be available if nothing else works, or if it is convenient for deceptive political purposes. And re- member, this is not a radical new idea. In terms of years in use, supernat- ural science — SuperScience, if you will — has the edge on conventional science. Conventional, or empirical, science has been in use for only a few hundred years. Obviously there must be a reason supernatural science lasted so long, before this empirical-science' fad began. Could it be that supernatural science is more productive than empirical science?
 
 Consider the discovery and development of new land, an important
 
@@ -597,12 +334,9 @@ Consider the discovery and development of new land, an important
 
 
 
-scientific pursuit by anyone's standard. If we compare a period of time
-LAldente. in which supernatural science was the norm — say the years A.D. 1400 1
+scientific pursuit by anyone's standard. If we compare a period of time LAldente. in which supernatural science was the norm — say the years A.D. 1400 1
 
-to 1600, to a period of time in which empirical science was preferred-
-say the years 1800 to 2000 — we can get a clear picture of just how detri-
-mental empirical science can be.
+to 1600, to a period of time in which empirical science was preferred- say the years 1800 to 2000 — we can get a clear picture of just how detri- mental empirical science can be.
 
 
 
@@ -625,17 +359,7 @@ Years 1800-2000
 
 
 
-Here, empirical science comes up short even with every technological
-advantage it possesses. Even with satellite imagery and GPS navigation,
-scientists bound by the chains of empiricism have been unable to dis-
-cover even a paltry 3 percent of the amount of new land that their
-supernatural-science counterparts found in an equal period of time.
-Scientists and explorers in the years 1400-1600 had few maps, only a
-compass, cross-staff, or astrolabe for navigation, and no motorized
-transportation. Yet even with these setbacks, they still managed to dis-
-cover more than 14 million square kilometers of new, developable land.
-Clearly their openness to supernatural forces had something to do with
-their success, and we can only guess that they were guided to these new-
+Here, empirical science comes up short even with every technological advantage it possesses. Even with satellite imagery and GPS navigation, scientists bound by the chains of empiricism have been unable to dis- cover even a paltry 3 percent of the amount of new land that their supernatural-science counterparts found in an equal period of time. Scientists and explorers in the years 1400-1600 had few maps, only a compass, cross-staff, or astrolabe for navigation, and no motorized transportation. Yet even with these setbacks, they still managed to dis- cover more than 14 million square kilometers of new, developable land. Clearly their openness to supernatural forces had something to do with their success, and we can only guess that they were guided to these new-
 
 
 
@@ -648,20 +372,11 @@ Coward a New SuperScience • • 1 3
 
 
 
-found lands by some creature — most likely the Flying Spaghetti Mon-
-ster, as historical art suggests.
+found lands by some creature — most likely the Flying Spaghetti Mon- ster, as historical art suggests.
 
-It's only logical to assume that returning to balanced methods of sci-
-ence — natural theories and supernatural theories both — would allow us
-to find more land, something we greatly need for our growing popula-
-tion. More land means more resources, and more resources means fewer
-starving children. I can safely say, then, that anyone against the inclu-
-sion of supernatural theories into science wants children to starve. Such
-people obviously have no place in policymaking, and so I suggest that
-they get no say on the issue.
+It's only logical to assume that returning to balanced methods of sci- ence — natural theories and supernatural theories both — would allow us to find more land, something we greatly need for our growing popula- tion. More land means more resources, and more resources means fewer starving children. I can safely say, then, that anyone against the inclu- sion of supernatural theories into science wants children to starve. Such people obviously have no place in policymaking, and so I suggest that they get no say on the issue.
 
-Next, we'll look at medicine. It might seem crazy to claim that med-
-icine was superior in the Middle Ages — when science included the su-
+Next, we'll look at medicine. It might seem crazy to claim that med- icine was superior in the Middle Ages — when science included the su-
 
 
 
@@ -673,43 +388,14 @@ guided by a Higher Po wer.
 
 » • che Gospel of the Flying Spaghetti Monster
 
-pernatural — than it is today — being now limited to the study of natural
-phenomena — but let's take a closer look. Medieval medicine was domi-
-nated by religion, and yes, sickness was generally thought to be punish-
-ment for sins, and so treatment then consisted mainly of prayer. But
-let's not forget about the antiquated medical procedures that were
-ultimately so successful as to render them unnecessary today.
+pernatural — than it is today — being now limited to the study of natural phenomena — but let's take a closer look. Medieval medicine was domi- nated by religion, and yes, sickness was generally thought to be punish- ment for sins, and so treatment then consisted mainly of prayer. But let's not forget about the antiquated medical procedures that were ultimately so successful as to render them unnecessary today.
 
-Bloodletting, the removal of considerable amounts of blood from a
-patient's body, is considered heinous by today's supposedly superior
-doctors, but who is to say that the procedure didn't do more good than
-modern medicine? Medical texts from the Middle Ages — anyone with
-even a moderate understanding of Latin can read them, and we have no
-reason to doubt their validity — tell us that many ailments, from
-headaches to cancer, are the result of evil spirits who are angry with us.
-We now know, of course, that there are many causes for these ailments,
-not just spirits at work, but it's clear from the texts that they were a very
-significant cause of sickness — one that does not exist today, because
-bloodletting worked so well as to defeat these sickness spirits com-
-pletely, much the same way polio was cured with high doses of vitamin
-C. To those who disagree, let me ask you: When was the last time you
-suffered a demon-induced fever?
+Bloodletting, the removal of considerable amounts of blood from a patient's body, is considered heinous by today's supposedly superior doctors, but who is to say that the procedure didn't do more good than modern medicine? Medical texts from the Middle Ages — anyone with even a moderate understanding of Latin can read them, and we have no reason to doubt their validity — tell us that many ailments, from
+headaches to cancer, are the result of evil spirits who are angry with us. We now know, of course, that there are many causes for these ailments, not just spirits at work, but it's clear from the texts that they were a very significant cause of sickness — one that does not exist today, because bloodletting worked so well as to defeat these sickness spirits com- pletely, much the same way polio was cured with high doses of vitamin C. To those who disagree, let me ask you: When was the last time you suffered a demon-induced fever?
 
-But there are more diseases out there, and it's apparent that medical
-science, equipped with only modern methods, cannot defeat them all.
-Why not, then, give these doctors and scientists more tools and the flex-
-ibility to consider supernatural causes as well as natural ones? Who
-knows what other ailments, even non-demon-induced ones, might be
-cured with a simple bloodletting or application of leeches? We'll never
-know until we try.
+But there are more diseases out there, and it's apparent that medical science, equipped with only modern methods, cannot defeat them all. Why not, then, give these doctors and scientists more tools and the flex- ibility to consider supernatural causes as well as natural ones? Who knows what other ailments, even non-demon-induced ones, might be cured with a simple bloodletting or application of leeches? We'll never know until we try.
 
-And while it's true that many people believe in the power of prayer to
-cure disease, there's never been any verifiable evidence to support the
-practice. That's not to say it's not possible — it certainly is possible that
-prayer aids in healing — but it could very well be that these prayers are
-being applied in a nonoptimal fashion, thus explaining the lack of evi-
-dence for their effectiveness. The truth is we don't know because cur-
-rent scientific methods and religious sensitivities don't allow this type
+And while it's true that many people believe in the power of prayer to cure disease, there's never been any verifiable evidence to support the practice. That's not to say it's not possible — it certainly is possible that prayer aids in healing — but it could very well be that these prayers are being applied in a nonoptimal fashion, thus explaining the lack of evi- dence for their effectiveness. The truth is we don't know because cur- rent scientific methods and religious sensitivities don't allow this type
 
 
 
@@ -717,42 +403,12 @@ Coward a New SuperScience • • 1 5
 
 
 
-of study. What if those praying are simply praying to the wrong God, or
-offending Him somehow? What if, by the wearing of a simple eye patch
-or Pirate bandanna, those praying might have their prayers answered by
-the FSM?
+of study. What if those praying are simply praying to the wrong God, or offending Him somehow? What if, by the wearing of a simple eye patch or Pirate bandanna, those praying might have their prayers answered by the FSM?
 
-History is full of examples of supernatural events, and unless we are
-saying that we're somehow more intelligent and educated, better equip-
-ped to understand unexplained events today than we were five hundred
-years ago, then we must accept the explanations given to these events by
-those who witnessed them. Witches, for example, existed in such quan-
-tity and caused so much trouble that it was necessary to hunt them
-down and burn them in the tens of thousands. Here it is, the twenty-
-first century, hundreds ofyears later, plenty of time for the population
-of witches to have grown exponentially, yet they are decidedly less of a
-problem now than they were half a millennia ago. I have never
-even seen a witch, let alone felt the need to burn one to death.
-We can conclude, then, that our forefathers, equipped
-with the knowledge that supernatural explana-
-tions were reasonable, rounded up all the
-witches in existence and took care of them.
+History is full of examples of supernatural events, and unless we are saying that we're somehow more intelligent and educated, better equip- ped to understand unexplained events today than we were five hundred years ago, then we must accept the explanations given to these events by those who witnessed them. Witches, for example, existed in such quan- tity and caused so much trouble that it was necessary to hunt them down and burn them in the tens of thousands. Here it is, the twenty- first century, hundreds ofyears later, plenty of time for the population of witches to have grown exponentially, yet they are decidedly less of a
+problem now than they were half a millennia ago. I have never even seen a witch, let alone felt the need to burn one to death. We can conclude, then, that our forefathers, equipped with the knowledge that supernatural explana- tions were reasonable, rounded up all the witches in existence and took care of them.
 
-The other possibility is that there ire
-witches out there, hiding somewhere, ploi
-ting their revenge, liberally applying fire-
-proofing compounds to themselves.
-And someday they may reappear and
-start causing trouble. And then what
-will our high and mighty scientists
-do? Throw calculators at them?
-Witches eat calculators. The scien-
-tific community will be helpless
-to defeat the threat of these
-witches, offering only logical
-and reasoned explanations for
-the horrible events the witches
-are magically inflicting on us.
+The other possibility is that there ire witches out there, hiding somewhere, ploi ting their revenge, liberally applying fire- proofing compounds to themselves. And someday they may reappear and start causing trouble. And then what will our high and mighty scientists do? Throw calculators at them? Witches eat calculators. The scien- tific community will be helpless to defeat the threat of these witches, offering only logical and reasoned explanations for the horrible events the witches are magically inflicting on us.
 
 
 
@@ -763,22 +419,9 @@ Witch eating a calculator.
 
 16 • *The Gospel of the Flying Spaghetti Monster
 
-We tend to exalt our rigid empirical methods and technological ad-
-vances, almost as if we're proud of what we've accomplished with them,
-but when the record clearly shows that supernatural, nonempirical
-science produces these kinds of results — the discovery of new lands,
-the elimination of demon-inducing illnesses, and the extinction of
-witches — it's time to rethink our methods and return to what gave us
-real results.
+We tend to exalt our rigid empirical methods and technological ad- vances, almost as if we're proud of what we've accomplished with them, but when the record clearly shows that supernatural, nonempirical science produces these kinds of results — the discovery of new lands, the elimination of demon-inducing illnesses, and the extinction of witches — it's time to rethink our methods and return to what gave us real results.
 
-The biggest irony is that the arguments given against the inclusion of
-supernatural theories in the realm of accepted science actually show
-clearly that supernatural theories are legit fields of scientific study. No
-one is saying that empirical, natural-only science and supernatural sci-
-ence can't live side by side. They can, and in fact, they must. Intelligent
-design may shun natural explanations for phenomena, but FSMism
-makes use ofboth the natural and the supernatural equally.
-
+The biggest irony is that the arguments given against the inclusion of supernatural theories in the realm of accepted science actually show clearly that supernatural theories are legit fields of scientific study. No one is saying that empirical, natural-only science and supernatural sci- ence can't live side by side. They can, and in fact, they must. Intelligent design may shun natural explanations for phenomena, but FSMism makes use ofboth the natural and the supernatural equally.
 FSMISM
 
 
@@ -792,46 +435,20 @@ What's the Matter with evolution?
 
 
 
-WE HEAR A LOT ABOUT EVOLUTION these days. Scien-
-tists seem to have embraced the subject as though
-it were the Second Coming of... well... science.
-
+WE HEAR A LOT ABOUT EVOLUTION these days. Scien- tists seem to have embraced the subject as though it were the Second Coming of... well... science.
 
 
 Highlighting the Problem
 
 
 
-But where has it gotten us? Are we to believe thatjust because were de-
-scended from a common ancestor shared with monkeys, dogs, or what-
-ever, that we understand our situation on this earth any better than we
-would without Evolution to guide us? Is Evolution going to somehow
-make my life more satisfying? Can Evolution put food on my table?
-Will it save the earth from global warming?
+But where has it gotten us? Are we to believe thatjust because were de- scended from a common ancestor shared with monkeys, dogs, or what- ever, that we understand our situation on this earth any better than we would without Evolution to guide us? Is Evolution going to somehow make my life more satisfying? Can Evolution put food on my table? Will it save the earth from global warming?
 
-The answer to all of the above is a big No. And why is that? Because
-Evolution is about as useful as a screen door on a submarine. Sure, sci-
-entists while away their days trying to devise this or that proof to show
-that Evolution is a credible idea, but as long as its just a theory, no one
-in the real world is going to take it seriously. So Ive decided to do some
-debunking of my own to show the world that the big, bad scientists
-arent all. that, as the kids like to say.
+The answer to all of the above is a big No. And why is that? Because Evolution is about as useful as a screen door on a submarine. Sure, sci- entists while away their days trying to devise this or that proof to show that Evolution is a credible idea, but as long as its just a theory, no one in the real world is going to take it seriously. So Ive decided to do some debunking of my own to show the world that the big, bad scientists arent all. that, as the kids like to say.
 
-What is Evolution but the gradual change of species over a lengthy
-period of time as a result of various internal and external selective pres-
-sures? My grandfather, who is as old as dirt, has been through that. Ac-
-cording to early lithographs, he was quite a looker in his day, but now,
-a century later, after years of hard drinking and working in the mines,
-he has no hair and looks like shit. Could Evolution just mean growing
-old] I posed this question to a scientist friend who explained that the
-change has to take place over many generations. Youd think the Evolu-
-tionists would have stated that right out front, and I admit that I stand
-corrected. But Evolution still sounds a lot like growing old to me, and I
-cant help thinking that this is where the Evolutionary scientists first
-got their wacky ideas.
+What is Evolution but the gradual change of species over a lengthy period of time as a result of various internal and external selective pres- sures? My grandfather, who is as old as dirt, has been through that. Ac- cording to early lithographs, he was quite a looker in his day, but now, a century later, after years of hard drinking and working in the mines, he has no hair and looks like shit. Could Evolution just mean growing old] I posed this question to a scientist friend who explained that the change has to take place over many generations. Youd think the Evolu- tionists would have stated that right out front, and I admit that I stand corrected. But Evolution still sounds a lot like growing old to me, and I cant help thinking that this is where the Evolutionary scientists first got their wacky ideas.
 
-Having cleared up this common confusion, let us move on to the
-proposed selective force of Evolution — namely, Natural Selection. What
+Having cleared up this common confusion, let us move on to the proposed selective force of Evolution — namely, Natural Selection. What
 
 
 
@@ -839,96 +456,35 @@ proposed selective force of Evolution — namely, Natural Selection. What
 
 
 
-the fuck is this supposed to mean? Is there unnatural selection? And
-whos doing the selecting? Neither of these questions could be an-
-swered by my scientist friend, and so I have been forced to ditch my now
-former friend and perform my own research. What follows is, to the
-best of my ability, what Ive been able to uncover regarding Evolution
-and Natural Selection.
+the fuck is this supposed to mean? Is there unnatural selection? And whos doing the selecting? Neither of these questions could be an- swered by my scientist friend, and so I have been forced to ditch my now former friend and perform my own research. What follows is, to the best of my ability, what Ive been able to uncover regarding Evolution and Natural Selection.
 
 
 
 A Closer examination of Natural Selection
 
-Apparently, there are not one but two forms of selection. They are Nat-
-ural Selection and sexual selection. Ill let you mull over the second
-sexy form of selection for a minute, at least until Ive torn the first one
-to shreds. You should have time to masturbate while reading my proofs,
-if thats what youre in to.
+Apparently, there are not one but two forms of selection. They are Nat- ural Selection and sexual selection. Ill let you mull over the second sexy form of selection for a minute, at least until Ive torn the first one to shreds. You should have time to masturbate while reading my proofs, if thats what youre in to.
 
-According to the neo-Darwinists, most Evolutionary change is at-
-tributable to Natural Selection, meaning that individuals carrying
-genes that are better suited to their environment will leave more off-
-spring than individuals carrying genes that make them less adaptive.
-Over time, these more adaptive traits will proliferate, altering the ge-
-netic composition ofthe overall population, since individuals with bet-
-1. Fitness regards howweii ter fitness 1 pass more oftheir genes into the next generation. It is this
+According to the neo-Darwinists, most Evolutionary change is at- tributable to Natural Selection, meaning that individuals carrying genes that are better suited to their environment will leave more off- spring than individuals carrying genes that make them less adaptive. Over time, these more adaptive traits will proliferate, altering the ge- netic composition ofthe overall population, since individuals with bet- 1. Fitness regards howweii ter fitness 1 pass more oftheir genes into the next generation. It is this
+individuals fit m their envi- process, scientists will tell you, that produced the platypus, the pen- ronment.
 
-individuals fit m their envi- process, scientists will tell you, that produced the platypus, the pen-
-ronment.
+guin, and the poodle — leading us to conclude that scientists are defi- nitely full of shit. If someone can explain to me the adaptive traits of the duckbill, then they can certainly tell me why the platypus is the only mammal on the planet that has one? Are platypii (pusses ... who knows?) concerned with ingratiating themselves into local duck popu- lations? Do they think that theyre funny? Why the fuck do they have a bill?
 
-guin, and the poodle — leading us to conclude that scientists are defi-
-nitely full of shit. If someone can explain to me the adaptive traits of
-the duckbill, then they can certainly tell me why the platypus is the
-only mammal on the planet that has one? Are platypii (pusses ... who
-knows?) concerned with ingratiating themselves into local duck popu-
-lations? Do they think that theyre funny? Why the fuck do they have
-a bill?
-
-Ill take it easy on the scientists regarding the platypus, because obvi-
-ously its a tough one, but Im sure there are several hundred scientists
-right now earning their tenure in a pointless search for the Evolution-
-ary significance of this ridiculous creature. Ill close on the platypus by
-
+Ill take it easy on the scientists regarding the platypus, because obvi- ously its a tough one, but Im sure there are several hundred scientists right now earning their tenure in a pointless search for the Evolution- ary significance of this ridiculous creature. Ill close on the platypus by
 
 
 Whats the Matter with evolution?* • 19
 
 
 
-stating an alternative theory that Ive come up with: the Flying Spaghetti
-Monster made the platypus because, unlike scientists, He has a sense of
-humor. Its an unlikely sign from God — and until someone can prove
-me wrong, thats my theory.
+stating an alternative theory that Ive come up with: the Flying Spaghetti Monster made the platypus because, unlike scientists, He has a sense of humor. Its an unlikely sign from God — and until someone can prove me wrong, thats my theory.
 
-I will next turn to more ordinary and boring examples of Natural
-Selection, which I will then proceed to slice to ribbons. Let us look at
-the fascinating case of bacteria. It is well known that antibiotics are
-used to cure various illnesses caused by bacteria, and it is equally well
-known that most bacteria (for example, staphylococci) 2 eventually de-
-velop immunity to these antibiotics. Looking a little closer at the case
-of staphylococci, we find that, in 1929, Sir Alexander Fleming 5 first
-observed the bacterium staphylococci to experience inhibition on an
-agar plate contaminated by a penicillium 4 mold. Sir Alexander Flem-
-ing, or F-Man as the queen liked to call him, isolated the penicil-
-lium to make penicillin, which then went on to be known as a wonder
-drug for many diseases, mainly VD. But gradually penicillin in its nat-
-ural form became useless. Scientists will tell you that the bacterium —
-which replicates faster than a chinchilla in a Cialis factory — eventually
-developed a strain of itself that was resistant to naturally formed
-penicillin, and that the process ofNatural Selection caused this resis-
-tant strain to propagate in nature. This is an outright lie, which I will
-decimate momentarily.
+I will next turn to more ordinary and boring examples of Natural Selection, which I will then proceed to slice to ribbons. Let us look at the fascinating case of bacteria. It is well known that antibiotics are used to cure various illnesses caused by bacteria, and it is equally well known that most bacteria (for example, staphylococci) 2 eventually de- velop immunity to these antibiotics. Looking a little closer at the case of staphylococci, we find that, in 1929, Sir Alexander Fleming 5 first observed the bacterium staphylococci to experience inhibition on an agar plate contaminated by a penicillium 4 mold. Sir Alexander Flem- ing, or F-Man as the queen liked to call him, isolated the penicil- lium to make penicillin, which then went on to be known as a wonder drug for many diseases, mainly VD. But gradually penicillin in its nat- ural form became useless. Scientists will tell you that the bacterium — which replicates faster than a chinchilla in a Cialis factory — eventually developed a strain of itself that was resistant to naturally formed penicillin, and that the process ofNatural Selection caused this resis- tant strain to propagate in nature. This is an outright lie, which I will decimate momentarily.
 
-If we look at bacteria that grow resistant to antibiotics, insects that
-grow resistant to DDT, or even HIV that grows resistant to antiviral
-drugs, we see a fascinating correlation between Natural Selection and
-resistance. But what are we really seeing here? I submit that theyre
-not changing their genetic makeup, theyre changing their minds. In
-short, theyre getting smarter. If I go to your house and you feed me a
-shit sandwich two days in a row, Im having lunch at McDonalds on
-the third day. Its that simple. Dont let the scientists, with their big
-phallic bacterial names, tell you anything different. Theyre not as
-smart as they pretend to be, no matter how much they try to demean
-so-called lower life forms.
+If we look at bacteria that grow resistant to antibiotics, insects that grow resistant to DDT, or even HIV that grows resistant to antiviral drugs, we see a fascinating correlation between Natural Selection and resistance. But what are we really seeing here? I submit that theyre not changing their genetic makeup, theyre changing their minds. In short, theyre getting smarter. If I go to your house and you feed me a shit sandwich two days in a row, Im having lunch at McDonalds on the third day. Its that simple. Dont let the scientists, with their big phallic bacterial names, tell you anything different. Theyre not as smart as they pretend to be, no matter how much they try to demean so-called lower life forms.
 
 
 
-2. Most scientists are per-
-verted and use Latinate terms
-to hide this fact. Translated
-into English, staphylococci
-means Power Penis.
+2. Most scientists are per- verted and use Latinate terms to hide this fact. Translated into English, staphylococci means Power Penis.
 
 3. No relation to Sir Elton
 John.
@@ -940,42 +496,10 @@ penises.
 
 • The Gospel of the Flying Spaghetti Monster
 
-One other example of Natural Selection should just about put this
-puppy to bed. Scientists have pointed to artificial selection to show
-that humans, by providing their own specific set of selective forces, can
-mimic the forces of nature. We see this over and over again in the ac-
-tions of breeders, who purportedly have wrought immense changes
-in plants and animals. We can look to the various breeds of dogs as an
-example, where claims are made that all dog species originated from
-one common source: the ancestral wolf. From this ferocious beast we
-are expected to believe that a diverse assortment of species was created
-by man himself — such four-legged brutes as the Chihuahua, the dachs-
-hund, the poodle, and the bulldog — all of which have been with us since
-time immemorial. This breeding myth appears to be a form of propa-
-ganda, possibly put forth by anti-Intelligent Design campaigners, al-
-though Ill save any conversation about Intelligent Design for a later
-chapter. How can we believe such claims about mans best friend
-when it is obvious to the common observer that every breed has been
-put on this planet to serve a purpose. I, for one, would point to the FSM
-as the creator of dogs, although there is valid evidence that God (if he
-is ever proven to exist) might have had a hand in their creation. After
-all, arent German shepherds meant to provide us with protection,
-maybe even from their own forefathers, the wolf? Werent poodles
-and Chihuahuas put on this earth to make us feel better about our-
-selves? There can be little doubt that an intelligent creator put all the
-species on earth to serve man. And Evolution wasnt even properly in-
-vented until the late 1800s. Is that enough time to get a Labrador re-
-triever from a dire wolf? I think not.
+One other example of Natural Selection should just about put this puppy to bed. Scientists have pointed to artificial selection to show that humans, by providing their own specific set of selective forces, can mimic the forces of nature. We see this over and over again in the ac- tions of breeders, who purportedly have wrought immense changes in plants and animals. We can look to the various breeds of dogs as an example, where claims are made that all dog species originated from one common source: the ancestral wolf. From this ferocious beast we are expected to believe that a diverse assortment of species was created by man himself — such four-legged brutes as the Chihuahua, the dachs- hund, the poodle, and the bulldog — all of which have been with us since time immemorial. This breeding myth appears to be a form of propa- ganda, possibly put forth by anti-Intelligent Design campaigners, al- though Ill save any conversation about Intelligent Design for a later chapter. How can we believe such claims about mans best friend when it is obvious to the common observer that every breed has been put on this planet to serve a purpose. I, for one, would point to the FSM as the creator of dogs, although there is valid evidence that God (if he is ever proven to exist) might have had a hand in their creation. After all, arent German shepherds meant to provide us with protection, maybe even from their own forefathers, the wolf? Werent poodles
+and Chihuahuas put on this earth to make us feel better about our- selves? There can be little doubt that an intelligent creator put all the species on earth to serve man. And Evolution wasnt even properly in- vented until the late 1800s. Is that enough time to get a Labrador re- triever from a dire wolf? I think not.
 
-If you dont buy this argument, consider this one last example,
-which in this case regards plant species. If we look at domestic cabbage,
-broccoli, kale, cauliflower, and brussels sprouts, are we to claim, even if
-they did originate from a common ancient wild cabbage, that selection,
-be it natural, artificial, whatever, could not have done better over the
-last few thousand years? The answer is written in the squinched-up face
-of every child with a brussels sprout in his or her mouth. Yet another
-strike against Evolution.
-
+If you dont buy this argument, consider this one last example, which in this case regards plant species. If we look at domestic cabbage, broccoli, kale, cauliflower, and brussels sprouts, are we to claim, even if they did originate from a common ancient wild cabbage, that selection, be it natural, artificial, whatever, could not have done better over the last few thousand years? The answer is written in the squinched-up face of every child with a brussels sprout in his or her mouth. Yet another strike against Evolution.
 
 
 What's the Matter with evolution?* • 21
@@ -992,31 +516,15 @@ years...
 
 From Pirates to People
 
-Any discussion of Evolution will eventually lead us to ourselves. Humans
-have been around for as long as we can remember, and yet the Evolution-
-ists will tell you that we weren't. They will tell you that humans and chim-
-panzees shared a common ancestor some five million years ago, and that
-we diverged from that common ancestor and eventually invented the
-space shuttle while chimpanzees were only able to invent the stick. To
-support this thesis, scientists tell us that we share 95 percent of our DNA
-with chimpanzees, and yet we share 99.9 percent of our DNA with
-Pirates. '1 ask you, who is the more likely common ancestor? And are the
-Pirates not the Chosen People of the FSM? Why do we spend so much
-time talking about something that didn't happen, while the FSM is dan-
-gling His Noodly Appendage right in front of our faces?
+Any discussion of Evolution will eventually lead us to ourselves. Humans have been around for as long as we can remember, and yet the Evolution- ists will tell you that we weren't. They will tell you that humans and chim- panzees shared a common ancestor some five million years ago, and that we diverged from that common ancestor and eventually invented the space shuttle while chimpanzees were only able to invent the stick. To support this thesis, scientists tell us that we share 95 percent of our DNA with chimpanzees, and yet we share 99.9 percent of our DNA with Pirates. '1 ask you, who is the more likely common ancestor? And are the Pirates not the Chosen People of the FSM? Why do we spend so much time talking about something that didn't happen, while the FSM is dan- gling His Noodly Appendage right in front of our faces?
 
 
 
-6. I find it suspicious that
-biology textbooks rarely
-mention this fact.
+6. I find it suspicious that biology textbooks rarely mention this fact.
 
 
 
-But I shall persevere just a little further, and I shall examine the human
-body — specifically, I will examine organs that have been deemed vesti-
-gial, or useless, as a result of losing their function over millennia of
-Evolution.
+But I shall persevere just a little further, and I shall examine the human body — specifically, I will examine organs that have been deemed vesti- gial, or useless, as a result of losing their function over millennia of Evolution.
 
 
 
@@ -1040,15 +548,9 @@ Stevenson's Treasure Island.
 
 Wisdom Teeth
 
-Fallacy: Emerging in adulthood, these teeth are thought to have
-served as extra grinding surfaces for early man, who, before the advent
-of proper dental care, would most likely have lost many of his teeth by
-his mid-twenties. 7
+Fallacy: Emerging in adulthood, these teeth are thought to have served as extra grinding surfaces for early man, who, before the advent of proper dental care, would most likely have lost many of his teeth by his mid-twenties. 7
 
-Fact: It is common knowledge that our Pirate ancestors ate a diet
-much rougher and more manly than our diets today. Also, they tended
-to carry their knives set deep in the back of their mouths. It is logical,
-then, that they'd need extra teeth.
+Fact: It is common knowledge that our Pirate ancestors ate a diet much rougher and more manly than our diets today. Also, they tended to carry their knives set deep in the back of their mouths. It is logical, then, that they'd need extra teeth.
 
 
 
@@ -1069,34 +571,16 @@ trade winds and, depending on stiffness, how cold it was outside.
 
 Goose Bumps
 
-Fallacy: Evolutionary propaganda would have you
-believe that goose bumps are an atavistic, now use-
-less response to distress — be it emotional or
-weather-related — that was once meant to raise the
-hair on our early forefathers, causing them to ap-
-pear larger and scarier.
+Fallacy: Evolutionary propaganda would have you believe that goose bumps are an atavistic, now use- less response to distress — be it emotional or weather-related — that was once meant to raise the hair on our early forefathers, causing them to ap- pear larger and scarier.
 
-Fact: Goose bumps are a cleverly disguised fea-
-ture that allowed for increased buoyancy once a Pi-
-rate hit cold water. By simply appearing, they
-raised the surface area, thus increasing buoyancy.
-This made Pirates float better — something that
-was very useful to our ancestors, as they were
-sometimes without boats. Naturally, goose
-bumps seem to be a vestigial reflex, but it's really
-society that has changed.
-
+Fact: Goose bumps are a cleverly disguised fea- ture that allowed for increased buoyancy once a Pi- rate hit cold water. By simply appearing, they raised the surface area, thus increasing buoyancy. This made Pirates float better — something that was very useful to our ancestors, as they were sometimes without boats. Naturally, goose bumps seem to be a vestigial reflex, but it's really society that has changed.
 
 
 Appendix
 
-Fallacy: This is a remnant of an internal pouch used to ferment the
-hard-to-digest plant diets of our ancestors.
+Fallacy: This is a remnant of an internal pouch used to ferment the hard-to-digest plant diets of our ancestors.
 
-Fact: The appendix was a clever internal pouch utilized for hiding a
-Pirate's gold. It is also the inspiration for the saying cough it up,
-which Pirates would demand of defeated Pirates once they'd boarded
-their ships.
+Fact: The appendix was a clever internal pouch utilized for hiding a Pirate's gold. It is also the inspiration for the saying cough it up, which Pirates would demand of defeated Pirates once they'd boarded their ships.
 
 
 
@@ -1110,36 +594,12 @@ a nor'easter.
 
 Cailbone
 
-Fallacy: Evolutionists claim that the tailbone, or coccyx, which has no
-documented use, is an unusual remnant of a larger bone growth that
-might once have formed an ancestral tail, homologous to the func-
-tional tails of other primates.
+Fallacy: Evolutionists claim that the tailbone, or coccyx, which has no documented use, is an unusual remnant of a larger bone growth that might once have formed an ancestral tail, homologous to the func- tional tails of other primates.
 
-Fact: Humans with tails ... are scientists high? Couldn't the coccyx
-have served other purposes? I have carefully researched this issue, and
-have compared the coccyx to other unusual bone growths in animals —
-and the literature has led me to a single, overriding conclusion. Lots of
-animals have horns on their heads, and these aren't thought to be the
-remnants of larger bone growth, probably because, unlike the coccyx,
-horns serve a purpose today. But what if the original purpose of the
-coccyx has simply been rendered useless by today's culture? If you ex-
-amine the coccyx closely you will see that this bony growth is very sim-
-ilar, when you think about it, to a horn, which is the structure used by
-many animals for fighting. I submit, then, that the coccyx is not a ves-
-tige of an ancestral tail but rather an effective, albeit strangely placed,
-defense and fighting mechanism.
+Fact: Humans with tails ... are scientists high? Couldn't the coccyx have served other purposes? I have carefully researched this issue, and have compared the coccyx to other unusual bone growths in animals — and the literature has led me to a single, overriding conclusion. Lots of animals have horns on their heads, and these aren't thought to be the remnants of larger bone growth, probably because, unlike the coccyx, horns serve a purpose today. But what if the original purpose of the coccyx has simply been rendered useless by today's culture? If you ex- amine the coccyx closely you will see that this bony growth is very sim- ilar, when you think about it, to a horn, which is the structure used by many animals for fighting. I submit, then, that the coccyx is not a ves- tige of an ancestral tail but rather an effective, albeit strangely placed, defense and fighting mechanism.
 
-I imagine that two opponents, fighting over women or choice cave
-real estate, would have run backward at each other — their asses out-
-stretched, much the way elk fight with their horns. I have termed this
-ass-fighting. This makes sense, if you think about it, as it would leave
-their hands free to carry whatever they needed — most likely food or
-rocks.
-
-As further evidence that the coccyx is a fighting feature, and that
-some knowledge of its use has survived culturally through the years,
-consider how quickly someone will run away from you if you run at
-them backward, ass first. I suggest that those who doubt this hypothe-
+I imagine that two opponents, fighting over women or choice cave real estate, would have run backward at each other — their asses out- stretched, much the way elk fight with their horns. I have termed this ass-fighting. This makes sense, if you think about it, as it would leave their hands free to carry whatever they needed — most likely food or rocks.
+As further evidence that the coccyx is a fighting feature, and that some knowledge of its use has survived culturally through the years, consider how quickly someone will run away from you if you run at them backward, ass first. I suggest that those who doubt this hypothe-
 sis put it to the test, and attempt to ram their ass into everyone they see
 for the next few days.' I feel confident that most, if not all, of these tar-
 gets will at the very least be afraid. I see no other explanation for why
@@ -1156,16 +616,7 @@ One Other Vestigial Feature
 
 
 
-Fallacy: The human genome provides evidence that we humans were
-not created ex nihilo,' but instead had to evolve systematically, just like
-all the other animals. As evidence, scientists point to lots of nonfunc-
-tional DNA, including many inactive pseudo genes that were func-
-tional in some of our ancestors but aren't today. One example that is
-often cited is the case of vitamin C synthesis. While all primates, in-
-cluding humans, carry the gene responsible for synthesizing vitamin C,
-that gene is inactive in all members ofthe primate family but one: man.
-Scientists point to this as evidence of our shared lineage, although I
-can't figure out why.
+Fallacy: The human genome provides evidence that we humans were not created ex nihilo,' but instead had to evolve systematically, just like all the other animals. As evidence, scientists point to lots of nonfunc- tional DNA, including many inactive pseudo genes that were func- tional in some of our ancestors but aren't today. One example that is often cited is the case of vitamin C synthesis. While all primates, in- cluding humans, carry the gene responsible for synthesizing vitamin C, that gene is inactive in all members ofthe primate family but one: man. Scientists point to this as evidence of our shared lineage, although I can't figure out why.
 
 Fact: Pirates, our ancestors, lived in the tropics and ate a lot of fruit.
 
@@ -1181,15 +632,9 @@ lates to from Doritos.
 
 evolution Gets Sexy
 
-Finally, I will address sexual selection, which I promised some time
-earlier. The basic concept behind sexual selection is that one gender of
-the species, usually the female, actively chooses members ofthe oppo-
-site sex to copulate with,' 1 based on certain criteria, thus placing a se- 11. Fuck,
-lective pressure on the species as a whole. Sexual selection explains the
-bright foliage of male birds, the impressive ritualistic duels among
+Finally, I will address sexual selection, which I promised some time earlier. The basic concept behind sexual selection is that one gender of the species, usually the female, actively chooses members ofthe oppo- site sex to copulate with,' 1 based on certain criteria, thus placing a se- 11. Fuck, lective pressure on the species as a whole. Sexual selection explains the bright foliage of male birds, the impressive ritualistic duels among
 
 male rams, deer, elk, and other ungulates, 12 and the high percentage of 12. Rams, deer, elk, etc.
-
 Hummers being driven by short, ugly men. In short, sexual selection
 
 depends on the success of certain individuals over others of the same
@@ -1204,9 +649,7 @@ and sexist practice.
 
 The Spaghedeity
 
-While I have essentially decimated the theory of Evolution throughout
-these pages, it is important to state that a great deal of credible Evolu-
-tionary evidence does exist. No one can dispute the fossil record, which
+While I have essentially decimated the theory of Evolution throughout these pages, it is important to state that a great deal of credible Evolu- tionary evidence does exist. No one can dispute the fossil record, which
 
 
 
@@ -1220,30 +663,14 @@ to a chimpanzee.
 
 
 
-shows a clear and gradual transformation of species over time (albeit
-with frustrating gaps — and I ask you, Who could have put them there?).
-And there do indeed appear to be selective forces at work in the world,
-for instance when drunks walk out onto the road and are hit by cars. 1 '
+shows a clear and gradual transformation of species over time (albeit with frustrating gaps — and I ask you, Who could have put them there?). And there do indeed appear to be selective forces at work in the world, for instance when drunks walk out onto the road and are hit by cars. 1 '
 
-We are not saying that Evolution can't exist, only that it is guided by
-His Noodly Appendage. And our Spaghedeity is extremely modest. For
-some reason, He went through a great deal of trouble to make us be-
-lieve that Evolution is true — masking the prominent role of Pirates in
-our origins, making monkeys seem more important than they really
-are, generally keeping behind the scenes and out of the spotlight.
+We are not saying that Evolution can't exist, only that it is guided by His Noodly Appendage. And our Spaghedeity is extremely modest. For some reason, He went through a great deal of trouble to make us be- lieve that Evolution is true — masking the prominent role of Pirates in our origins, making monkeys seem more important than they really are, generally keeping behind the scenes and out of the spotlight.
 
-In spite of His low profile, though, let no one doubt that the Church
-of the Flying Spaghetti Monster is not only a groundbreaking religion,
-but is also supported by hard science, making it probably the most un-
-questionably true theory ever put forth in the history of mankind. To
-make my point, I will turn to the modern-day problem of global
+In spite of His low profile, though, let no one doubt that the Church of the Flying Spaghetti Monster is not only a groundbreaking religion, but is also supported by hard science, making it probably the most un- questionably true theory ever put forth in the history of mankind. To make my point, I will turn to the modern-day problem of global
 warming.
 
-Pirates, as you know, are His Chosen People. Yet their numbers have
-been shrinking ever since the 1800s. Consequently, we find that global
-warming, earthquakes, hurricanes, and other natural disasters are a di-
-rect result of the shrinking number of Pirates. To illustrate this fact, I
-have included the following well-known graph from a recent study:
+Pirates, as you know, are His Chosen People. Yet their numbers have been shrinking ever since the 1800s. Consequently, we find that global warming, earthquakes, hurricanes, and other natural disasters are a di- rect result of the shrinking number of Pirates. To illustrate this fact, I have included the following well-known graph from a recent study:
 
 
 
@@ -1268,24 +695,14 @@ What's the Matter with evolution?' • 27
 
 
 
-As you can see, there is a statistically significant inverse relationship
-between Pirates and global temperature. But of course not all correla-
-tions are causal. For example, take a look at this seeming correlation re-
-garding ID proponents:
+As you can see, there is a statistically significant inverse relationship between Pirates and global temperature. But of course not all correla- tions are causal. For example, take a look at this seeming correlation re- garding ID proponents:
 
-It would appear that the people behind ID have a lower intelligence
-quotient than the general population — and a significantly lower IQ
-than scientists, who overwhelmingly reject the idea of Intelligent De-
-
+It would appear that the people behind ID have a lower intelligence quotient than the general population — and a significantly lower IQ than scientists, who overwhelmingly reject the idea of Intelligent De-
 14 14. Henderson, 2005.
 
 sign.
 
-I, for one, tend to believe this to be merely a strange coincidence, and
-that ID believers are not necessarily as retarded as the data would sug-
-gest. It is entirely likely that the Flying Spaghetti Monster put this co-
-incidence in place in order to confuse us further as to our true origins.
-We may never know.
+I, for one, tend to believe this to be merely a strange coincidence, and that ID believers are not necessarily as retarded as the data would sug- gest. It is entirely likely that the Flying Spaghetti Monster put this co- incidence in place in order to confuse us further as to our true origins. We may never know.
 
 SCATTER PLOT FOR BELIEF IN
 
@@ -1303,11 +720,7 @@ x - ID Supporters • - Scientists
 
 FSM vs. Other Religions
 
-A conversation about Intelligent Design proponents, no matter how
-brief and specious, inevitably leads us to a discussion about God and
-religion. It is important to state up front that the Church of the Flying
-Spaghetti Monster is a peaceful religion — probably the most peaceful of
-them all. But can we prove that? In order to explore our proposition, let
+A conversation about Intelligent Design proponents, no matter how brief and specious, inevitably leads us to a discussion about God and religion. It is important to state up front that the Church of the Flying Spaghetti Monster is a peaceful religion — probably the most peaceful of them all. But can we prove that? In order to explore our proposition, let
 
 
 
@@ -1348,42 +761,13 @@ around other people.
 
 
 
-us look at religion and violence throughout history, particularly with
-regard to war and death.
+us look at religion and violence throughout history, particularly with regard to war and death.
 
-Christianity appears to be the Rambo of religions, with the Crusades,
-the Inquisition, various bloody rebellions, the Conquistadors ... the list
-seems nearly endless. Suffice it to say that when Jesus Christ stated, in
-his bewitching and Yoda-like manner, But those enemies, which would
-not that I should reign over them, bring hither, and slay them before
-me, people took him pretty literally. The Jews and the Muslims
-haven't done so well for themselves either, and are still duking it out. We
-even find Buddhists fighting in China. So, glossing over the evidence, we
-find that religion can be quite scary and violent. On the other hand,
-there's absolutely no evidence of any deaths from FSMism, which seems
-to imply that it has the lowest death rate. And if that is true, then this is
-strong evidence that FSMism is the most peaceful religion.
+Christianity appears to be the Rambo of religions, with the Crusades, the Inquisition, various bloody rebellions, the Conquistadors ... the list seems nearly endless. Suffice it to say that when Jesus Christ stated, in his bewitching and Yoda-like manner, But those enemies, which would not that I should reign over them, bring hither, and slay them before me, people took him pretty literally. The Jews and the Muslims haven't done so well for themselves either, and are still duking it out. We even find Buddhists fighting in China. So, glossing over the evidence, we find that religion can be quite scary and violent. On the other hand, there's absolutely no evidence of any deaths from FSMism, which seems to imply that it has the lowest death rate. And if that is true, then this is strong evidence that FSMism is the most peaceful religion.
 
-Now take a look at how much criticism of Christianity, Islam, Ju-
-daism, and the other religions there is. People can't seem to decide on
-the simple things, like which holy book to follow, let alone whether any
-of it is true. There are arguments between friends and countries, tens of
-thousands of books on the various religions, all poking holes, jibbering
-about which god to worship (Hinduism), jabbering about which ancient
-prophet's cousin to support (Islam). It's a mess. And yet we find that ex-
-actly, count them, zero books have been written to poke holes in the the-
-ory of the Flying Spaghetti Monster. There isn't even any academic
-criticism, only academic support — and academics love to argue about
-everything. All this we take as evidence that FSMism is probably true.
+Now take a look at how much criticism of Christianity, Islam, Ju- daism, and the other religions there is. People can't seem to decide on the simple things, like which holy book to follow, let alone whether any of it is true. There are arguments between friends and countries, tens of thousands of books on the various religions, all poking holes, jibbering about which god to worship (Hinduism), jabbering about which ancient prophet's cousin to support (Islam). It's a mess. And yet we find that ex- actly, count them, zero books have been written to poke holes in the the- ory of the Flying Spaghetti Monster. There isn't even any academic criticism, only academic support — and academics love to argue about everything. All this we take as evidence that FSMism is probably true.
 
-Finally, we find that the religions tend to put a lot of stock in
-dogma, which is a way of saying they are correct beyond all doubt.
-Even the most devout of the Pastafarians will scratch their heads and
-nervously readjust their eye patches at this idea. Dogma implies an ab-
-solute belief in something, and in order for people to have an absolute
-belief in anything, they'd basically have to be fucking omniscient. We
-have a different approach: FSM believers reject dogma. Which is not to
-say that we don't believe we're right. Obviously, we do. We simply re-
+Finally, we find that the religions tend to put a lot of stock in dogma, which is a way of saying they are correct beyond all doubt. Even the most devout of the Pastafarians will scratch their heads and nervously readjust their eye patches at this idea. Dogma implies an ab- solute belief in something, and in order for people to have an absolute belief in anything, they'd basically have to be fucking omniscient. We have a different approach: FSM believers reject dogma. Which is not to say that we don't believe we're right. Obviously, we do. We simply re-
 
 
 
@@ -1391,12 +775,7 @@ What's the Matter with evolution?' • 29
 
 
 
-serve the right to change our beliefs based on new evidence or greater
-understanding of old evidence. Our rejection of dogma is so strong
-that we leave open the possibility that there is no Flying Spaghetti
-Monster at all. So, in a sense, you could say that we're extremely open-
-minded — we could change our minds someday. All we ask is proof of
-His nonexistence.
+serve the right to change our beliefs based on new evidence or greater understanding of old evidence. Our rejection of dogma is so strong that we leave open the possibility that there is no Flying Spaghetti Monster at all. So, in a sense, you could say that we're extremely open- minded — we could change our minds someday. All we ask is proof of His nonexistence.
 
 
 
@@ -1420,32 +799,17 @@ andVne Imam Perezjaffari
 RE: UD in a Not-So-Intelligent
 World
 
-When confronted with the grim realities of war, famine, pestilence,
-diarrhea, and Celine Dion, it is not entirely surprising that one might
-be led to consider that our Creator, while all-powerful, might not
-have proven Himselfto be completely infallible.
+When confronted with the grim realities of war, famine, pestilence, diarrhea, and Celine Dion, it is not entirely surprising that one might be led to consider that our Creator, while all-powerful, might not have proven Himselfto be completely infallible.
 
-While there can be no doubt that the source of creation was in-
-deed the Flying Spaghetti Monster (FSM), and that He did leave mys-
-1. For instance, making terious and ambiguous clues to throw us off track,' we submit that
-
+While there can be no doubt that the source of creation was in- deed the Flying Spaghetti Monster (FSM), and that He did leave mys- 1. For instance, making terious and ambiguous clues to throw us off track,' we submit that
 Evolution seem plausible. the FSM was care | ess ^ crue |^ drunki or even high when he first laid
 
-down the template for life as we know it. How else to explain the ex-
-tinction of 99.9 percent of all plant and animal species ever to exist
-on earth? How else to explain the release of not one, but two Deuce
-Bigalow films?
-
-Without question, we are members of a small and limited minority
-of scientists and religious leaders who deign to question the Creator's
-wisdom in allowing for life-threatening volcanoes, tsunamis, hurri-
-canes, twisters, and plastic surgery gone bad, but as the evidence ac-
-cumulates, we can only posit one undeniable theory:
+down the template for life as we know it. How else to explain the ex- tinction of 99.9 percent of all plant and animal species ever to exist on earth? How else to explain the release of not one, but two Deuce Bigalow films?
+Without question, we are members of a small and limited minority of scientists and religious leaders who deign to question the Creator's wisdom in allowing for life-threatening volcanoes, tsunamis, hurri- canes, twisters, and plastic surgery gone bad, but as the evidence ac- cumulates, we can only posit one undeniable theory:
 
 TheFSM, ourCreator, isn't very bright.
 
-Undoubtedly, this statement represents a subtle paradigm shift,
-especially when juxtaposed against the common perception of a
+Undoubtedly, this statement represents a subtle paradigm shift, especially when juxtaposed against the common perception of a
 
 
 
@@ -1454,11 +818,7 @@ An Alternate Vision * * 31
 
 
 
-benevolent, all-knowing Creator, but innumerable examples of ques-
-tionable judgment do exist. Something is certainly rotten in Denmark
-when Ben Affleck is allowed to bed both J.Lo and that hottie from
-Alias, while Matt Damon is forced to date his own assistant. We cry
-foul!
+benevolent, all-knowing Creator, but innumerable examples of ques- tionable judgment do exist. Something is certainly rotten in Denmark when Ben Affleck is allowed to bed both J.Lo and that hottie from Alias, while Matt Damon is forced to date his own assistant. We cry foul!
 
 So we hereby state our belief that the universe is a result of  U N I N -
 
@@ -1468,83 +828,33 @@ Casting social")
 Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 2, title: "Memoirs of a Rubber Ducky", novel_wordcount: 7794, content: "Make a new acquaintance every time you can;   You'll find it
 interesting and a very helpful plan.
 
-It means more knowledge. You cannot meet any one without learning
-something from him if you keep your ears open and your eyes open.
-Every one is at least a little different from every one else, and
-the more people you know, the more you may learn. Peter Rabbit
-knows this, and that is one reason he always is so eager to find out
-about other people. He had left Jimmy Skunk and Bobby Coon in the
-Green Forest and had headed for the Smiling Pool to see if Grandfather
-Frog was awake yet. He had no idea of meeting a stranger there, and
-so you can imagine just how surprised he was when he got in sight
-of the Smiling Pool to see some one whom he never had seen before
-swimming about there. He knew right away who it was. He knew that
-it was Mrs. Quack the Duck, because he had often heard about her. And
-then, too, it was very clear from her looks that she was a cousin
-of the ducks he had seen in Farmer Brown's dooryard. The difference
-was that while they were big and white and stupid-looking, Mrs.
-Quack was smaller, brown, very trim, and looked anything but stupid.
+It means more knowledge. You cannot meet any one without learning something from him if you keep your ears open and your eyes open. Every one is at least a little different from every one else, and the more people you know, the more you may learn. Peter Rabbit knows this, and that is one reason he always is so eager to find out about other people. He had left Jimmy Skunk and Bobby Coon in the Green Forest and had headed for the Smiling Pool to see if Grandfather Frog was awake yet. He had no idea of meeting a stranger there, and so you can imagine just how surprised he was when he got in sight of the Smiling Pool to see some one whom he never had seen before swimming about there. He knew right away who it was. He knew that it was Mrs. Quack the Duck, because he had often heard about her. And then, too, it was very clear from her looks that she was a cousin of the ducks he had seen in Farmer Brown's dooryard. The difference was that while they were big and white and stupid-looking, Mrs. Quack was smaller, brown, very trim, and looked anything but stupid.
 
-Peter was so surprised to see her in the Smiling Pool that he almost
-forgot to be polite. I am afraid he stared in a very impolite way
-as he hurried to the edge of the bank. “I suppose,” said Peter,
-“that you are Mrs. Quack, but I never expected to see you unless I
-should go over to the Big River, and that is a place I never have
-visited and hardly expect to because it is too far from the dear
-Old Briar-patch. You are Mrs. Quack, aren't you?”
+Peter was so surprised to see her in the Smiling Pool that he almost forgot to be polite. I am afraid he stared in a very impolite way as he hurried to the edge of the bank. “I suppose,” said Peter, “that you are Mrs. Quack, but I never expected to see you unless I should go over to the Big River, and that is a place I never have visited and hardly expect to because it is too far from the dear Old Briar-patch. You are Mrs. Quack, aren't you?”
 
-“Yes,” replied Mrs. Quack, “and you must be Peter Rabbit. I've heard
-of you very often.” All the time Mrs. Quack was swimming back and
-forth and in little circles in the most uneasy way.
+“Yes,” replied Mrs. Quack, “and you must be Peter Rabbit. I've heard of you very often.” All the time Mrs. Quack was swimming back and forth and in little circles in the most uneasy way.
 
 “I hope you've heard nothing but good of me,” replied Peter.
 
-Mrs. Quack stopped her uneasy swimming for a minute and almost
-smiled as she looked at Peter, “The worst I have heard is that you
-are very curious about other people's affairs,” said she.
+Mrs. Quack stopped her uneasy swimming for a minute and almost smiled as she looked at Peter, “The worst I have heard is that you are very curious about other people's affairs,” said she.
 
-Peter looked a wee, wee bit foolish, and then he laughed right out.
-“I guess that is true enough,” said he. “I like to learn all I can,
-and how can I learn without being curious? I'm curious right now.
-I'm wondering what brings you to the Smiling Pool when you never
-have been here before. It is the last place in the world I ever
-expected to find you.”
+Peter looked a wee, wee bit foolish, and then he laughed right out. “I guess that is true enough,” said he. “I like to learn all I can, and how can I learn without being curious? I'm curious right now. I'm wondering what brings you to the Smiling Pool when you never have been here before. It is the last place in the world I ever expected to find you.”
 
-“That's why I'm here,” replied Mrs. Quack. “I hope others feel the
-same way. I came here because I just HAD to find some place where
-people wouldn't expect to find me and so wouldn't come looking for
-me. Little Joe Otter saw me yesterday on the Big River and told me
-of this place, and so, because I just had to go somewhere, I came
-here.”
+“That's why I'm here,” replied Mrs. Quack. “I hope others feel the same way. I came here because I just HAD to find some place where people wouldn't expect to find me and so wouldn't come looking for me. Little Joe Otter saw me yesterday on the Big River and told me of this place, and so, because I just had to go somewhere, I came here.”
 
-Peter's eyes opened very wide with surprise. “Why,” he exclaimed,
-“I should think you would be perfectly safe on the Big River! I
-don't see how any harm can possibly come to you out there.”
+Peter's eyes opened very wide with surprise. “Why,” he exclaimed, “I should think you would be perfectly safe on the Big River! I don't see how any harm can possibly come to you out there.”
 
-The words were no sooner out of Peter's mouth than a faint bang
-sounded from way off towards the Big River. Mrs. Quack gave a great
-start and half lifted her wings as if to fly. But she thought better
-of it, and then Peter saw that she was trembling all over.
+The words were no sooner out of Peter's mouth than a faint bang sounded from way off towards the Big River. Mrs. Quack gave a great start and half lifted her wings as if to fly. But she thought better of it, and then Peter saw that she was trembling all over.
 
 “Did you hear that?” she asked in a faint voice.
 
-Peter nodded. “That was a gun, a terrible gun, but it was a long
-way from here,” said he.
+Peter nodded. “That was a gun, a terrible gun, but it was a long way from here,” said he.
 
-“It was over on the Big River,” said Mrs. Quack. “That's why it
-isn't safe for me over there. That's why I just had to find some
-other place. Oh, dear, the very sound of a gun sets me to shaking
-and makes my heart feel as if it would stop beating. Are you sure
-I am perfectly safe here?”
+“It was over on the Big River,” said Mrs. Quack. “That's why it isn't safe for me over there. That's why I just had to find some other place. Oh, dear, the very sound of a gun sets me to shaking and makes my heart feel as if it would stop beating. Are you sure I am perfectly safe here?”
 
-“Perfectly,” spoke up Jerry Muskrat, who had been listening from
-the top of the Big Rock, where he was lunching on a clam, “unless
-you are not smart enough to keep out of the clutches of Reddy Fox
-or Old Man Coyote or Hooty the Owl or Redtail the Hawk.”
+“Perfectly,” spoke up Jerry Muskrat, who had been listening from the top of the Big Rock, where he was lunching on a clam, “unless you are not smart enough to keep out of the clutches of Reddy Fox or Old Man Coyote or Hooty the Owl or Redtail the Hawk.”
 
-“I'm not afraid of THEM,” declared Mrs. Quack. “It's those two-legged
-creatures with terrible guns I'm afraid of,” and she began to swim
-about more uneasily than ever.
+“I'm not afraid of THEM,” declared Mrs. Quack. “It's those two-legged creatures with terrible guns I'm afraid of,” and she began to swim about more uneasily than ever.
 
 
 
@@ -1554,68 +864,27 @@ II
 MRS. QUACK IS DISTRUSTFUL
 
 
-Jerry Muskrat thinks there is no place in the world like the Smiling
-Pool. So, for the matter of that, does Grandfather Frog and also
-Spotty the Turtle. You see, they have spent their lives there and
-know little about the rest of the Great World. When Mrs. Quack
-explained that all she feared was that a two-legged creature with
-a terrible gun might find her there, Jerry Muskrat hastened to tell
-her that she had nothing to worry about on that account.
+Jerry Muskrat thinks there is no place in the world like the Smiling Pool. So, for the matter of that, does Grandfather Frog and also Spotty the Turtle. You see, they have spent their lives there and know little about the rest of the Great World. When Mrs. Quack explained that all she feared was that a two-legged creature with a terrible gun might find her there, Jerry Muskrat hastened to tell her that she had nothing to worry about on that account.
 
-“No one hunts here now that Farmer Brown's boy has put away his
-terrible gun,” explained Jerry. “There was a time when he used to
-hunt here and set traps, which are worse than terrible guns, but
-that was long ago, before he knew any better.”
+“No one hunts here now that Farmer Brown's boy has put away his terrible gun,” explained Jerry. “There was a time when he used to hunt here and set traps, which are worse than terrible guns, but that was long ago, before he knew any better.”
 
-“Who is Farmer Brown's boy?” demanded Mrs. Quack, looking more
-anxious than ever. “Is he one of those two-legged creatures?”
+“Who is Farmer Brown's boy?” demanded Mrs. Quack, looking more anxious than ever. “Is he one of those two-legged creatures?”
 
-“Yes,” said Peter Rabbit, who had been listening with all his ears,
-“but he is the best friend we Quaddies have got. He is such a good
-friend that he ought to be a Quaddy himself. Why, this last winter
-he fed some of us when food was scarce, and he saved Mrs. Grouse
-when she was caught in a snare, which you know is a kind of trap.
-He won't let any harm come to you here, Mrs. Quack.”
+“Yes,” said Peter Rabbit, who had been listening with all his ears, “but he is the best friend we Quaddies have got. He is such a good friend that he ought to be a Quaddy himself. Why, this last winter he fed some of us when food was scarce, and he saved Mrs. Grouse when she was caught in a snare, which you know is a kind of trap. He won't let any harm come to you here, Mrs. Quack.”
 
-“I wouldn't trust him, not for one single little minute,” declared
-Mrs. Quack.  “I wouldn't trust one of those two-legged creatures,
-not ONE. You say he fed some of you last winter, but that doesn't
-mean anything good. Do you know what I've known these two-legged
-creatures to do?”
+“I wouldn't trust him, not for one single little minute,” declared Mrs. Quack.  “I wouldn't trust one of those two-legged creatures, not ONE. You say he fed some of you last winter, but that doesn't mean anything good. Do you know what I've known these two-legged creatures to do?”
 
 “What?” demanded Peter and Jerry together.
 
-“I've known them to scatter food where we Ducks would be sure to
-find it and to take the greatest care that nothing should frighten
-us while we were eating. And then, after we had got in the habit
-of feeding in that particular place and had grown to feel perfectly
-safe there, they have hidden close by until a lot of us were feeding
-together and then fired their terrible guns and killed a lot of
-my friends and dreadfully hurt a lot more. I wouldn't trust one of
-them, not ONE!”
+“I've known them to scatter food where we Ducks would be sure to find it and to take the greatest care that nothing should frighten us while we were eating. And then, after we had got in the habit of feeding in that particular place and had grown to feel perfectly safe there, they have hidden close by until a lot of us were feeding together and then fired their terrible guns and killed a lot of my friends and dreadfully hurt a lot more. I wouldn't trust one of them, not ONE!”
 
-“Oh, how dreadful!” cried Peter, looking quite as shocked as he felt.
-Then he added eagerly, “But our Farmer Brown's boy wouldn't do anything
-like that. You haven't the least thing to fear from him.”
+“Oh, how dreadful!” cried Peter, looking quite as shocked as he felt. Then he added eagerly, “But our Farmer Brown's boy wouldn't do anything like that. You haven't the least thing to fear from him.”
 
-“Perhaps not,” said Mrs. Quack, shaking her head doubtfully, “but
-I wouldn't trust him. I wouldn't trust him as far off as I could
-see him. The Smiling Pool is a very nice place, although it is
-dreadfully small, but if Farmer Brown's boy is likely to come over
-here, I guess I better look for some other place, though goodness
-knows where I will find one where I will feel perfectly safe.”
+“Perhaps not,” said Mrs. Quack, shaking her head doubtfully, “but I wouldn't trust him. I wouldn't trust him as far off as I could see him. The Smiling Pool is a very nice place, although it is dreadfully small, but if Farmer Brown's boy is likely to come over here, I guess I better look for some other place, though goodness knows where I will find one where I will feel perfectly safe.”
 
-“You are safe right here, if you have sense enough to stay here,”
- declared Jerry Muskrat rather testily. “Don't you suppose Peter
-and I know what we are talking about?”
+“You are safe right here, if you have sense enough to stay here,”  declared Jerry Muskrat rather testily. “Don't you suppose Peter and I know what we are talking about?”
 
-“I wish I could believe so,” returned Mrs. Quack sadly, “but if
-you had been through what I've been through, and suffered what I've
-suffered, you wouldn't believe any place safe, and you certainly
-wouldn't trust one of those two-legged creatures. Why, for weeks
-they haven't given me a chance to get a square meal, and--and--I
-don't know what has become of Mr. Quack, and I'm all alone!” There
-was a little sob in her voice and tears in her eyes.
+“I wish I could believe so,” returned Mrs. Quack sadly, “but if you had been through what I've been through, and suffered what I've suffered, you wouldn't believe any place safe, and you certainly wouldn't trust one of those two-legged creatures. Why, for weeks they haven't given me a chance to get a square meal, and--and--I don't know what has become of Mr. Quack, and I'm all alone!” There was a little sob in her voice and tears in her eyes.
 
 “Tell us all about it,” begged Peter. “Perhaps we can help you.”
 
@@ -1627,82 +896,40 @@ III
 MRS. QUACK TELLS ABOUT HER HOME
 
 
-“It's a long story,” said Mrs. Quack, shaking the tears from her
-eyes, “and I hardly know where to begin.”
+“It's a long story,” said Mrs. Quack, shaking the tears from her eyes, “and I hardly know where to begin.”
 
-“Begin at the beginning,” said Jerry Muskrat. “Your home is somewhere
-way up in the Northland where Honker the Goose lives, isn't it?”
+“Begin at the beginning,” said Jerry Muskrat. “Your home is somewhere way up in the Northland where Honker the Goose lives, isn't it?”
 
-Mrs. Quack nodded. “I wish I were there this very minute,” she
-replied, the tears coming again. “But sometimes I doubt if ever
-I'll get there again. You folks who don't have to leave your homes
-every year don't know how well off you are or how much you have to
-be thankful for.”
+Mrs. Quack nodded. “I wish I were there this very minute,” she replied, the tears coming again. “But sometimes I doubt if ever I'll get there again. You folks who don't have to leave your home every year don't know how well off you are or how much you have to be thankful for.”
 
-“I never could understand what people want to leave their homes
-for, anyway,” declared Peter.
+“I never could understand what people want to leave their homes for, anyway,” declared Peter.
 
-“We don't leave because we want to, but because we HAVE to,” replied
-Mrs. Quack, “and we go back just as soon as we can. What would you
-do if you couldn't find a single thing to eat?”
+“We don't leave because we want to, but because we HAVE to,” replied Mrs. Quack, “and we go back just as soon as we can. What would you do if you couldn't find a single thing to eat?”
 
 “I guess I'd starve,” replied Peter simply.
 
-“I guess you would, and that is just what we would do, if we didn't
-take the long journey south when Jack Frost freezes everything
-tight up there where my home is,” returned Mrs. Quack. “He comes
-earlier up there and stays twice as long as he does here, and
-makes ten times as much ice and snow. We get most of our food in
-the water or in the mud under the water, as of course you know,
-and when the water is frozen, there isn't a scrap of anything we
-can get to eat. We just HAVE to come south. It isn't because we
-want to, but because we must! There is nothing else for us to do.”
+“I guess you would, and that is just what we would do, if we didn't take the long journey south when Jack Frost freezes everything tight up there where my home is,” returned Mrs. Quack. “He comes earlier up there and stays twice as long as he does here, and makes ten times as much ice and snow. We get most of our food in the water or in the mud under the water, as of course you know, and when the water is frozen, there isn't a scrap of anything we can get to eat. We just HAVE to come south. It isn't because we want to, but because we must! There is nothing else for us to do.”
 
-“Then I don't see what you want to make your home in such a place
-for,” said practical Peter. “I should think you would make it where
-you can live all the year around.”
+“Then I don't see what you want to make your home in such a place for,” said practical Peter. “I should think you would make it where you can live all the year around.”
 
-“I was born up there, and I love it just as you love the dear Old
-Briar-patch,” replied Mrs. Quack simply. “It is home, and there
-is no place like home.  Besides, it is a very beautiful and a very
-wonderful place in summer. There is everything that Ducks and Geese
-love. We have all we want of the food we love best. Everywhere is
-shallow water with tall grass growing in it.”
+“I was born up there, and I love it just as you love the dear Old Briar-patch,” replied Mrs. Quack simply. “It is home, and there is no place like home.  Besides, it is a very beautiful and a very wonderful place in summer. There is everything that Ducks and Geese love. We have all we want of the food we love best. Everywhere is shallow water with tall grass growing in it.”
 
-“Huh!” interrupted Peter, “I wouldn't think much of a place like
-that.”
+“Huh!” interrupted Peter, “I wouldn't think much of a place like that.”
 
 “That's because you don't know what is good,” snapped Jerry
 Muskrat. “It would suit me,” he added, with shining eyes.
 
-“There are the dearest little islands just made for safe nesting-places,”
- continued Mrs. Quack, without heeding the interruptions. “And the
-days are long, and it is easy to hide, and there is nothing to
-fear, for two-legged creatures with terrible guns never come there.”
-
+“There are the dearest little islands just made for safe nesting-places,”  continued Mrs. Quack, without heeding the interruptions. “And the days are long, and it is easy to hide, and there is nothing to fear, for two-legged creatures with terrible guns never come there.”
 “If there is nothing to fear, why do you care about places to hide?”
  demanded Peter.
 
-“Well, of course, we have enemies, just as you do here, but they
-are natural enemies,--Foxes and Minks and Hawks and Owls,” explained
-Mrs. Quack. “Of course, we have to watch out for them and have
-places where we can hide from them, but it is our wits against their
-wits, and it is our own fault if we get caught.  That is perfectly
-fair, so we don't mind that. It is only men who are not fair.  They
-don't know what fairness is.”
+“Well, of course, we have enemies, just as you do here, but they are natural enemies,--Foxes and Minks and Hawks and Owls,” explained Mrs. Quack. “Of course, we have to watch out for them and have places where we can hide from them, but it is our wits against their wits, and it is our own fault if we get caught.  That is perfectly fair, so we don't mind that. It is only men who are not fair.  They don't know what fairness is.”
 
-Peter nodded that he understood, and Mrs. Quack went on. “Last
-summer Mr. Quack and I had our nest on the dearest little island,
-and no one found it. First we had twelve eggs, and then twelve of
-the dearest babies you ever saw.”
+Peter nodded that he understood, and Mrs. Quack went on. “Last summer Mr. Quack and I had our nest on the dearest little island, and no one found it. First we had twelve eggs, and then twelve of the dearest babies you ever saw.”
 
 “Maybe,” said Peter doubtfully, thinking of his own babies.
 
-“They grew so fast that by the time the cold weather came, they
-were as big as their father and mother,” continued Mrs. Quack.
-“And they were smart, too. They had learned how to take care of
-themselves just as well as I could. I certainly was proud of that
-family. But now I don't know where one of them is.”
+“They grew so fast that by the time the cold weather came, they were as big as their father and mother,” continued Mrs. Quack. “And they were smart, too. They had learned how to take care of themselves just as well as I could. I certainly was proud of that family. But now I don't know where one of them is.”
 
 Mrs. Quack suddenly choked up with grief, and Peter Rabbit politely
 turned his head away.
@@ -1715,23 +942,8 @@ IV
 MRS. QUACK CONTINUES HER STORY
 
 
-When Mrs. Quack told of her twelve children and how she didn't know
-where one of them was, Peter Rabbit and Jerry Muskrat knew just
-how badly she was feeling, and they turned their heads away and
-pretended that they didn't see her tears.  In a few minutes she
-bravely went on with her story.
-
-“When Jack Frost came and we knew it was time to begin the long
-journey, Mr.  Quack and myself and our twelve children joined
-with some other Duck families, and with Mr. Quack in the lead, we
-started for our winter home, which really isn't a home but just a
-place to stay. For a while we had nothing much to fear.  We would
-fly by day and at night rest in some quiet lake or pond or on some
-river, with the Great Woods all about us or sometimes great marshes.
-Perhaps you don't know what marshes are. If the Green Meadows here
-had little streams of water running every which way through them,
-and the ground was all soft and muddy and full of water, and the
-grass grew tall, they would be marshes.”
+When Mrs. Quack told of her twelve children and how she didn't know where one of them was, Peter Rabbit and Jerry Muskrat knew just how badly she was feeling, and they turned their heads away and pretended that they didn't see her tears.  In a few minutes she bravely went on with her story.
+“When Jack Frost came and we knew it was time to begin the long journey, Mr.  Quack and myself and our twelve children joined with some other Duck families, and with Mr. Quack in the lead, we started for our winter home, which really isn't a home but just a place to stay. For a while we had nothing much to fear.  We would fly by day and at night rest in some quiet lake or pond or on some river, with the Great Woods all about us or sometimes great marshes. Perhaps you don't know what marshes are. If the Green Meadows here had little streams of water running every which way through them, and the ground was all soft and muddy and full of water, and the grass grew tall, they would be marshes.”
 
 Jerry Muskrat's eyes sparkled. “I would like a place like that!”
  he exclaimed.
@@ -1742,16 +954,7 @@ your relatives in such places.”
 “Marshes must be something like swamps,” ventured Peter Rabbit,
 who had been thinking the matter over.
 
-“Very much the same, only with grass and rushes in place of trees
-and bushes,” replied Mrs. Quack. “There is plenty to eat and the
-loveliest hiding-places. In some of these we stayed days at a time.
-In fact, we stayed until Jack Frost came to drive us out. Then as
-we flew, we began to see the homes of these terrible two-legged
-creatures called men, and from that time on we never knew a minute
-of peace, excepting when we were flying high in the air or far out
-over the water.  If we could have just kept flying all the time or
-never had to go near the shore, we would have been all right. But
-we had to eat.”
+“Very much the same, only with grass and rushes in place of trees and bushes,” replied Mrs. Quack. “There is plenty to eat and the loveliest hiding-places. In some of these we stayed days at a time. In fact, we stayed until Jack Frost came to drive us out. Then as we flew, we began to see the homes of these terrible two-legged creatures called men, and from that time on we never knew a minute of peace, excepting when we were flying high in the air or far out over the water.  If we could have just kept flying all the time or never had to go near the shore, we would have been all right. But we had to eat.”
 
 “Of course,” said Peter. “Everybody has to eat.”
 
@@ -1759,44 +962,11 @@ we had to eat.”
 
 “Certainly,” said Peter. “Everybody has to do that.”
 
-“And to eat we had to go in close to shore where the water was
-not at all deep, because it is only in such places that we can get
-food,” continued Mrs. Quack.  “It takes a lot of strength to fly
-as we fly, and strength requires plenty of food. Mr. Quack knew all
-the best feeding-places, for he had made the long journey several
-times, so every day he would lead the way to one of these. He always
-chose the wildest and most lonely looking places he could find, as
-far as possible from the homes of men, but even then he was never
-careless. He would lead us around back and forth over the place
-he had chosen, and we would all look with all our might for signs
-of danger. If we saw none, we would drop down a little nearer and
-a little nearer. But with all our watchfulness, we never could be
-sure, absolutely sure, that all was safe. Sometimes those terrible
-two-legged creatures would be hiding in the very middle of the
-wildest, most lonely looking marshes. They would be covered with
-grass so that we couldn't see them.  Then, as we flew over them,
-would come the bang, bang, bang, bang of terrible guns, and always
-some of our flock would drop. We would have to leave them behind,
-for we knew if we wanted to live we must get beyond the reach of
-those terrible guns. So we would fly our hardest. It was awful,
-just simply awful!”
+“And to eat we had to go in close to shore where the water was not at all deep, because it is only in such places that we can get food,” continued Mrs. Quack.  “It takes a lot of strength to fly as we fly, and strength requires plenty of food. Mr. Quack knew all the best feeding-places, for he had made the long journey several times, so every day he would lead the way to one of these. He always chose the wildest and most lonely looking places he could find, as far as possible from the homes of men, but even then he was never careless. He would lead us around back and forth over the place he had chosen, and we would all look with all our might for signs of danger. If we saw none, we would drop down a little nearer and a little nearer. But with all our watchfulness, we never could be sure, absolutely sure, that all was safe. Sometimes those terrible two-legged creatures would be hiding in the very middle of the wildest, most lonely looking marshes. They would be covered with grass so that we couldn't see them.  Then, as we flew over them, would come the bang, bang, bang, bang of terrible guns, and always some of our flock would drop. We would have to leave them behind, for we knew if we wanted to live we must get beyond the reach of those terrible guns. So we would fly our hardest. It was awful, just simply awful!”
 
-Mrs. Quack paused and shuddered, and Peter Rabbit and Jerry Muskrat
-shuddered in sympathy.
+Mrs. Quack paused and shuddered, and Peter Rabbit and Jerry Muskrat shuddered in sympathy.
 
-“Sometimes we would have to try three or four feeding-places before
-we found one where there were no terrible guns. And when we did
-find one, we would be so tired and frightened that we couldn't
-enjoy our food, and we didn't dare to sleep without some one on
-watch all the time. It was like that every day. The farther we got,
-the worse it became. Our flock grew smaller and smaller. Those who
-escaped the terrible guns would be so frightened that they would
-forget to follow their leader and would fly in different directions
-and later perhaps join other flocks. So it was that when at last we
-reached the place in the sunny Southland for which we had started,
-Mr. Quack and I were alone. What became of our twelve children I
-don't know. I am afraid the terrible guns killed some. I hope some
-joined other flocks and escaped, but I don't know.”
+“Sometimes we would have to try three or four feeding-places before we found one where there were no terrible guns. And when we did find one, we would be so tired and frightened that we couldn't enjoy our food, and we didn't dare to sleep without some one on watch all the time. It was like that every day. The farther we got, the worse it became. Our flock grew smaller and smaller. Those who escaped the terrible guns would be so frightened that they would forget to follow their leader and would fly in different directions and later perhaps join other flocks. So it was that when at last we reached the place in the sunny Southland for which we had started, Mr. Quack and I were alone. What became of our twelve children I don't know. I am afraid the terrible guns killed some. I hope some joined other flocks and escaped, but I don't know.”
 
 “I hope they did too,” said Peter.
 
@@ -1808,83 +978,31 @@ V
 PETER LEARNS MORE OF MRS. QUACK'S TROUBLES
 
 
-It often happens when we know      The troubles that our friends
-pass through,      Our own seem very small indeed;      You'll
-always find that this is true.
+It often happens when we know      The troubles that our friends pass through,      Our own seem very small indeed;      You'll always find that this is true.
 
-“My, you must have felt glad when you reached your winter home!”
- exclaimed Peter Rabbit when Mrs. Quack finished the account of her
-long, terrible journey from her summer home in the far Northland
-to her winter home in the far Southland.
+“My, you must have felt glad when you reached your winter home!”  exclaimed Peter Rabbit when Mrs. Quack finished the account of her long, terrible journey from her summer home in the far Northland to her winter home in the far Southland.
 
-“I did,” replied Mrs. Quack, “but all the time I couldn't forget
-those to whom terrible things had happened on the way down, and
-then, too, I kept dreading the long journey back.”
+“I did,” replied Mrs. Quack, “but all the time I couldn't forget those to whom terrible things had happened on the way down, and then, too, I kept dreading the long journey back.”
 
 “I don't see why you didn't stay right there. I would have,” said
 Peter, nodding his head with an air of great wisdom.
 
-“Not if you were I,” replied Mrs. Quack. “In the first place it
-isn't a proper place in which to bring up young Ducks and make them
-strong and healthy. In the second place there are more dangers down
-there for young Ducks than up in the far Northland. In the third
-place there isn't room for all the Ducks to nest properly. And
-lastly there is a great longing for our real home, which Old Mother
-Nature has put in our hearts and which just MAKES us go. We couldn't
-be happy if we didn't.”
+“Not if you were I,” replied Mrs. Quack. “In the first place it isn't a proper place in which to bring up young Ducks and make them strong and healthy. In the second place there are more dangers down there for young Ducks than up in the far Northland. In the third place there isn't room for all the Ducks to nest properly. And lastly there is a great longing for our real home, which Old Mother Nature has put in our hearts and which just MAKES us go. We couldn't be happy if we didn't.”
 
 “Is the journey back as bad as the journey down?” asked Peter.
 
-“Worse, very much worse,” replied Mrs. Quack sadly. “You can see
-for yourself just how bad it is, for here I am all alone.” Tears
-filled Mrs. Quack's eyes.  “It is almost too terrible to talk about,”
- she continued after a minute. “You see, for one thing, food isn't
-as plentiful as it is in the fall, and we just have to go wherever
-it is to be found. Those two-legged creatures know where those
-feeding-grounds are just as well as we do, and they hide there with
-their terrible guns just as they did when we were coming south.
-But it is much worse now, very much worse. You see, when we were
-going the other way, if we found them at one place we could go on
-to another, but when we are going north we cannot always do that.
-We cannot go any faster than Jack Frost does. Sometimes we are
-driven out of a place by the bang, bang of the terrible guns and go
-on, only to find that we have caught up with Jack Frost, and that
-the ponds and the rivers are still covered with ice. Then there
-is nothing to do but to turn back to where those terrible guns are
-waiting for us. We just HAVE to do it.”
+“Worse, very much worse,” replied Mrs. Quack sadly. “You can see for yourself just how bad it is, for here I am all alone.” Tears filled Mrs. Quack's eyes.  “It is almost too terrible to talk about,”  she continued after a minute. “You see, for one thing, food isn't as plentiful as it is in the fall, and we just have to go wherever it is to be found. Those two-legged creatures know where those feeding-grounds are just as well as we do, and they hide there with their terrible guns just as they did when we were coming south. But it is much worse now, very much worse. You see, when we were going the other way, if we found them at one place we could go on to another, but when we are going north we cannot always do that. We cannot go any faster than Jack Frost does. Sometimes we are driven out of a place by the bang, bang of the terrible guns and go on, only to find that we have caught up with Jack Frost, and that the ponds and the rivers are still covered with ice. Then there is nothing to do but to turn back to where those terrible guns are waiting for us. We just HAVE to do it.”
 
-Mrs. Quack stopped and shivered. “It seems to me I have heard nothing
-but the noise of those terrible guns ever since we started,” said
-she. “I haven't had a good square meal for days and days, nor a
-good rest. That is what makes me so dreadfully nervous. Sometimes,
-when we had been driven from place to place until we had caught up
-with Jack Frost, there would be nothing but ice excepting in small
-places in a river where the water runs too swiftly to freeze. We
-would just have to drop into one of these to rest a little, because
-we had flown so far that our wings ached as if they would drop
-off. Then just as we would think we were safe for a little while,
-there would come the bang of a terrible gun.  Then we would have
-to fly again as long as we could, and finally come back to the same
-place because there was no other place where we could go. Then we
-would have to do it all over again until night came. Sometimes I
-think that those men with terrible guns must hate us and want to
-kill every one of us. If they didn't, they would have a little bit
-of pity. They simply haven't any hearts at all.”
+Mrs. Quack stopped and shivered. “It seems to me I have heard nothing but the noise of those terrible guns ever since we started,” said she. “I haven't had a good square meal for days and days, nor a good rest. That is what makes me so dreadfully nervous. Sometimes, when we had been driven from place to place until we had caught up with Jack Frost, there would be nothing but ice excepting in small places in a river where the water runs too swiftly to freeze. We would just have to drop into one of these to rest a little, because we had flown so far that our wings ached as if they would drop off. Then just as we would think we were safe for a little while, there would come the bang of a terrible gun.  Then we would have to fly again as long as we could, and finally come back to the same place because there was no other place where we could go. Then we would have to do it all over again until night came. Sometimes I think that those men with terrible guns must hate us and want to kill every one of us. If they didn't, they would have a little bit of pity. They simply haven't any hearts at all.”
 
-“It does seem so,” agreed Peter. “But wait until you know Farmer
-Brown's boy!  HE'S got a heart!” he added brightly.
+“It does seem so,” agreed Peter. “But wait until you know Farmer Brown's boy!  HE'S got a heart!” he added brightly.
 
-“I don't want to know him,” retorted Mrs. Quack. “If he comes near
-here, you'll see me leave in a hurry. I wouldn't trust one of them,
-not one minute. You don't think he will come, do you?”
+“I don't want to know him,” retorted Mrs. Quack. “If he comes near here, you'll see me leave in a hurry. I wouldn't trust one of them, not one minute. You don't think he will come, do you?”
 
-Peter sat up and looked across the Green Meadows, and his heart
-sank. “He's coming now, but I'm sure he won't hurt you, Mrs. Quack,”
+Peter sat up and looked across the Green Meadows, and his heart sank. “He's coming now, but I'm sure he won't hurt you, Mrs. Quack,”
  said he.
 
-But Mrs. Quack wouldn't wait to see. With a hasty promise to come
-back when the way was clear, she jumped into the air and on swift
-wings disappeared towards the Big River.
+But Mrs. Quack wouldn't wait to see. With a hasty promise to come back when the way was clear, she jumped into the air and on swift wings disappeared towards the Big River.
 
 
 
@@ -1894,78 +1012,21 @@ VI
 FARMER BROWN'S BOY VISITS THE SMILING POOL
 
 
-Farmer Brown's boy had heard Welcome Robin singing in the Old
-Orchard quite as soon as Peter Rabbit had, and that song of “Cheer
-up! Cheer up! Cheer up!  Cheer!” had awakened quite as much gladness
-in his heart as it had in Peter's heart. It meant that Mistress
-Spring really had arrived, and that over in the Green Forest and
-down on the Green Meadows there would soon be shy blue, and just
-as shy white violets to look for, and other flowers almost if not
-quite as sweet and lovely. It meant that his feathered friends would
-soon be busy house-hunting and building. It meant that his little
-friends in fur would also be doing something very similar, if
-they had not already done so. It meant that soon there would be a
-million lovely things to see and a million joyous sounds to hear.
+Farmer Brown's boy had heard Welcome Robin singing in the Old Orchard quite as soon as Peter Rabbit had, and that song of “Cheer up! Cheer up! Cheer up!  Cheer!” had awakened quite as much gladness in his heart as it had in Peter's heart. It meant that Mistress Spring really had arrived, and that over in the Green Forest and down on the Green Meadows there would soon be shy blue, and just as shy white violets to look for, and other flowers almost if not quite as sweet and lovely. It meant that his feathered friends would soon be busy house-hunting and building. It meant that his little friends in fur would also be doing something very similar, if they had not already done so. It meant that soon there would be a million lovely things to see and a million joyous sounds to hear.
 
-So the sound of Welcome Robin's voice made the heart of Farmer Brown's
-boy even more happy than it was before, and as Welcome Robin just
-HAD to sing, so Farmer Brown's boy just HAD to whistle. When his
-work was finished, it seemed to Farmer Brown's boy that something
-was calling him, calling him to get out on the Green Meadows or over
-in the Green Forest and share in the happiness of all the little
-people there. So presently he decided that he would go down to the
-Smiling Pool to find out how Jerry Muskrat was, and if Grandfather
-Frog was awake yet, and if the sweet singers of the Smiling Pool
-had begun their wonderful spring chorus.
+So the sound of Welcome Robin's voice made the heart of Farmer Brown's boy even more happy than it was before, and as Welcome Robin just HAD to sing, so Farmer Brown's boy just HAD to whistle. When his work was finished, it seemed to Farmer Brown's boy that something was calling him, calling him to get out on the Green Meadows or over in the Green Forest and share in the happiness of all the little people there. So presently he decided that he would go down to the Smiling Pool to find out how Jerry Muskrat was, and if Grandfather Frog was awake yet, and if the sweet singers of the Smiling Pool had begun their wonderful spring chorus.
 
-Down the Crooked Little Path cross the Green Meadows he tramped,
-and as he drew near the Smiling Pool, he stopped whistling lest
-the sound should frighten some of the little people there. He was
-still some distance from the Smiling Pool when out of it sprang a
-big bird and on swift, whistling wings flew away in the direction
-of the Big River. Farmer Brown's boy stopped and watched until the
-bird had disappeared, and on his face was a look of great surprise.
+Down the Crooked Little Path cross the Green Meadows he tramped, and as he drew near the Smiling Pool, he stopped whistling lest the sound should frighten some of the little people there. He was still some distance from the Smiling Pool when out of it sprang a big bird and on swift, whistling wings flew away in the direction of the Big River. Farmer Brown's boy stopped and watched until the bird had disappeared, and on his face was a look of great surprise.
 
-“As I live, that was a Duck!” he exclaimed. “That is the first time
-I've ever known a wild Duck to be in the Smiling Pool. I wonder
-what under the sun could have brought her over here.”
+“As I live, that was a Duck!” he exclaimed. “That is the first time I've ever known a wild Duck to be in the Smiling Pool. I wonder what under the sun could have brought her over here.”
 
-Just then there was a distant bang in the direction of the Big River.
-Farmer Brown's boy scowled, and it made his face very angry-looking.
-“That's it,” he muttered. “Hunters are shooting the Ducks on their
-way north and have driven the poor things to look for any little
-mudhole where they can get a little rest.  Probably that Duck has
-been shot at so many times on the Big River that she felt safer
-over here in the Smiling Pool, little as it is.”
+Just then there was a distant bang in the direction of the Big River. Farmer Brown's boy scowled, and it made his face very angry-looking. “That's it,” he muttered. “Hunters are shooting the Ducks on their way north and have driven the poor things to look for any little mudhole where they can get a little rest.  Probably that Duck has been shot at so many times on the Big River that she felt safer over here in the Smiling Pool, little as it is.”
 
-Farmer Brown's boy had guessed exactly right, as you and I know, and
-as Peter Rabbit and Jerry Muskrat knew. “It's a shame, a downright
-shame that any one should want to shoot birds on their way to their
-nesting-grounds and that the law should let them if they do want
-to. Some people haven't any hearts; they're all stomachs. I hope
-that fellow who shot just now over there on the Big River didn't
-hit anything, and I wish that gun of his might have kicked a little
-sense of what is right and fair into his head, but of course it
-didn't.”
+Farmer Brown's boy had guessed exactly right, as you and I know, an as Peter Rabbit and Jerry Muskrat knew. “It's a shame, a downrigh shame that any one should want to shoot birds on their way to thei nesting-grounds and that the law should let them if they do wan to. Some people haven't any hearts; they're all stomachs. I hop that fellow who shot just now over there on the Big River didn' hit anything, and I wish that gun of his might have kicked a littl sense of what is right and fair into his head, but of course i didn't.”
 
-He grinned at the idea, and then he continued his way towards the
-Smiling Pool.  He hoped he might find another Duck there, and he
-approached the Smiling Pool very, very carefully.
+He grinned at the idea, and then he continued his way towards the Smiling Pool.  He hoped he might find another Duck there, and he approached the Smiling Pool very, very carefully.
 
-But when he reached a point where he could see all over the Smiling
-Pool, there was no one to be seen save Jerry Muskrat sitting on
-the Big Rock and Peter Rabbit on the bank on the other side. Farmer
-Brown's boy smiled when he saw them. “Hello, Jerry Muskrat!” said
-he. “I wonder how a bite of carrot would taste to you.” He felt
-in his pocket and brought out a couple of carrots. One he put on
-a little tussock in the water where he knew Jerry would find it.
-The other he tossed across the Smiling Pool where he felt sure Peter
-would find it.  Presently he noticed two or three feathers on the
-water close to the edge of the bank. Mrs. Quack had left them there.
-“I believe that was a Mallard Duck,” said he, as he studied them.
-“I know what I'll do. I'll go straight back home and get some wheat
-and corn and put it here on the edge of the Smiling Pool. Perhaps
-she will come back and find it.”
+But when he reached a point where he could see all over the Smiling Pool, there was no one to be seen save Jerry Muskrat sitting on the Big Rock and Peter Rabbit on the bank on the other side. Farmer Brown's boy smiled when he saw them. “Hello, Jerry Muskrat!” said he. “I wonder how a bite of carrot would taste to you.” He felt in his pocket and brought out a couple of carrots. One he put on a little tussock in the water where he knew Jerry would find it. The other he tossed across the Smiling Pool where he felt sure Peter would find it.  Presently he noticed two or three feathers on the water close to the edge of the bank. Mrs. Quack had left them there. “I believe that was a Mallard Duck,” said he, as he studied them. “I know what I'll do. I'll go straight back home and get some wheat and corn and put it here on the edge of the Smiling Pool. Perhaps she will come back and find it.”
 
 And this is just what Farmer Brown's boy did.
 
@@ -1977,86 +1038,32 @@ VII
 MRS. QUACK RETURNS
 
 
-Peter Rabbit just couldn't go back to the dear Old Briar-patch.
-He just HAD to know if Mrs. Quack would come back to the Smiling
-Pool. He had seen Farmer Brown's boy come there a second time and
-scatter wheat and corn among the brown stalks of last summer's
-rushes, and he had guessed why Farmer Brown's boy had done this.
-He had guessed that they had been put there especially for Mrs.
-Quack, and if she should come back as she had promised to do, he
-wanted to be on hand when she found those good things to eat and
-hear what she would say.
+Peter Rabbit just couldn't go back to the dear Old Briar-patch. He just HAD to know if Mrs. Quack would come back to the Smiling Pool. He had seen Farmer Brown's boy come there a second time and scatter wheat and corn among the brown stalks of last summer's rushes, and he had guessed why Farmer Brown's boy had done this. He had guessed that they had been put there especially for Mrs. Quack, and if she should come back as she had promised to do, he wanted to be on hand when she found those good things to eat and hear what she would say.
 
-So Peter stayed over near the Smiling Pool and hoped with all his
-might that Reddy Fox or Old Man Coyote would not take it into his
-head to come hunting over there. As luck would have it, neither of
-them did, and Peter had a very pleasant time gossiping with Jerry
-Muskrat, listening to the sweet voices of unseen singers in the
-Smiling Pool,--the Hylas, which some people call peepers,--and
-eating the carrot which Farmer Brown's boy had left for him.
+So Peter stayed over near the Smiling Pool and hoped with all his might that Reddy Fox or Old Man Coyote would not take it into his head to come hunting over there. As luck would have it, neither of them did, and Peter had a very pleasant time gossiping with Jerry Muskrat, listening to the sweet voices of unseen singers in the Smiling Pool,--the Hylas, which some people call peepers,--and eating the carrot which Farmer Brown's boy had left for him.
+Jolly, round, red Mr. Sun was just getting ready to go to bed behind the Purple Hills when Mrs. Quack returned. The first Peter knew of her coming was the whistle of her wings as she passed over him. Several times she circled around, high over the Smiling Pool, and Peter simply stared in open-mouthed admiration at the speed with which she flew. It didn't seem possible that one so big could move through the air so fast. Twice she set her wings and seemed to just slide down almost to the surface of the Smiling Pool, only to start her stout wings in motion once more and circle around again. It was very clear that she was terribly nervous and suspicious. The third time she landed in the water with a splash and sat perfectly still with her head stretched up, looking and listening with all her might.
 
-Jolly, round, red Mr. Sun was just getting ready to go to bed
-behind the Purple Hills when Mrs. Quack returned. The first Peter
-knew of her coming was the whistle of her wings as she passed over
-him. Several times she circled around, high over the Smiling Pool,
-and Peter simply stared in open-mouthed admiration at the speed
-with which she flew. It didn't seem possible that one so big could
-move through the air so fast. Twice she set her wings and seemed
-to just slide down almost to the surface of the Smiling Pool, only
-to start her stout wings in motion once more and circle around again.
-It was very clear that she was terribly nervous and suspicious. The
-third time she landed in the water with a splash and sat perfectly
-still with her head stretched up, looking and listening with all
-her might.
+“It's all right. There's nothing to be afraid of,” said Jerry Muskrat.
 
-“It's all right. There's nothing to be afraid of,” said Jerry
-Muskrat.
-
-“Are you sure?” asked Mrs. Quack anxiously. “I've been fooled too
-often by men with their terrible guns to ever feel absolutely sure
-that one isn't hiding and waiting to shoot me.” As she spoke she
-swam about nervously. “Peter Rabbit and I have been here ever since
-you left, and I guess we ought to know,” replied Jerry Muskrat
-rather shortly. “There hasn't been anybody near here excepting
-Farmer Brown's boy, and we told you he wouldn't hurt you.”
+“Are you sure?” asked Mrs. Quack anxiously. “I've been fooled too often by men with their terrible guns to ever feel absolutely sure that one isn't hiding and waiting to shoot me.” As she spoke she swam about nervously. “Peter Rabbit and I have been here ever since you left, and I guess we ought to know,” replied Jerry Muskrat rather shortly. “There hasn't been anybody near here excepting Farmer Brown's boy, and we told you he wouldn't hurt you.”
 
 “He brought us each a carrot,” Peter Rabbit broke in eagerly.
 
-“Just the same, I wouldn't trust him,” replied Mrs. Quack. “Where
-is he now?”
+“Just the same, I wouldn't trust him,” replied Mrs. Quack. “Where is he now?”
 
-“He left ever so long ago, and he won't be back to-night,” declared
-Peter confidently.
+“He left ever so long ago, and he won't be back to-night,” declared Peter confidently.
 
-“I hope not,” said Mrs. Quack, with a sigh. “Did you hear the bang
-of that terrible gun just after I left here?”
+“I hope not,” said Mrs. Quack, with a sigh. “Did you hear the bang of that terrible gun just after I left here?”
 
 “Yes,” replied Jerry Muskrat. “Was it fired at you?”
 
-Mrs. Quack nodded and held up one wing. Peter and Jerry could see
-that one of the long feathers was missing. “I thought I was flying
-high enough to be safe,” said she, “but when I reached the Big
-River there was a bang from the bushes on the bank, and something
-cut that feather out of my wing, and I felt a sharp pain in my side.
-It made me feel quite ill for a while, and the place is very sore
-now, but I guess I'm lucky that it was no worse. It is very hard
-work to know just how far those terrible guns can throw things at
-you. Next time I will fly higher.”
+Mrs. Quack nodded and held up one wing. Peter and Jerry could see that one of the long feathers was missing. “I thought I was flying high enough to be safe,” said she, “but when I reached the Big River there was a bang from the bushes on the bank, and something cut that feather out of my wing, and I felt a sharp pain in my side. It made me feel quite ill for a while, and the place is very sore now, but I guess I'm lucky that it was no worse. It is very hard work to know just how far those terrible guns can throw things at you. Next time I will fly higher.”
 
 “Where have you been since you left us?” asked Peter.
 
-“Eight in the middle of the Big River,” replied Mrs. Quack. “It
-was the only safe place. I didn't dare go near either shore, and
-I'm nearly starved. I haven't had a mouthful to eat to-day.”
+“Eight in the middle of the Big River,” replied Mrs. Quack. “It was the only safe place. I didn't dare go near either shore, and I'm nearly starved. I haven't had a mouthful to eat to-day.”
 
-Peter opened his mouth to tell her of the wheat and corn left by
-Farmer Brown's boy and then closed it again. He would let her find
-it for herself. If he told her about it, she might suspect a trick
-and refuse to go near the place. He never had seen any one so
-suspicious, not even Old Man Coyote. But he couldn't blame her,
-after all she had been through. So he kept still and waited. He
-was learning, was Peter Rabbit. He was learning a great deal about
-Mrs. Quack.
+Peter opened his mouth to tell her of the wheat and corn left by Farmer Brown's boy and then closed it again. He would let her find it for herself. If he told her about it, she might suspect a trick and refuse to go near the place. He never had seen any one so suspicious, not even Old Man Coyote. But he couldn't blame her, after all she had been through. So he kept still and waited. He was learning, was Peter Rabbit. He was learning a great deal about Mrs. Quack.
 
 
 
@@ -2066,85 +1073,29 @@ VIII
 MRS. QUACK HAS A GOOD MEAL AND A REST
 
 
-There's nothing like a stomach full      To make the heart feel
-light;      To chase away the clouds of care      And make the
-world seem bright.
+There's nothing like a stomach full      To make the heart feel light;      To chase away the clouds of care      And make the world seem bright.
 
-That's a fact. A full stomach makes the whole world seem different,
-brighter, better, and more worth living in. It is the hardest kind
-of hard work to be cheerful and see only the bright side of things
-when your stomach is empty. But once fill that empty stomach, and
-everything is changed. It was just that way with Mrs. Quack. For
-days at a time she hadn't had a full stomach because of the hunters
-with their terrible guns, and when just before dark that night she
-returned to the Smiling Pool, her stomach was quite empty.
+That's a fact. A full stomach makes the whole world seem different, brighter, better, and more worth living in. It is the hardest kind of hard work to be cheerful and see only the bright side of things when your stomach is empty. But once fill that empty stomach, and everything is changed. It was just that way with Mrs. Quack. For days at a time she hadn't had a full stomach because of the hunters with their terrible guns, and when just before dark that night she returned to the Smiling Pool, her stomach was quite empty.
 
-“I don't suppose I'll find much to eat here, but a little in peace
-and safety is better than a feast with worry and danger,” said she,
-swimming over to the brown, broken-down bulrushes on one side of
-the Smiling Pool and appearing to stand on her head as she plunged
-it under water and searched in the mud on the bottom for food.
-Peter Rabbit looked over at Jerry Muskrat sitting on the Big Rock,
-and Jerry winked. In a minute up bobbed the head of Mrs. Quack,
-and there was both a pleased and a worried look on her face. She
-had found some of the corn left there by Farmer Brown's boy. At once
-she swam out to the middle of the Smiling Pool, looking suspiciously
-this way and that way.
+“I don't suppose I'll find much to eat here, but a little in peace and safety is better than a feast with worry and danger,” said she, swimming over to the brown, broken-down bulrushes on one side of the Smiling Pool and appearing to stand on her head as she plunged it under water and searched in the mud on the bottom for food. Peter Rabbit looked over at Jerry Muskrat sitting on the Big Rock, and Jerry winked. In a minute up bobbed the head of Mrs. Quack, and there was both a pleased and a worried look on her face. She had found some of the corn left there by Farmer Brown's boy. At once she swam out to the middle of the Smiling Pool, looking suspiciously this way and that way.
 
-“There is corn over there,” said she. “Do you know how it came
-there?”
+“There is corn over there,” said she. “Do you know how it came there?”
 
-“I saw Farmer Brown's boy throwing something over there,” replied
-Peter. “Didn't we tell you that he would be good to you?”
+“I saw Farmer Brown's boy throwing something over there,” replied Peter. “Didn't we tell you that he would be good to you?”
 
-“Quack, quack, quack! I've seen that kind of kindness too often to
-be fooled by it,” snapped Mrs. Quack. “He probably saw me leave in
-a hurry and put this corn here, hoping that I would come back and
-find it and make up my mind to stay here a while. He thinks that
-if I do, he'll have a chance to hide near enough to shoot me. I
-didn't believe this could be a safe place for me, and now I know
-it.  I'll stay here to-night, but to-morrow I'll try to find some
-other place. Oh, dear, it's dreadful not to have any place at all
-to feel safe in.” There were tears in her eyes.
+“Quack, quack, quack! I've seen that kind of kindness too often to be fooled by it,” snapped Mrs. Quack. “He probably saw me leave in a hurry and put this corn here, hoping that I would come back and find it and make up my mind to stay here a while. He thinks that if I do, he'll have a chance to hide near enough to shoot me. I didn't believe this could be a safe place for me, and now I know it.  I'll stay here to-night, but to-morrow I'll try to find some other place. Oh, dear, it's dreadful not to have any place at all to feel safe in.” There were tears in her eyes.
 
-Peter thought of the dear Old Briar-patch and how safe he always felt
-there, and he felt a great pity for poor Mrs. Quack, who couldn't
-feel safe anywhere. And then right away he grew indignant that she
-should be so distrustful of Farmer Brown's boy, though if he had
-stopped to think, he would have remembered that once he was just
-as distrustful.
+Peter thought of the dear Old Briar-patch and how safe he always felt there, and he felt a great pity for poor Mrs. Quack, who couldn't feel safe anywhere. And then right away he grew indignant that she should be so distrustful of Farmer Brown's boy, though if he had stopped to think, he would have remembered that once he was just as distrustful.
 
-“I should think,” said Peter with a great deal of dignity, “that
-you might at least believe what Jerry Muskrat and I, who live here
-all the time, tell you. We ought to know Farmer Brown's boy if any
-one does, and we tell you that he won't harm a feather of you.”
+“I should think,” said Peter with a great deal of dignity, “that you might at least believe what Jerry Muskrat and I, who live here all the time, tell you. We ought to know Farmer Brown's boy if any one does, and we tell you that he won't harm a feather of you.”
 
 “He won't get the chance!” snapped Mrs. Quack.
 
-Jerry Muskrat sniffed in disgust. “I don't doubt you have suffered
-a lot from men with terrible guns,” said he, “but you don't suppose
-Peter and I have lived as long as we have without learning a little,
-do you? I wouldn't trust many of those two-legged creatures myself,
-but Farmer Brown's boy is different. If all of them were like him,
-we wouldn't have a thing to fear from them. He has a heart. Yes,
-indeed, he has a heart. Now you take my advice and eat whatever he
-has put there for you, be thankful, and stop worrying. Peter and
-I will keep watch and warn you if there is any danger.”
+Jerry Muskrat sniffed in disgust. “I don't doubt you have suffered a lot from men with terrible guns,” said he, “but you don't suppose Peter and I have lived as long as we have without learning a little, do you? I wouldn't trust many of those two-legged creatures myself, but Farmer Brown's boy is different. If all of them were like him, we wouldn't have a thing to fear from them. He has a heart. Yes, indeed, he has a heart. Now you take my advice and eat whatever he has put there for you, be thankful, and stop worrying. Peter and I will keep watch and warn you if there is any danger.”
 
-I don't know as even this would have overcome Mrs. Quack's fears
-if it hadn't been for the taste of that good corn in her mouth, and
-her empty stomach. She couldn't, she just couldn't resist these,
-and presently she was back among the rushes, hunting out the corn
-and wheat as fast as ever she could. When at last she could eat no
-more, she felt so comfortable that somehow the Smiling Pool didn't
-seem such a dangerous place after all, and she quite forgot Farmer
-Brown's boy. She found a snug hiding-place among the rushes too
-far out from the bank for Reddy Fox to surprise her, and then with
-a sleepy “Good night” to Jerry and Peter, she tucked her head under
-her wing and soon was fast asleep.
+I don't know as even this would have overcome Mrs. Quack's fears if it hadn't been for the taste of that good corn in her mouth, and her empty stomach. She couldn't, she just couldn't resist these, and presently she was back among the rushes, hunting out the corn and wheat as fast as ever she could. When at last she could eat no more, she felt so comfortable that somehow the Smiling Pool didn't seem such a dangerous place after all, and she quite forgot Farmer Brown's boy. She found a snug hiding-place among the rushes too far out from the bank for Reddy Fox to surprise her, and then with a sleepy “Good night” to Jerry and Peter, she tucked her head under her wing and soon was fast asleep.
 
-Peter Rabbit tiptoed away, and then he hurried lipperty-lipperty-lip
-to the dear Old Briar-patch to tell Mrs. Peter all about Mrs. Quack.
+Peter Rabbit tiptoed away, and then he hurried lipperty-lipperty-lip to the dear Old Briar-patch to tell Mrs. Peter all about Mrs. Quack.
 
 
 
@@ -2154,80 +1105,29 @@ IX
 PETER RABBIT MAKES AN EARLY CALL
 
 
-Peter Rabbit was so full of interest in Mrs. Quack and her troubles
-that he was back at the Smiling Pool before Mr. Sun had kicked off
-his rosy blankets and begun his daily climb up in the blue, blue
-sky. You see, he felt that he had heard only a part of Mrs. Quack's
-story, and he was dreadfully afraid that she would get away before
-he could hear the rest. With the first bit of daylight, Mrs. Quack
-swam out from her hiding-place among the brown rushes. It looked
-to Peter as if she sat up on the end of her tail as she stretched
-her neck and wings just as far as she could, and he wanted to laugh
-right out. Then she quickly ducked her head under water two or
-three times so that the water rolled down over her back, and again
-Peter wanted to laugh. But he didn't. He kept perfectly still. Mrs.
-Quack shook herself and then began to carefully dress her feathers.
-That is, she carefully put back in place every feather that had
-been rumpled up. She took a great deal of time for this, for Mrs.
-Quack is very neat and tidy and takes the greatest pride in looking
-as fine as she can.
+Peter Rabbit was so full of interest in Mrs. Quack and her troubles that he was back at the Smiling Pool before Mr. Sun had kicked off his rosy blankets and begun his daily climb up in the blue, blue sky. You see, he felt that he had heard only a part of Mrs. Quack's story, and he was dreadfully afraid that she would get away before he could hear the rest. With the first bit of daylight, Mrs. Quack swam out from her hiding-place among the brown rushes. It looked to Peter as if she sat up on the end of her tail as she stretched her neck and wings just as far as she could, and he wanted to laugh right out. Then she quickly ducked her head under water two or three times so that the water rolled down over her back, and again Peter wanted to laugh. But he didn't. He kept perfectly still. Mrs. Quack shook herself and then began to carefully dress her feathers. That is, she carefully put back in place every feather that had been rumpled up. She took a great deal of time for this, for Mrs. Quack is very neat and tidy and takes the greatest pride in looking as fine as she can.
 
-Of course it was very impolite of Peter to watch her make her
-toilet, but he didn't think of that. He didn't mean to be impolite.
-And then it was so interesting. “Huh!” said he to himself, “I don't
-see what any one wants to waste so much time on their clothes for.”
+Of course it was very impolite of Peter to watch her make her toilet, but he didn't think of that. He didn't mean to be impolite. And then it was so interesting. “Huh!” said he to himself, “I don't see what any one wants to waste so much time on their clothes for.”
 
-You know Peter doesn't waste any time on his clothes. In fact,
-he doesn't seem to care a bit how he looks. He hasn't learned yet
-that it always pays to be as neat and clean as possible and that
-you must think well of yourself if you want others to think well
-of you.
+You know Peter doesn't waste any time on his clothes. In fact, he doesn't seem to care a bit how he looks. He hasn't learned yet that it always pays to be as neat and clean as possible and that you must think well of yourself if you want others to think well of you.
 
-When at last Mrs. Quack had taken a final shower bath and appeared
-satisfied that she was looking her best, Peter opened his mouth to
-ask her the questions he was so full of, but closed it again as he
-remembered people are usually better natured when their stomachs
-are full, and Mrs. Quack had not yet breakfasted. So he waited as
-patiently as he could, which wasn't patiently at all. At last Mrs.
-Quack finished her breakfast, and then she had to make her toilet
-all over again. Finally Peter hopped to the edge of the bank where
-she would see him.
+When at last Mrs. Quack had taken a final shower bath and appeared satisfied that she was looking her best, Peter opened his mouth to ask her the questions he was so full of, but closed it again as he remembered people are usually better natured when their stomachs are full, and Mrs. Quack had not yet breakfasted. So he waited as patiently as he could, which wasn't patiently at all. At last Mrs. Quack finished her breakfast, and then she had to make her toilet all over again. Finally Peter hopped to the edge of the bank where she would see him.
 
-“Good morning, Mrs. Quack,” said he very politely. “I hope you had
-a good rest and are feeling very well this morning.”
+“Good morning, Mrs. Quack,” said he very politely. “I hope you had a good rest and are feeling very well this morning.”
 
-“Thank you,” replied Mrs. Quack. “I'm feeling as well as could be
-expected. In fact, I'm feeling better than I have felt for some
-time in spite of the sore place made by that terrible gun yesterday.
-You see, I have had a good rest and two square meals, and these
-are things I haven't had since goodness knows when.  This is a very
-nice place. Let me see, what is it you call it?”
+“Thank you,” replied Mrs. Quack. “I'm feeling as well as could be expected. In fact, I'm feeling better than I have felt for some time in spite of the sore place made by that terrible gun yesterday. You see, I have had a good rest and two square meals, and these are things I haven't had since goodness knows when.  This is a very nice place. Let me see, what is it you call it?”
 
 “The Smiling Pool,” said Peter.
 
-“That's a good name for it,” returned Mrs. Quack. “If only I could
-be sure that none of those hunters would find me here, and if only
-Mr. Quack were here, I would be content to stay a while.” At the
-mention of Mr. Quack, the eyes of Mrs.  Quack suddenly filled with
-tears. Peter felt tears of sympathy in his own eyes.
+“That's a good name for it,” returned Mrs. Quack. “If only I could be sure that none of those hunters would find me here, and if only Mr. Quack were here, I would be content to stay a while.” At the mention of Mr. Quack, the eyes of Mrs.  Quack suddenly filled with tears. Peter felt tears of sympathy in his own eyes.
 
 “Where is Mr. Quack?” he asked.
 
-“I don't know,” sobbed Mrs. Quack. “I wish I did. I haven't seen
-him since one of those terrible guns was fired at us over on the
-Big River yesterday morning a little while before Little Joe Otter
-told me about the Smiling Pool. Ever since we started for our home
-in the far North, I have been fearing that something of this kind
-might happen. I ought to be on my way there now, but what is the
-use without Mr. Quack? Without him, I would be all alone up there
-and wouldn't have any home.”
+“I don't know,” sobbed Mrs. Quack. “I wish I did. I haven't seen him since one of those terrible guns was fired at us over on the Big River yesterday morning a little while before Little Joe Otter told me about the Smiling Pool. Ever since we started for our home in the far North, I have been fearing that something of this kind might happen. I ought to be on my way there now, but what is the use without Mr. Quack? Without him, I would be all alone up there and wouldn't have any home.”
 
-“Won't you tell me all that has happened since you started on your
-long journey?” asked Peter. “Perhaps some of us can help you.”
+“Won't you tell me all that has happened since you started on your long journey?” asked Peter. “Perhaps some of us can help you.”
 
-“I'm afraid you can't,” replied Mrs. Quack sadly, “but I'll tell
-you all about it so that you may know just how thankful you ought
-to feel that you do not have to suffer what some of us do.”
+“I'm afraid you can't,” replied Mrs. Quack sadly, “but I'll tell you all about it so that you may know just how thankful you ought to feel that you do not have to suffer what some of us do.”
 
 
 
@@ -2237,84 +1137,27 @@ X
 HOW MR. AND MRS. QUACK STARTED NORTH
 
 
-Peter Rabbit was eager to help Mrs. Quack in her trouble, though
-he hadn't the least idea how he could help and neither had she. How
-any one who dislikes water as Peter does could help one who lives
-on the water all the time was more than either one of them could
-see. And yet without knowing it, Peter WAS helping Mrs.  Quack.
-He was giving her his sympathy, and sympathy often helps others
-a great deal more than we even guess. It sometimes is a very good
-plan to tell your troubles to some one who will listen with sympathy.
-It was so with Mrs. Quack.  She had kept her troubles locked in
-her own heart so long that it did her good to pour them all out to
-Peter.
+Peter Rabbit was eager to help Mrs. Quack in her trouble, though he hadn't the least idea how he could help and neither had she. How any one who dislikes water as Peter does could help one who lives on the water all the time was more than either one of them could see. And yet without knowing it, Peter WAS helping Mrs.  Quack. He was giving her his sympathy, and sympathy often helps others a great deal more than we even guess. It sometimes is a very good plan to tell your troubles to some one who will listen with sympathy. It was so with Mrs. Quack.  She had kept her troubles locked in her own heart so long that it did her good to pour them all out to Peter.
 
-“Mr. Quack and I spent a very comfortable winter way down in
-the sunny Southland,” said she with a far-away look. “It was very
-warm and nice down there, and there were a great many other Ducks
-spending the winter with us. The place where we were was far from
-the homes of men, and it was only once in a long while that we had
-to watch out for terrible guns. Of course, we had to have our wits
-with us all the time, because there are Hawks and Owls and Minks
-down there just as there are up here, but any Duck who can't keep
-out of their way deserves to furnish one of them a dinner.
+“Mr. Quack and I spent a very comfortable winter way down in the sunny Southland,” said she with a far-away look. “It was very warm and nice down there, and there were a great many other Ducks spending the winter with us. The place where we were was far from the homes of men, and it was only once in a long while that we had to watch out for terrible guns. Of course, we had to have our wits with us all the time, because there are Hawks and Owls and Minks down there just as there are up here, but any Duck who can't keep out of their way deserves to furnish one of them a dinner.
 
-“Then there was another fellow we had to watch out for, a queer
-fellow whom we never see anywhere but down there. It was never safe
-to swim too near an old log floating in the water or lying on the
-bank, because it might suddenly open a great mouth and swallow one
-of us whole.”
+“Then there was another fellow we had to watch out for, a queer fellow whom we never see anywhere but down there. It was never safe to swim too near an old log floating in the water or lying on the bank, because it might suddenly open a great mouth and swallow one of us whole.”
 
-“What's that?” Peter Rabbit leaned forward and stared at Mrs. Quack
-with his eyes popping right out. “What's that?” he repeated. “How
-can an old log have a mouth?”
+“What's that?” Peter Rabbit leaned forward and stared at Mrs. Quack with his eyes popping right out. “What's that?” he repeated. “How can an old log have a mouth?”
 
-Mrs. Quack just had to smile, Peter was so in earnest and looked
-so astonished.
+Mrs. Quack just had to smile, Peter was so in earnest and looked so astonished.
 
-“Of course,” said she, “no really truly log has a mouth or is alive,
-but this queer fellow I was speaking of looks so much like an old
-log floating in the water unless you look at him very sharply,
-that many a heedless young Duck has discovered the difference when
-it was too late. Then, too, he will swim under water and come up
-underneath and seize you without any warning. He has the biggest
-mouth I've ever seen, with terrible-looking teeth, and could swallow
-me whole.”
+“Of course,” said she, “no really truly log has a mouth or is alive, but this queer fellow I was speaking of looks so much like an old log floating in the water unless you look at him very sharply, that many a heedless young Duck has discovered the difference when it was too late. Then, too, he will swim under water and come up underneath and seize you without any warning. He has the biggest mouth I've ever seen, with terrible-looking teeth, and could swallow me whole.”
 
-[Illustration with caption: “Some folks call him Alligator and some
-just 'Gator.”]
+[Illustration with caption: “Some folks call him Alligator and some just 'Gator.”]
 
-By this time Peter's eyes looked as if they would fall out of his
-head. “What is his name?” whispered Peter.
+By this time Peter's eyes looked as if they would fall out of his head. “What is his name?” whispered Peter.
 
-“It's Old Ally the 'Gator,” replied Mrs. Quack. “Some folks call
-him Alligator and some just 'Gator, but we call him Old Ally. He's a
-very interesting old fellow. Some time perhaps I'll tell you more
-about him. Mr. Quack and I kept out of his reach, you may be sure.
-We lived quietly and tried to get in as good condition as possible
-for the long journey back to our home in the North. When it was
-time to start, a lot of us got together, just as we did when we came
-down from the North, only this time the young Ducks felt themselves
-quite grown up.  In fact, before we started there was a great deal
-of love-making, and each one chose a mate. That was a very happy
-time, a very happy time indeed, but it was a sad time too for us
-older Ducks, because we knew what dreadful things were likely to
-happen on the long journey. It is hard enough to lose father or
-mother or brother or sister, but it is worse to lose a dear mate.”
-
+“It's Old Ally the 'Gator,” replied Mrs. Quack. “Some folks call him Alligator and some just 'Gator, but we call him Old Ally. He's a very interesting old fellow. Some time perhaps I'll tell you more about him. Mr. Quack and I kept out of his reach, you may be sure. We lived quietly and tried to get in as good condition as possible for the long journey back to our home in the North. When it was time to start, a lot of us got together, just as we did when we came down from the North, only this time the young Ducks felt themselves quite grown up.  In fact, before we started there was a great deal of love-making, and each one chose a mate. That was a very happy time, a very happy time indeed, but it was a sad time too for us older Ducks, because we knew what dreadful things were likely to happen on the long journey. It is hard enough to lose father or mother or brother or sister, but it is worse to lose a dear mate.”
 Mrs. Quack's eyes suddenly filled with tears again. “Oh, dear,”
  she sobbed, “I wish I knew what became of Mr. Quack.”
 
-Peter said nothing, but looked the sympathy he felt. Presently Mrs.
-Quack went on with her story. “We had a splendid big flock when we
-started, made up wholly of pairs, each pair dreaming of the home
-they would build when they reached the far North. Mr. Quack was
-the leader as usual, and I flew right behind him. We hadn't gone
-far before we began to hear the terrible guns, and the farther we
-went, the worse they got. Mr. Quack led us to the safest feeding
-and resting grounds he knew of, and for a time our flock escaped
-the terrible guns. But the farther we went, the more guns there
-were.” Mrs. Quack paused and Peter waited.
+Peter said nothing, but looked the sympathy he felt. Presently Mrs. Quack went on with her story. “We had a splendid big flock when we started, made up wholly of pairs, each pair dreaming of the home they would build when they reached the far North. Mr. Quack was the leader as usual, and I flew right behind him. We hadn't gone far before we began to hear the terrible guns, and the farther we went, the worse they got. Mr. Quack led us to the safest feeding and resting grounds he knew of, and for a time our flock escaped the terrible guns. But the farther we went, the more guns there were.” Mrs. Quack paused and Peter waited.
 
 
 
@@ -2327,16 +1170,9 @@ THE TERRIBLE, TERRIBLE GUNS
 “Bang! Bang! Bang! Not a feather spare!       Kill! Kill! Kill!
 Wound and rip and tear!”
 
-That is what the terrible guns roar from morning to night at Mrs.
-Quack and her friends as they fly on their long journey to their
-home in the far North. I don't wonder that she was terribly uneasy
-and nervous as she sat in the Smiling Pool talking to Peter Rabbit;
-do you?
+That is what the terrible guns roar from morning to night at Mrs. Quack and her friends as they fly on their long journey to their home in the far North. I don't wonder that she was terribly uneasy and nervous as she sat in the Smiling Pool talking to Peter Rabbit; do you?
 
-“Yes,” said she, continuing her story of her long journey from the
-sunny Southland where she had spent the winter, “the farther we
-got, the more there were of those terrible guns. It grew so bad
-that as well as Mr. Quack knew the places where we could."
+“Yes,” said she, continuing her story of her long journey from the sunny Southland where she had spent the winter, “the farther we got, the more there were of those terrible guns. It grew so bad that as well as Mr. Quack knew the places where we could."
 )
 Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 3, title: "Ego and Ethics", novel_wordcount: 10851, content: "It is a truth universally acknowledged, that a single man in possession
 of a good fortune, must be in want of a wife.
@@ -2362,7 +1198,7 @@ Mr. Bennet made no answer.
 
 This was invitation enough.
 
-“Why, my dear, you must know, Mrs. Long says that Netherfield is taken
+“Why, my dear, you must know, Mrs. Long says that Netherfield is takens
 by a young man of large fortune from the north of England; that he came
 down on Monday in a chaise and four to see the place, and was so much
 delighted with it, that he agreed with Mr. Morris immediately; that he
@@ -5780,7 +4616,7 @@ Merriman.  Yes, Miss.
 [Merriman goes off.]
 
 Cecily.  I have never met")
-Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 2, title: "Under the Weather", novel_wordcount: 9919, content: "It was a dark and stormy night; the rain fell in torrents, except at
+Novel.create(goal_wordcount: 50_000, goal_deadline: "2018-06-30 13:34:23 +0200", goal_start_date: "2018-06-01 15:34:23 +0200", user_id: 4, title: "Under the Weather", novel_wordcount: 9919, content: "It was a dark and stormy night; the rain fell in torrents, except at
 occasional intervals, when it was checked by a violent gust of wind
 which swept up the streets (for it is in London that our scene lies),
 rattling along the house-tops, and fiercely agitating the scanty flame
