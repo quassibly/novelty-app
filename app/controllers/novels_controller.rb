@@ -140,7 +140,9 @@ def create
       start += 1
     end
     while today <= finish
-      @date_array << today
+      if today >= start
+        @date_array << today
+      end
       today += 1
     end
   end
