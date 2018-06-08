@@ -10,13 +10,14 @@
       </div>
     </div>
   <div class="review-container-right">
-  <br>
+
+  <div class="review-comments">
+  </div>
+  <%= render 'shared/review' %>
+    <br>
   <% if @novel.user == current_user %>
     <button class="btn btn-primary save" onclick="saveNovel()">Save</button>
   <% end %>
   <br>
-  <div class="review-comments">
-  </div>
-  <%= render 'shared/review' %>
 </div>
 </div>
