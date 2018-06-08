@@ -1,14 +1,13 @@
 const wordGoal = document.getElementById("word-goal").innerHTML;
 const textarea = document.querySelector("#novel-text-area");
-const content_area = document.getElementById("novel_content")
 
 function count() {
   const textareaVal = textarea.value.trim()
-
   // replace all whitespace, enters, breaks with a simple space
+  let words2 = document.querySelector('.wordcount').innerText
   let words = textareaVal.replace(/\s+/gi, ' ').split(' ').length;
   const chars = textareaVal.length;
-  let progress = (words / wordGoal) * 100;
+  let progress = (words2 / wordGoal) * 100;
   const progressBar = document.querySelector("#progress")
   // const counter = document.querySelector("#counter")
   // console.log(words);
@@ -22,7 +21,7 @@ function count() {
     progress = 100;
   }
   progressBar.style.width = `${progress}%`;
-  document.querySelector(".wordcount").innerText = words - content_area.dataset.yesterday;
+  document.querySelector(".wordcount").innerText = words - textarea.dataset.yesterday
 }
 
 
